@@ -1,0 +1,111 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ======================
+# Virtual Environments
+# ======================
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+*.env
+
+# ======================
+# IDE & Editor
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ======================
+# OS Files
+# ======================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ======================
+# Logs & Output
+# ======================
+logs/
+*.log
+*.out
+*.err
+log/
+
+# ======================
+# Model Checkpoints & Weights
+# ======================
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+saved_models/
+model_weights/
+
+# ======================
+# Hugging Face Cache
+# ======================
+.cache/
+~/.cache/huggingface/
+huggingface_cache/
+hf_cache/
+
+# ======================
+# Temporary Files
+# ======================
+*.tmp
+*.temp
+*.bak
+*.swp
+tmp/
+temp/
+
+# ======================
+# Data / Results (large outputs)
+# ======================
+# Uncomment below if you want to ignore result directories:
+# results/
+# outputs/
+
+# ======================
+# Jupyter Notebooks checkpoints
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# Distribution / Build
+# ======================
+dist/
+build/
+*.egg-info/
+*.egg
+
+# ======================
+# NOT IGNORED (tracked intentionally):
+# README.md
+# requirements.txt
+# *.py source files
+# *.sh scripts
+# *.zip data files (user preference)
+# clc_base_vs_Tit_cm_fin.png
+# ======================
