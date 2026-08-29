@@ -2,7 +2,7 @@
 
 A research evaluation framework for studying how large language models answer factual questions in Indic languages — across prompting strategies that include **code-mixing**, **transliteration**, **English translation**, and **implicit reasoning**.
 
-Accompanying the EMNLP 2026 submission. The dataset is released separately on the Hugging Face Hub: **[debajyotimaz/IndicKLAR](https://huggingface.co/datasets/debajyotimaz/IndicKLAR)**.
+Accompanying the EMNLP 2026 submission. Paper preprint: **[arXiv:2605.29637](https://arxiv.org/abs/2605.29637)**. The dataset is released separately on the Hugging Face Hub: **[debajyotimaz/IndicKLAR](https://huggingface.co/datasets/debajyotimaz/IndicKLAR)**.
 
 Code is released under the [MIT License](LICENSE); the dataset is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
@@ -23,8 +23,6 @@ Code is released under the [MIT License](LICENSE); the dataset is released under
 7. [CLC Score Formula](#7-clc-score-formula)
 8. [new\_data\_with\_context — Extended Experiments](#8-new_data_with_context--extended-experiments)
 9. [Language & Script Reference](#9-language--script-reference)
-10. [GPU Memory Reference](#10-gpu-memory-reference)
-11. [Troubleshooting](#11-troubleshooting)
 
 ---
 
@@ -421,45 +419,3 @@ Output follows the same `summary.json / detailed.json / LIVE.json` structure as 
 | `en` | English | — | — (use `run_language_en`) |
 
 The `-en` suffix subdirectories (e.g. `hin-en`, `ben-en`) contain code-mixed/romanized versions of the questions and are used only by the baseline scripts.
-
----
-
-## 10. GPU Memory Reference
-
-Every script loads the model via **vLLM** and accepts a `--gpu_memory_utilization` argument:
-
-| Value | KV Cache Budget | When to Use |
-|---|---|---|
-| `0.20` | 20% of VRAM | Multiple experiments in parallel; small models |
-| `0.45` | 45% of VRAM | Single experiment; medium-size models |
-| `0.90` | 90% of VRAM | Single experiment; large models, maximum throughput |
-
-If you run out of VRAM, lower `--gpu_memory_utilization` or reduce `--batch_size`.
-
-The GPU is controlled by the environment variable in `automation.sh`:
-
-```bash
-export CUDA_VISIBLE_DEVICES=0   # 0 = first GPU, 1 = second GPU, etc.
-```
-
----
-
-## 11. Troubleshooting
-
-**`CUDA out of memory`**
-Lower `--gpu_memory_utilization` (e.g. from `0.45` to `0.20`) or reduce `--batch_size`.
-
-**`No samples loaded` / empty dataset**
-Confirm `IndicKLAR/` is placed inside `Evaluation_Scripts_IndicKLAR/` and that subfolder names match the `--lang_code` values exactly (e.g. `hin`, not `hindi`).
-
-**`ValueError: No languages found for model`**
-Always pass `--lang_code` when calling scripts manually.
-
-**Guided JSON decoding errors**
-Ensure you are using a compatible version of vLLM that supports `StructuredOutputsParams`:
-```bash
-pip install --upgrade vllm
-```
-
-**Script stops mid-run**
-Each `run_script` call in `automation.sh` uses `|| true` to prevent one failure from stopping the entire run. Check the corresponding log file in `logs/<lang_code>/` for details.
