@@ -23,6 +23,7 @@ Code is released under the [MIT License](LICENSE); the dataset is released under
 7. [CLC Score Formula](#7-clc-score-formula)
 8. [new\_data\_with\_context — Extended Experiments](#8-new_data_with_context--extended-experiments)
 9. [Language & Script Reference](#9-language--script-reference)
+10. [Citation](#citation)
 
 ---
 
@@ -419,3 +420,18 @@ Output follows the same `summary.json / detailed.json / LIVE.json` structure as 
 | `en` | English | — | — (use `run_language_en`) |
 
 The `-en` suffix subdirectories (e.g. `hin-en`, `ben-en`) contain code-mixed/romanized versions of the questions and are used only by the baseline scripts.
+
+---
+
+## Citation
+
+Preprint citation (will be updated once the EMNLP 2026 proceedings version is published):
+
+```bibtex
+@article{mazumder2026evaluating,
+  title={Evaluating Cross-lingual Knowledge Consistency in Code-Mixed vis-a-vis Indian Languages using IndicKLAR},
+  author={Mazumder, Debajyoti and Pathak, Divyansh and Kodali, Prashant and Joshi, Aditya and Agarwal, Akshay and Patro, Jasabanta},
+  journal={arXiv preprint arXiv:2605.29637},
+  year={2026}
+}
+```
