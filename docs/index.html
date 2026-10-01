@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IndicKLAR: Cross-lingual Knowledge Consistency in Code-Mixed vis-a-vis Indian Languages</title>
+  <meta name="description" content="IndicKLAR: a three-way aligned (English / native / code-mixed) factual-recall benchmark for 18 Indian languages. Code-mixing brings LLM accuracy within ~0.05 of English; Translate-in-Thought (TinT) prompting recovers most of the native-language gap. Findings of EMNLP 2026.">
+  <link rel="canonical" href="https://debajyotimaz.github.io/IndicKLAR_EMNLP_2026/">
+
+  <!-- Open Graph / social preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="IndicKLAR: Cross-lingual Knowledge Consistency in Code-Mixed vis-a-vis Indian Languages">
+  <meta property="og:description" content="LLMs lose up to ~0.50 accuracy on factual recall in native Indian languages. Code-mixing closes the gap to within ~0.05 of English. Findings of EMNLP 2026.">
+  <meta property="og:url" content="https://debajyotimaz.github.io/IndicKLAR_EMNLP_2026/">
+  <meta property="og:image" content="https://debajyotimaz.github.io/IndicKLAR_EMNLP_2026/static/images/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Google Scholar -->
+  <meta name="citation_title" content="Evaluating Cross-lingual Knowledge Consistency in Code-Mixed vis-a-vis Indian Languages using IndicKLAR">
+  <meta name="citation_author" content="Mazumder, Debajyoti">
+  <meta name="citation_author" content="Pathak, Divyansh">
+  <meta name="citation_author" content="Kodali, Prashant">
+  <meta name="citation_author" content="Joshi, Aditya">
+  <meta name="citation_author" content="Agarwal, Akshay">
+  <meta name="citation_author" content="Patro, Jasabanta">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_conference_title" content="Findings of the Association for Computational Linguistics: EMNLP 2026">
+  <meta name="citation_arxiv_id" content="2605.29637">
+  <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2605.29637">
+
+  <link rel="icon" href="static/favicon/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="static/favicon/favicon-32.png">
+  <link rel="apple-touch-icon" href="static/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#fcfcfb">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Google Fonts serves per-script subsets with unicode-range, so a script's font downloads only when that script is on screen. -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+Bengali:wght@400;700&family=Noto+Sans+Gujarati:wght@400;700&family=Noto+Sans+Gurmukhi:wght@400;700&family=Noto+Sans+Oriya:wght@400;700&family=Noto+Sans+Tamil:wght@400;700&family=Noto+Sans+Telugu:wght@400;700&family=Noto+Sans+Kannada:wght@400;700&family=Noto+Sans+Malayalam:wght@400;700&family=Noto+Naskh+Arabic:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/style.css">
+  <script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="topbar">
+  <div class="wrap">
+    <a class="brand" href="#top"><img src="static/images/tiger.webp" alt="" width="26" height="26"><span class="sc">IndicKLAR</span></a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#demo">Demo</a>
+      <a href="#benchmark">Benchmark</a>
+      <a href="#results">Results</a>
+      <a href="#flip-point">Flip point</a>
+      <a href="#bibtex">BibTeX</a>
+      <a href="https://github.com/debajyotimaz/IndicKLAR_EMNLP_2026">Code</a>
+    </nav>
+    <button id="theme-btn" class="theme-btn" type="button" aria-label="Toggle theme">☾</button>
+  </div>
+</div>
+
+<main id="main">
+<header class="hero wrap" id="top">
+  <div class="venue">Findings of EMNLP 2026</div>
+  <h1>Evaluating Cross-lingual Knowledge Consistency in Code-Mixed vis-a-vis Indian Languages using <span class="sc">IndicKLAR</span><img src="static/images/tiger.webp" alt="" width="40" height="40"></h1>
+  <p class="authors">
+    <a href="https://scholar.google.com/citations?user=gGRVwn8AAAAJ&amp;hl=en">Debajyoti Mazumder<sup>1</sup></a>
+    <span class="a">Divyansh Pathak<sup>1</sup></span>
+    <a href="https://scholar.google.com/citations?user=pqQEpBgAAAAJ&amp;hl=en">Prashant Kodali<sup>2</sup></a>
+    <a href="https://scholar.google.com/citations?user=SbYRrvgAAAAJ&amp;hl=en">Aditya Joshi<sup>3</sup></a>
+    <a href="https://scholar.google.com/citations?user=LrW6Hb4AAAAJ&amp;hl=en">Akshay Agarwal<sup>1</sup></a>
+    <a href="https://scholar.google.com/citations?user=FyNnfmUAAAAJ&amp;hl=en">Jasabanta Patro<sup>1</sup></a>
+  </p>
+  <p class="affils">
+    <span><sup>1</sup>Indian Institute of Science Education and Research, Bhopal</span>
+    <span><sup>2</sup>Microsoft Research India</span>
+    <span><sup>3</sup>UNSW Sydney</span>
+  </p>
+  <div class="buttons">
+    <a class="btn" href="https://arxiv.org/pdf/2605.29637">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm8 1.5V8h4.5L14 3.5zM8 12v1.6h8V12H8zm0 3.4V17h8v-1.6H8z"/></svg>Paper</a>
+    <a class="btn" href="https://arxiv.org/abs/2605.29637">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 3h16v2H4zm0 4h16v2H4zm0 4h10v2H4zm0 4h16v2H4zm0 4h10v2H4z"/></svg>arXiv</a>
+    <a class="btn" href="https://github.com/debajyotimaz/IndicKLAR_EMNLP_2026">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>Code</a>
+    <a class="btn" href="https://huggingface.co/datasets/debajyotimaz/IndicKLAR"><span aria-hidden="true">🤗</span>Dataset</a>
+    <a class="btn primary" href="#demo">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>Try the demo</a>
+    <a class="btn alt" href="#bibtex">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7h4v4c0 2.5-1.5 4.5-4 5l-.5-1.4C8 14 8.6 13 8.7 12H7V7zm8 0h4v4c0 2.5-1.5 4.5-4 5l-.5-1.4c1.5-.6 2.1-1.6 2.2-2.6H15V7z"/></svg>BibTeX</a>
+  </div>
+</header>
+
+<section class="wrap" aria-labelledby="tldr-h">
+  <h2 id="tldr-h" class="sr-only" style="position:absolute;left:-999px">TL;DR</h2>
+  <figure>
+    <div class="fig scroll"><img src="static/images/teaser.webp" width="2400" height="762" alt="Illustration of the flip point: the same factual question asked in a native Indian language is answered incorrectly, while its code-mixed and English versions are answered correctly. The boundary between incorrect and correct predictions lies between the native and code-mixed settings."></div>
+    <figcaption><b>The flip point.</b> The boundary between incorrect and correct predictions lies between native Indian-language and code-mixed inputs.</figcaption>
+  </figure>
+  <p class="tldr"><strong>TL;DR</strong> &nbsp;Ask an LLM the same factual question in Hindi, Assamese or Telugu instead of English and its accuracy can drop by up to <b>~0.50</b>. Rewriting the question in <b>code-mixed</b> form (native grammar, English content words) brings it back to within <b>~0.05</b> of English, with no change to the model. Our <b>Translate-in-Thought (TinT)</b> prompt gets the model to make that conversion internally and recovers most of the gap.</p>
+
+  <div class="stats" role="list">
+    <div class="stat" role="listitem"><div class="n">18</div><div class="l">of the 22 scheduled Indian languages</div></div>
+    <div class="stat" role="listitem"><div class="n">11</div><div class="l">code-mixed variants, verified by native speakers</div></div>
+    <div class="stat" role="listitem"><div class="n">2,619</div><div class="l">facts per language across 20 relation types</div></div>
+    <div class="stat" role="listitem"><div class="n">9</div><div class="l">open-weight LLMs, 1B–14B parameters</div></div>
+    <div class="stat" role="listitem"><div class="n">0.50 → 0.05</div><div class="l">native vs. code-mixed gap to English</div></div>
+  </div>
+</section>
+
+<section class="wrap" id="abstract" aria-labelledby="abstract-h">
+  <h2 id="abstract-h">Abstract</h2>
+  <p>Large language models often exhibit a substantial gap between their performance in English and in lower-resourced languages on equivalent knowledge queries, a cross-lingual consistency issue that remains underexplored for Indian languages and their code-mixed counterparts. To study this gap, we introduce <b class="sc">IndicKLAR</b>, an Indic extension of the KLAR-CLC benchmark covering 18 of the 22 scheduled Indian languages. For 11 widely used language pairs, we additionally provide code-mixed variants. Both monolingual and code-mixed inputs are verified by native speakers. This three-way alignment enables us to examine how knowledge recall consistency varies across English, code-mixed, and native Indian language inputs.</p>
+  <p>Across nine open-weight models, we find that the accuracy gap between native-language and English inputs can reach ~0.50, while code-mixed inputs substantially reduce this gap, bringing performance within ~0.05 of English without any model-level intervention. Motivated by this finding, we evaluate several prompting strategies that differ in how explicitly language conversion is exposed: a two-stage translate-then-answer setup, a one-stage joint translation-and-answer prompt, and <b><i>Translate-in-Thought (TinT)</i></b>, a single-step strategy in which the model internally converts the input and outputs only the final answer. Across the native → code-mixed → English performance trajectory, we observe a consistent <i>flip point</i> (the transition from incorrect to correct prediction) between the native and code-mixed settings. Notably, this pattern holds both when the code-mixed representation is explicitly provided as input and when the model is prompted to convert internally using TinT.</p>
+</section>
+
+<section class="wrap" id="demo" aria-labelledby="demo-h">
+  <h2 id="demo-h">Interactive demo</h2>
+  <p class="lede">Browse real <span class="sc">IndicKLAR</span> items and see exactly what the models are asked, then explore every result in the paper by language, model and strategy.</p>
+
+  <h3 id="explore">1 · Explore the benchmark</h3>
+  <p>Each fact is aligned across <b>English</b>, the <b>native</b> language and, for 11 languages, a <b>code-mixed</b> version. Pick a language and a fact category. The demo opens on the Hindi "Ronaldo" example discussed in the paper.</p>
+  <div class="demo">
+    <div class="controls">
+      <label class="ctl">Language <select id="lang-sel" aria-label="Language"></select></label>
+      <label class="ctl">Fact category <select id="rel-sel" aria-label="Fact category"></select></label>
+      <button id="shuffle" class="ghost" type="button">↻ Another fact</button>
+    </div>
+    <div id="qgrid" class="qgrid" aria-live="polite"><p class="note">Loading benchmark samples…</p></div>
+    <p id="fact-meta" class="note"></p>
+
+    <div class="prompt-box">
+      <div class="prompt-head">
+        <div class="ctl" style="flex-direction:row;align-items:center;gap:10px">Prompt sent to the model
+          <div class="seg" id="strat-seg" role="group" aria-label="Prompting strategy">
+            <button type="button" data-s="Baseline" aria-pressed="false">Baseline</button>
+            <button type="button" data-s="TinT-CM" aria-pressed="true">TinT-CM</button>
+            <button type="button" data-s="TinT-EN" aria-pressed="false">TinT-EN</button>
+          </div>
+        </div>
+        <button id="prompt-copy" class="copy" type="button" data-copy="self" data-text="">Copy prompt</button>
+      </div>
+      <pre id="prompt" class="prompt" tabindex="0" aria-label="Prompt text"></pre>
+      <p class="note">Prompts are reproduced from the evaluation scripts in the repository; the few-shot demonstrations that precede the test question are omitted here. TinT asks the model to convert the question internally and output only the answer, with no intermediate text. Paste a prompt into any chat model to try it yourself.</p>
+    </div>
+  </div>
+
+  <h3 id="results-explorer">2 · Explore the results</h3>
+  <p>How much does each strategy move each language? Every dot pair is one language: grey is the baseline (direct prompting in the native script), blue is the chosen strategy. Values come from the full results tables in the paper's appendix.</p>
+  <div class="demo">
+    <div class="controls">
+      <div class="ctl">Metric
+        <div class="seg" id="metric-seg" role="group" aria-label="Metric">
+          <button type="button" data-m="accuracy" aria-pressed="true">Accuracy</button>
+          <button type="button" data-m="clc" aria-pressed="false">Consistency (CLC)</button>
+        </div>
+      </div>
+      <label class="ctl">Model <select id="model-sel" aria-label="Model"></select></label>
+      <label class="ctl">Strategy <select id="strat-sel" aria-label="Strategy"></select></label>
+      <label class="ctl">Sort by
+        <select id="sort-sel" aria-label="Sort languages by">
+          <option value="gain">Largest gain</option>
+          <option value="base">Lowest baseline</option>
+          <option value="name">Name</option>
+        </select>
+      </label>
+    </div>
+    <div class="chart-title" id="chart-title"></div>
+    <div class="chart-sub" id="chart-sub"></div>
+    <div class="legend" aria-hidden="true">
+      <span><i style="background:var(--series-base)"></i>Baseline</span>
+      <span><i style="background:var(--series-main)"></i>Strategy</span>
+      <span><i class="line"></i>English (accuracy only)</span>
+      <span>• has a code-mixed variant</span>
+    </div>
+    <div class="chart-wrap" id="chart-wrap">
+      <svg id="chart" class="chart" role="img" aria-labelledby="chart-title chart-sub"></svg>
+      <div class="tooltip" id="tip" role="status"></div>
+    </div>
+    <details class="tbl"><summary>Show as a table</summary>
+      <div class="table-wrap" style="margin-top:10px"><table id="chart-table"></table></div>
+    </details>
+  </div>
+</section>
+
+<section class="wrap" id="benchmark" aria-labelledby="bench-h">
+  <h2 id="bench-h">The <span class="sc">IndicKLAR</span> benchmark</h2>
+  <p><span class="sc">IndicKLAR</span> extends the KLAR-CLC knowledge-recall benchmark to Indian languages. Every fact is asked in three aligned forms:</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Input</th><th>What it is</th><th>Example (Hindi)</th></tr></thead>
+      <tbody>
+        <tr><td class="s">English (EN)</td><td>The high-resource upper bound.</td><td>Which country is Ronaldo a citizen of?</td></tr>
+        <tr><td class="s">Native (NA)</td><td>The query in the language's own script.</td><td lang="hi">रोनाल्डो किस देश का नागरिक है?</td></tr>
+        <tr><td class="s">Code-mixed (CM)</td><td>Native script and grammar, with English content words in Latin script.</td><td lang="hi">Ronaldo किस country का citizen है?</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p style="margin-top:14px">Each language covers 2,619 facts across 20 relation types (capital, place of birth, citizenship, occupation, …), each with a multiple-choice candidate list (mostly 10 options). Native and code-mixed questions were verified by native speakers. The dataset is released under CC BY 4.0 on <a href="https://huggingface.co/datasets/debajyotimaz/IndicKLAR">Hugging Face</a>.</p>
+
+  <h3>Languages covered</h3>
+  <div class="langs">
+    <div class="lang"><div class="nat" lang="as">অসমীয়া</div><div class="en"><span>Assamese</span><span class="cm" title="has code-mixed variant">+CM</span></div></div>
+    <div class="lang"><div class="nat" lang="bn">বাংলা</div><div class="en"><span>Bengali</span><span class="cm" title="has code-mixed variant">+CM</span></div></div>
+    <div class="lang"><div class="nat" lang="doi">डोगरी</div><div class="en"><span>Dogri</span></div></div>
+    <div class="lang"><div class="nat" lang="gu">ગુજરાતી</div><div class="en"><span>Gujarati</span><span class="cm" title="has code-mixed variant">+CM</span></div></div>
+    <div class="lang"><div class="nat" lang="hi">हिन्दी</div><div class="en"><span>Hindi</span><span class="cm" title="has code-mixed variant">+CM</span></div></div>
+    <div class="lang"><div class="nat" lang="kn">ಕನ್ನಡ</div><div class="en"><span>Kannada</span></div></div>
+    <div class="lang"><div class="nat" lang="gom">कोंकणी</div><div class="en"><span>Konkani</span></div></div>
+    <div class="lang"><div class="nat" lang="mai">मैथिली</div><div class="en"><span>Maithili</span></div></div>
+    <div class="lang"><div class="nat" lang="ml">മലയാളം</div><div class="en"><span>Malayalam</span><span class="cm" title="has code-mixed variant">+CM</span></div></div>
+    <div class="lang"><div class="nat" lang="mr">मराठी</div><div class="en"><span>Marathi</span><span class="cm" title="has code-mixed variant">+CM</span></div></div>
+    <div class="lang"><div class="nat" lang="ne">नेपाली</div><div class="en"><span>Nepali</span></div></div>
+    <div class="lang"><div class="nat" lang="or">ଓଡ଼ିଆ</div><div class="en"><span>Odia</span><span class="cm" title="has code-mixed variant">+CM</span></div></div>
+    <div class="lang"><div class="nat" lang="pa">ਪੰਜਾਬੀ</div><div class="en"><span>Punjabi</span><span class="cm" title="has code-mixed variant">+CM</span></div></div>
+    <div class="lang"><div class="nat" lang="sa">संस्कृतम्</div><div class="en"><span>Sanskrit</span><span class="cm" title="has code-mixed variant">+CM</span></div></div>
+    <div class="lang"><div class="nat" lang="sd" dir="rtl">سنڌي</div><div class="en"><span>Sindhi</span></div></div>
+    <div class="lang"><div class="nat" lang="ta">தமிழ்</div><div class="en"><span>Tamil</span><span class="cm" title="has code-mixed variant">+CM</span></div></div>
+    <div class="lang"><div class="nat" lang="te">తెలుగు</div><div class="en"><span>Telugu</span><span class="cm" title="has code-mixed variant">+CM</span></div></div>
+    <div class="lang"><div class="nat" lang="ur" dir="rtl">اردو</div><div class="en"><span>Urdu</span></div></div>
+  </div>
+  <p class="legend-note"><span style="color:var(--accent);font-weight:600">+CM</span> = a code-mixed variant is provided (11 languages, chosen by availability of native-speaker linguists).</p>
+</section>
+
+<section class="wrap" id="results" aria-labelledby="results-h">
+  <h2 id="results-h">Key findings</h2>
+
+  <h3>1 · Code-mixing nearly closes the English–native gap</h3>
+  <p>Native-script queries degrade sharply, approaching 0.10 accuracy on Assamese and Telugu for smaller models. The drop tracks tokenization: longer native-script tokenizations go with lower accuracy (Pearson <i>r</i> = −0.717 to −0.570). Code-mixed queries, however, stay within ~0.05 of English on average, through input formulation alone.</p>
+  <figure>
+    <div class="fig scroll"><img src="static/images/gap_native_cm_en.webp" width="2400" height="821" loading="lazy" decoding="async" alt="Grouped bar chart of baseline accuracy for native, code-mixed and English inputs across eleven Indic languages and three models (Llama-3.1-8B, Gemma-3-12B, Qwen-2.5-14B). Code-mixed bars nearly reach the English level while native bars are much lower."></div>
+    <figcaption>Baseline accuracy for Native (solid), Code-Mixed (hatched) and English (faded) inputs, for eleven Indic languages, using Llama-3.1-8B, Gemma-3-12B and Qwen-2.5-14B. Black dots mark the three-model average per tier.</figcaption>
+  </figure>
+
+  <h3>2 · Prompting the model to convert, explicitly or in thought</h3>
+  <p>All strategies start from the native-script question and differ in how visibly the language conversion happens.</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Strategy</th><th>Transformation</th><th>Procedure</th></tr></thead>
+      <tbody>
+        <tr><td class="s">Baseline</td><td>None</td><td>Direct prompting on the source query.</td></tr>
+        <tr><td class="s">2Step-CM / 2Step-EN</td><td>Code-mix / English translation</td><td>Convert in one call, then answer in a second call.</td></tr>
+        <tr><td class="s">2Step-Translit</td><td>Roman transliteration</td><td>Romanize without translating, then answer.</td></tr>
+        <tr><td class="s">1Step-CM+Ans / 1Step-EN+Ans</td><td>Code-mix / English translation</td><td>Emit the conversion and the answer in a single pass.</td></tr>
+        <tr><td class="s">TinT-CM / TinT-EN <span class="tag tint">ours</span></td><td>Latent code-mixed / English</td><td>Reason internally in code-mix or English; output only the answer.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <figure>
+    <div class="fig"><img src="static/images/strategies_accuracy.webp" width="2400" height="735" loading="lazy" decoding="async" alt="Accuracy of every prompting strategy across eleven Indian languages and nine models; all conversion strategies improve over the baseline."></div>
+    <div class="fig" style="margin-top:12px"><img src="static/images/strategies_clc.webp" width="2400" height="649" loading="lazy" decoding="async" alt="Cross-lingual consistency of every prompting strategy across eleven Indian languages and nine models."></div>
+    <figcaption>Performance of all prompting strategies across eleven Indian languages: accuracy (top) and cross-lingual consistency, CLC (bottom). Explore the numbers in the <a href="#results-explorer">results explorer</a>.</figcaption>
+  </figure>
+  <p>TinT improves significantly over the baseline (McNemar tests, <i>p</i> &lt; 10<sup>−10</sup>), needs a single inference call, and generates no intermediate text.</p>
+
+  <div class="two">
+    <figure>
+      <div class="fig"><img src="static/images/scaling.webp" width="1800" height="1079" loading="lazy" decoding="async" alt="Line chart of mean accuracy and CLC against model size for TinT and baseline; TinT is above the baseline at every size."></div>
+      <figcaption><b>Scaling.</b> Mean accuracy and CLC of TinT and Baseline across 11 Indic languages, by model size.</figcaption>
+    </figure>
+    <figure>
+      <div class="fig"><img src="static/images/romanization_ablation.webp" width="1400" height="931" loading="lazy" decoding="async" alt="Bar chart comparing transliteration-only against code-mixing; romanization alone gives much smaller gains than code-mixing."></div>
+      <figcaption><b>Code-mixing ≠ romanization.</b> The ablation separates the effect of code-mixing from simply switching to Latin script: romanized inputs give only small gains, so the benefit comes from English lexical cues rather than the script.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="wrap" id="flip-point" aria-labelledby="flip-h">
+  <h2 id="flip-h">Locating the flip point</h2>
+  <p>For every question the baseline gets wrong, we ask: does it become correct under TinT-CM, and if not, under TinT-EN? Most recoveries happen at the <b>first</b> boundary (native → code-mixed); moving on to English adds only a small residual gain. The pattern holds across model families and languages, whether the code-mixed form is given explicitly or produced internally by TinT.</p>
+  <figure class="narrow">
+    <div class="fig"><img src="static/images/flip_point_recovery.webp" width="1800" height="597" loading="lazy" decoding="async" alt="Stacked bars for Llama 3.1 8B, Gemma 3 12B and Qwen2.5 14B showing the share of baseline-incorrect instances recovered at the Baseline to TinT-CM transition (the large majority), at the TinT-CM to TinT-EN transition (small), and unrecovered."></div>
+    <figcaption>Prediction recovery along Baseline → TinT-CM → TinT-EN for three models, over five representative languages. Percentages are the share of baseline-incorrect instances recovered at each transition.</figcaption>
+  </figure>
+
+  <h3>An example</h3>
+  <div class="example" lang="hi">
+    <div class="q"><b lang="en">Query:</b> रोनाल्डो किस देश का नागरिक है?</div>
+    <div class="gloss" lang="en">(Which country is Ronaldo a citizen of?)</div>
+    <div class="ans no"><span><b lang="en">Baseline:</b> पुर्तगाल <span lang="en">(Portugal)</span></span><span class="verdict" lang="en">✗ incorrect</span></div>
+    <div class="ans ok"><span><b lang="en">1Step-CM+Ans, TinT-CM:</b> ब्राज़िल <span lang="en">(Brazil)</span></span><span class="verdict" lang="en">✓ correct</span></div>
+  </div>
+  <p style="margin-top:12px">The baseline falls back on a memorised association with Cristiano Ronaldo and ignores the candidate list. Pure transliteration restricts the model to the candidates but still fails. Converting the Hindi word for "citizen" while keeping the sentence structure leads to the correct answer. This is an illustration, not a claim about the dominant failure mode.</p>
+
+  <figure>
+    <div class="fig"><img src="static/images/qualitative_samples.webp" width="2400" height="1591" loading="lazy" decoding="async" alt="Table of example questions in Assamese, Bengali, Hindi and Marathi with model predictions under each prompt representation, marked correct or incorrect."></div>
+    <figcaption>Qualitative comparison of prompt representations across Assamese, Bengali, Hindi and Marathi (✓ correct, ✗ incorrect).</figcaption>
+  </figure>
+
+  <details class="more">
+    <summary>More analyses: pairwise consistency and layer-wise behaviour</summary>
+    <div class="two">
+      <figure>
+        <div class="fig"><img src="static/images/clc_heatmap.webp" width="1400" height="1270" loading="lazy" decoding="async" alt="Triangular heatmap of pairwise cross-lingual consistency for Llama-3.1-8B-Instruct, baseline above the diagonal and TinT-CM below; TinT-CM values are higher, with Odia the lowest in both."></div>
+        <figcaption>Pairwise CLC for Llama-3.1-8B-Instruct: baseline (upper triangle, 0.4–0.8) vs. TinT-CM (lower triangle, 0.5–0.9). Odia is an outlier in both.</figcaption>
+      </figure>
+      <figure>
+        <div class="fig"><img src="static/images/layerwise_rank.webp" width="1600" height="866" loading="lazy" decoding="async" alt="Line chart of the gold answer token's rank across layers of Llama-3.1-8B-Instruct; TinT-CM and baseline overlap until about layer 16, after which the TinT-CM rank drops toward zero."></div>
+        <figcaption>Layer-wise rank of the gold answer token (Llama-3.1-8B-Instruct). TinT-CM separates from the baseline after ~layer 16, consistent with late-layer cross-lingual reorganisation, though not direct evidence of it.</figcaption>
+      </figure>
+    </div>
+  </details>
+</section>
+
+<section class="wrap" id="bibtex" aria-labelledby="bib-h">
+  <h2 id="bib-h">Citation</h2>
+  <div class="bib">
+    <button class="copy" type="button" data-copy="#bib-text">Copy</button>
+<pre id="bib-text">@inproceedings{mazumder2026evaluating,
+  title     = {Evaluating Cross-lingual Knowledge Consistency in Code-Mixed vis-a-vis Indian Languages using IndicKLAR},
+  author    = {Mazumder, Debajyoti and Pathak, Divyansh and Kodali, Prashant and Joshi, Aditya and Agarwal, Akshay and Patro, Jasabanta},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2026},
+  year      = {2026},
+  eprint    = {2605.29637},
+  archivePrefix = {arXiv},
+  url       = {https://arxiv.org/abs/2605.29637}
+}</pre>
+  </div>
+</section>
+
+<section class="wrap" aria-labelledby="ack-h">
+  <h2 id="ack-h">Acknowledgments</h2>
+  <p>We thank the volunteer native speakers who verified the native and code-mixed questions. <span class="sc">IndicKLAR</span> builds on the KLAR-CLC benchmark of <a href="https://aclanthology.org/2025.acl-long.253/">Wang et al. (ACL 2025), "Lost in Multilinguality"</a>.</p>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Code: <a href="https://github.com/debajyotimaz/IndicKLAR_EMNLP_2026/blob/main/LICENSE">MIT</a> · Dataset: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+    <span><a href="https://github.com/debajyotimaz/IndicKLAR_EMNLP_2026">View the code on GitHub →</a></span>
+  </div>
+</footer>
+
+<script src="static/js/main.js" defer></script>
+</body>
+</html>

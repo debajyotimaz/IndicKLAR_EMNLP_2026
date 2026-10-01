@@ -1,8 +1,15 @@
 ﻿# IndicKLAR: Cross-Lingual Consistency Evaluation
 
+<p align="center">
+  <a href="https://debajyotimaz.github.io/IndicKLAR_EMNLP_2026/"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20Project%20Page-Interactive%20demo-1f6fd1?style=for-the-badge" alt="Project page"></a>
+  <a href="https://arxiv.org/abs/2605.29637"><img src="https://img.shields.io/badge/arXiv-2605.29637-b31b1b?style=for-the-badge" alt="arXiv"></a>
+  <a href="https://huggingface.co/datasets/debajyotimaz/IndicKLAR"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-IndicKLAR-ffcc4d?style=for-the-badge" alt="Dataset"></a>
+  <img src="https://img.shields.io/badge/Findings%20of%20EMNLP-2026-2e7d32?style=for-the-badge" alt="Findings of EMNLP 2026">
+</p>
+
 A research evaluation framework for studying how large language models answer factual questions in Indic languages — across prompting strategies that include **code-mixing**, **transliteration**, **English translation**, and **implicit reasoning**.
 
-Accompanying the EMNLP 2026 submission. Paper preprint: **[arXiv:2605.29637](https://arxiv.org/abs/2605.29637)**. The dataset is released separately on the Hugging Face Hub: **[debajyotimaz/IndicKLAR](https://huggingface.co/datasets/debajyotimaz/IndicKLAR)**.
+Accompanying our paper in **Findings of EMNLP 2026**. Project page with an interactive demo: **[debajyotimaz.github.io/IndicKLAR_EMNLP_2026](https://debajyotimaz.github.io/IndicKLAR_EMNLP_2026/)**. Paper preprint: **[arXiv:2605.29637](https://arxiv.org/abs/2605.29637)**. The dataset is released separately on the Hugging Face Hub: **[debajyotimaz/IndicKLAR](https://huggingface.co/datasets/debajyotimaz/IndicKLAR)**.
 
 Code is released under the [MIT License](LICENSE); the dataset is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
@@ -425,13 +432,16 @@ The `-en` suffix subdirectories (e.g. `hin-en`, `ben-en`) contain code-mixed/rom
 
 ## Citation
 
-Preprint citation (will be updated once the EMNLP 2026 proceedings version is published):
+If you use IndicKLAR, please cite our Findings of EMNLP 2026 paper:
 
 ```bibtex
-@article{mazumder2026evaluating,
-  title={Evaluating Cross-lingual Knowledge Consistency in Code-Mixed vis-a-vis Indian Languages using IndicKLAR},
-  author={Mazumder, Debajyoti and Pathak, Divyansh and Kodali, Prashant and Joshi, Aditya and Agarwal, Akshay and Patro, Jasabanta},
-  journal={arXiv preprint arXiv:2605.29637},
-  year={2026}
+@inproceedings{mazumder2026evaluating,
+  title         = {Evaluating Cross-lingual Knowledge Consistency in Code-Mixed vis-a-vis Indian Languages using IndicKLAR},
+  author        = {Mazumder, Debajyoti and Pathak, Divyansh and Kodali, Prashant and Joshi, Aditya and Agarwal, Akshay and Patro, Jasabanta},
+  booktitle     = {Findings of the Association for Computational Linguistics: EMNLP 2026},
+  year          = {2026},
+  eprint        = {2605.29637},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2605.29637}
 }
 ```
