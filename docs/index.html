@@ -37,7 +37,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <!-- Google Fonts serves per-script subsets with unicode-range, so a script's font downloads only when that script is on screen. -->
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+Bengali:wght@400;700&family=Noto+Sans+Gujarati:wght@400;700&family=Noto+Sans+Gurmukhi:wght@400;700&family=Noto+Sans+Oriya:wght@400;700&family=Noto+Sans+Tamil:wght@400;700&family=Noto+Sans+Telugu:wght@400;700&family=Noto+Sans+Malayalam:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="static/css/style.css?v=4">
+  <link rel="stylesheet" href="static/css/style.css?v=5">
   <script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
 <body>
@@ -50,6 +50,7 @@
       <a href="#demo">Live demo</a>
       <a href="#inside">Inside the model</a>
       <a href="#findings">Findings</a>
+      <a href="#bibtex">Cite</a>
       <a href="https://arxiv.org/abs/2605.29637">Paper</a>
       <a href="https://github.com/debajyotimaz/IndicKLAR_EMNLP_2026">Code</a>
     </nav>
@@ -60,7 +61,7 @@
 <main id="main">
 <header class="hero wrap" id="top">
   <div class="venue">Findings of EMNLP 2026</div>
-  <h1>Evaluating Cross-lingual Knowledge Consistency in Code-Mixed vis-a-vis Indian Languages using <span class="sc">IndicKLAR</span><img src="static/images/tiger.webp" alt="" width="40" height="40"></h1>
+  <h1>Evaluating Cross-lingual Knowledge Consistency in Code-Mixed vis-a-vis Indian Languages using <span class="nw"><span class="sc">IndicKLAR</span><img src="static/images/tiger.webp" alt="" width="40" height="40"></span></h1>
   <p class="authors">
     <a href="https://scholar.google.com/citations?user=gGRVwn8AAAAJ&amp;hl=en">Debajyoti Mazumder<sup>1</sup></a>
     <span class="a">Divyansh Pathak<sup>1</sup></span>
@@ -87,91 +88,72 @@
   </div>
 </header>
 
-<section class="wrap hook" aria-label="Overview">
+<section class="wrap band" aria-label="Overview">
   <div class="hook-grid">
-    <figure>
-      <div class="fig"><img src="static/images/teaser.webp" width="2400" height="762" alt="The same question in a native Indian language is answered incorrectly; its code-mixed and English versions are answered correctly. The flip from incorrect to correct happens between native and code-mixed."></div>
-    </figure>
+    <figure class="fig"><img src="static/images/teaser.webp" width="2400" height="762" alt="The same question in a native Indian language is answered incorrectly; its code-mixed and English versions are answered correctly. The flip from incorrect to correct happens between native and code-mixed."></figure>
     <div class="stats" role="list">
-      <div class="stat" role="listitem"><div class="n">18</div><div class="l">Indian languages · 11 code-mixed</div></div>
-      <div class="stat" role="listitem"><div class="n bad">−0.50</div><div class="l">accuracy, native vs. English</div></div>
-      <div class="stat" role="listitem"><div class="n good">−0.05</div><div class="l">accuracy, code-mixed vs. English</div></div>
+      <div class="stat" role="listitem"><div class="n">18</div><div class="l">Indian languages<br>11 with code-mixed versions</div></div>
+      <div class="stat" role="listitem"><div class="n bad">−0.50</div><div class="l">accuracy gap<br>native vs. English</div></div>
+      <div class="stat" role="listitem"><div class="n good">−0.05</div><div class="l">accuracy gap<br>code-mixed vs. English</div></div>
     </div>
   </div>
 </section>
 
-<section class="wrap" id="demo" aria-labelledby="demo-h">
-  <h2 id="demo-h">See it live</h2>
-  <p class="lede">Ask <b>Llama-3.1-8B-Instruct</b> one fact four ways and watch where the answer flips.</p>
+<section class="wrap band" id="demo" aria-labelledby="demo-h">
   <div class="demo">
-    <div class="demo-grid">
-      <div class="demo-left">
-        <div class="chips" id="lang-chips" role="group" aria-label="Language"></div>
-        <div class="qpanel" id="qpanel" aria-live="polite"><p class="note">Loading questions…</p></div>
-        <div class="actions">
-          <button id="ask" class="btn primary" type="button" disabled>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>Ask Llama-3.1-8B</button>
-          <button id="next" class="ghost" type="button">↻ Another question</button>
-        </div>
-        <p id="status" class="note" role="status"></p>
-      </div>
-      <div class="traj" id="traj">
-        <div class="tcard" data-form="native"><div class="tlabel">Native</div><div class="tans">–</div></div>
-        <div class="tarrow" aria-hidden="true">→</div>
-        <div class="tcard" data-form="cm"><div class="tlabel">Code-mixed</div><div class="tans">–</div></div>
-        <div class="tarrow" aria-hidden="true">→</div>
-        <div class="tcard" data-form="en"><div class="tlabel">English</div><div class="tans">–</div></div>
-        <div class="tcard tint" data-form="tint_cm"><div class="tlabel">Native + <b>TinT-CM</b> prompt <span class="tag tint">ours</span></div><div class="tans">–</div>
-          <div class="tsub">Model code-mixes the question in its head, outputs only the answer.</div></div>
+    <div class="demo-head">
+      <h2 id="demo-h">See it live <span class="sub">Llama-3.1-8B-Instruct, one fact asked four ways</span></h2>
+      <div class="chips" id="lang-chips" role="group" aria-label="Language"></div>
+    </div>
+    <div class="qrow">
+      <div class="qpanel" id="qpanel" aria-live="polite"><p class="note">Loading questions…</p></div>
+      <div class="actions">
+        <button id="ask" class="btn primary" type="button" disabled>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>Ask the model</button>
+        <button id="next" class="ghost" type="button">↻ Another</button>
       </div>
     </div>
-    <p class="note" id="demo-note">Llama-3.1-8B-Instruct on Cloudflare Workers AI, prompted as in the paper (3-shot, temperature 0); answers are cached after the first ask.</p>
+    <div class="traj" id="traj">
+      <div class="tcard" data-form="native"><div class="tlabel">Native</div><div class="tans">–</div></div>
+      <div class="tarrow" aria-hidden="true">→</div>
+      <div class="tcard" data-form="cm"><div class="tlabel">Code-mixed</div><div class="tans">–</div></div>
+      <div class="tarrow" aria-hidden="true">→</div>
+      <div class="tcard" data-form="en"><div class="tlabel">English</div><div class="tans">–</div></div>
+      <div class="tcard tint" data-form="tint_cm"><div class="tlabel">Native + <b>TinT-CM</b> <span class="tag tint">ours</span></div><div class="tans">–</div></div>
+    </div>
+    <p id="status" class="note" role="status"></p>
+    <p class="note" id="demo-note">Llama-3.1-8B-Instruct on Cloudflare Workers AI, prompted as in the paper (3-shot, temperature 0). TinT-CM: the model code-mixes the question in its head and outputs only the answer. Answers are cached after the first ask.</p>
   </div>
 </section>
 
-<section class="wrap" id="inside" aria-labelledby="inside-h">
-  <div class="inside">
-    <div>
-      <h2 id="inside-h">Inside the model</h2>
-      <p class="lede">Rank of the correct answer, layer by layer (Llama-3.1-8B).</p>
-      <ul class="points">
-        <li>Layers 0–16: no difference.</li>
-        <li>After ~16: <b style="color:var(--accent)">TinT-CM</b> lifts the correct answer to the top.</li>
+<section class="wrap band" aria-label="Results">
+  <div class="duo">
+    <div class="card" id="inside">
+      <h2>Inside the model <span class="sub">rank of the correct answer per layer</span></h2>
+      <figure class="fig"><img src="static/images/layer_rank.gif" width="900" height="480" loading="lazy" alt="Animated line chart over layers 0 to 32 of Llama-3.1-8B-Instruct. Two lines show the log rank of the correct answer: Baseline (grey) and TinT-CM (blue). Both stay near 4 until about layer 16; then TinT-CM drops steeply to about 0.2, meaning the correct answer is ranked first, while the baseline stays high and only falls to about 1.3 at the last layer."></figure>
+      <p class="note">Same until layer ~16; then <b style="color:var(--accent)">TinT-CM</b> lifts the correct answer to the top. Averaged over 18 languages.</p>
+    </div>
+    <div class="card" id="findings">
+      <h2>In the paper</h2>
+      <ul class="flist">
+        <li><a href="static/images/flip_point_recovery.webp" title="Open full figure"><img src="static/images/flip_point_recovery.webp" width="1400" height="464" loading="lazy" alt="Stacked bars for three models: most baseline-incorrect answers are recovered at the native to code-mixed step, few more at code-mixed to English."></a><span><b>Flip point.</b> Most fixes happen at native → code-mixed.</span></li>
+        <li><a href="static/images/romanization_ablation.webp" title="Open full figure"><img src="static/images/romanization_ablation.webp" width="1200" height="798" loading="lazy" alt="Bar chart for five languages: transliteration to Latin script gains less over the baseline than code-mixing or TinT-CM."></a><span><b>Words, not script.</b> Romanizing helps far less than code-mixing.</span></li>
+        <li><a href="static/images/scaling.webp" title="Open full figure"><img src="static/images/scaling.webp" width="1400" height="839" loading="lazy" alt="Line chart of mean accuracy and consistency against model size from 1B to 14B; TinT stays above the baseline at every size."></a><span><b>Every scale.</b> 1B–14B · Llama, Gemma, Qwen.</span></li>
       </ul>
+      <div class="buttons left">
+        <a class="btn primary" href="https://arxiv.org/abs/2605.29637">Read the paper</a>
+        <a class="btn" href="https://github.com/debajyotimaz/IndicKLAR_EMNLP_2026">Code</a>
+        <a class="btn" href="https://huggingface.co/datasets/debajyotimaz/IndicKLAR"><span aria-hidden="true">🤗</span>Data</a>
+      </div>
     </div>
-    <figure>
-      <div class="fig"><img src="static/images/layer_rank.gif" width="900" height="480" loading="lazy" alt="Animated line chart over layers 0 to 32 of Llama-3.1-8B-Instruct. Two lines show the log rank of the correct answer: Baseline (grey) and TinT-CM (blue). Both stay near 4 until about layer 16; then TinT-CM drops steeply to about 0.2, meaning the correct answer is ranked first, while the baseline stays high and only falls to about 1.3 at the last layer."></div>
-    </figure>
   </div>
 </section>
 
-<section class="wrap" id="findings" aria-labelledby="find-h">
-  <h2 id="find-h">In the paper</h2>
-  <div class="findings">
-    <figure class="finding">
-      <div class="fig"><img src="static/images/flip_point_recovery.webp" width="1400" height="464" loading="lazy" alt="Stacked bars for three models: most baseline-incorrect answers are recovered at the native to code-mixed step, few more at code-mixed to English."></div>
-      <figcaption><b>The flip point:</b> most fixes happen at native → code-mixed.</figcaption>
-    </figure>
-    <figure class="finding">
-      <div class="fig"><img src="static/images/romanization_ablation.webp" width="1200" height="798" loading="lazy" alt="Bar chart for five languages: transliteration to Latin script (2-Call Translit) gains less over the baseline than code-mixing (2-Call CM) or TinT-CM."></div>
-      <figcaption><b>English words, not the script:</b> romanizing helps far less than code-mixing.</figcaption>
-    </figure>
-    <figure class="finding">
-      <div class="fig"><img src="static/images/scaling.webp" width="1400" height="839" loading="lazy" alt="Line chart of mean accuracy and consistency against model size from 1B to 14B; TinT stays above the baseline at every size."></div>
-      <figcaption><b>Holds at every scale:</b> 1B–14B, Llama, Gemma, Qwen.</figcaption>
-    </figure>
-  </div>
-  <div class="buttons cta">
-    <a class="btn primary" href="https://arxiv.org/abs/2605.29637">Read the paper</a>
-    <a class="btn" href="https://github.com/debajyotimaz/IndicKLAR_EMNLP_2026">Get the code</a>
-    <a class="btn" href="https://huggingface.co/datasets/debajyotimaz/IndicKLAR"><span aria-hidden="true">🤗</span>Download IndicKLAR</a>
-  </div>
-</section>
-
-<section class="wrap" id="bibtex" aria-labelledby="bib-h">
-  <h2 id="bib-h">Citation</h2>
-  <div class="bib">
-    <button class="copy" type="button" data-copy="#bib-text">Copy</button>
+<section class="wrap band" id="bibtex" aria-label="Citation">
+  <details class="bib">
+    <summary>Cite this work (BibTeX)</summary>
+    <div class="bibbox">
+      <button class="copy" type="button" data-copy="#bib-text">Copy</button>
 <pre id="bib-text">@inproceedings{mazumder2026evaluating,
   title     = {Evaluating Cross-lingual Knowledge Consistency in Code-Mixed vis-a-vis Indian Languages using IndicKLAR},
   author    = {Mazumder, Debajyoti and Pathak, Divyansh and Kodali, Prashant and Joshi, Aditya and Agarwal, Akshay and Patro, Jasabanta},
@@ -181,7 +163,8 @@
   archivePrefix = {arXiv},
   url       = {https://arxiv.org/abs/2605.29637}
 }</pre>
-  </div>
+    </div>
+  </details>
 </section>
 </main>
 
@@ -192,6 +175,6 @@
   </div>
 </footer>
 
-<script src="static/js/main.js?v=4" defer></script>
+<script src="static/js/main.js?v=5" defer></script>
 </body>
 </html>
