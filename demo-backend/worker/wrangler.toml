@@ -1,0 +1,10 @@
+name = "indicklar-demo"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+[ai]
+binding = "AI"
+
+[[kv_namespaces]]
+binding = "CACHE"
+id = "90ab98afb3544536872047b63c13cec7"

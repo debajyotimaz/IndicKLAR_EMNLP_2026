@@ -22,15 +22,6 @@ png() {  # png <src.png> <name> <width>
 }
 pdf intro_figure.pdf                     teaser                 2400
 convert "$O/teaser.webp" -background white -gravity center -resize 1100x -extent 1200x630 "$O/og-image.png"
-pdf eng_native_cm_comparison_new.pdf     gap_native_cm_en       2400
-pdf main_acc_results_new.pdf             strategies_accuracy    2400
-pdf main_clc_results_new.pdf             strategies_clc         2400
-pdf main_scaling_results.pdf             scaling                1800
-pdf flip_point_recovery.pdf              flip_point_recovery    1800
-pdf transliteration_bar_plot.pdf         romanization_ablation  1400
-pdf qualitative_samples.pdf              qualitative_samples    2400
-pdf avg_rank_plot_with_std.pdf           layerwise_rank         1600
-png clc_base_vs_Tit_cm_fin_new_virdis.png clc_heatmap           1400
 # favicon / logo from the tiger
 T="$F/logos/tiger_face.png"
 convert "$T" -resize 512x512 "$FAV/icon-512.png"

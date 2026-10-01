@@ -109,3 +109,5 @@ build/
 # *.zip data files (user preference)
 # clc_base_vs_Tit_cm_fin.png
 # ======================
+demo-backend/worker/src/data.js
+demo-backend/worker/.wrangler/
