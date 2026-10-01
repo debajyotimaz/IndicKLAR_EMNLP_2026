@@ -88,9 +88,9 @@
 </header>
 
 <section class="wrap hook" aria-labelledby="hook-h">
-  <h2 id="hook-h" class="hook-line">Ask an LLM a fact in Hindi and it often gets it wrong.<br>Swap a few words for English and it gets it right.</h2>
+  <h2 id="hook-h" class="hook-line">Ask an LLM a fact in Hindi and it often gets it wrong. <br>Swap a few words for English and it gets it right.</h2>
   <figure>
-    <div class="fig scroll"><img src="static/images/teaser.webp" width="2400" height="762" alt="The same question in a native Indian language is answered incorrectly; its code-mixed and English versions are answered correctly. The flip from incorrect to correct happens between native and code-mixed."></div>
+    <div class="fig"><img src="static/images/teaser.webp" width="2400" height="762" alt="The same question in a native Indian language is answered incorrectly; its code-mixed and English versions are answered correctly. The flip from incorrect to correct happens between native and code-mixed."></div>
   </figure>
   <div class="stats stats3" role="list">
     <div class="stat" role="listitem"><div class="n">18</div><div class="l">Indian languages, each fact aligned with English and (for 11) a code-mixed version</div></div>
@@ -127,12 +127,21 @@
 </section>
 
 <section class="wrap" id="inside" aria-labelledby="inside-h">
-  <h2 id="inside-h">What happens inside the model</h2>
-  <p class="lede">How highly does Llama-3.1-8B rank the correct answer at each layer, on questions the baseline gets wrong?</p>
-  <figure class="narrow">
-    <div class="fig"><img src="static/images/layer_rank.gif" width="900" height="480" loading="lazy" alt="Animated line chart over layers 0 to 32 of Llama-3.1-8B-Instruct. Two lines show the log rank of the correct answer: Baseline (grey) and TinT-CM (blue). Both stay near 4 until about layer 16; then TinT-CM drops steeply to about 0.2, meaning the correct answer is ranked first, while the baseline stays high and only falls to about 1.3 at the last layer."></div>
-    <figcaption>Both runs look alike for the first ~16 layers. After that, TinT-CM pushes the correct answer to the top, while the baseline never fully recovers it. Averaged over 18 languages (Figure 9 in the paper).</figcaption>
-  </figure>
+  <div class="inside">
+    <div>
+      <h2 id="inside-h">What happens inside the model</h2>
+      <p class="lede">How highly does Llama-3.1-8B rank the correct answer at each layer, on questions the baseline gets wrong?</p>
+      <ul class="points">
+        <li>Both runs look alike for the first ~16 layers.</li>
+        <li>After that, <b style="color:var(--accent)">TinT-CM</b> pushes the correct answer to the top.</li>
+        <li>The baseline never fully recovers it.</li>
+      </ul>
+      <p class="note">Averaged over 18 languages (Figure 9 in the paper).</p>
+    </div>
+    <figure>
+      <div class="fig"><img src="static/images/layer_rank.gif" width="900" height="480" loading="lazy" alt="Animated line chart over layers 0 to 32 of Llama-3.1-8B-Instruct. Two lines show the log rank of the correct answer: Baseline (grey) and TinT-CM (blue). Both stay near 4 until about layer 16; then TinT-CM drops steeply to about 0.2, meaning the correct answer is ranked first, while the baseline stays high and only falls to about 1.3 at the last layer."></div>
+    </figure>
+  </div>
 </section>
 
 <section class="wrap" id="findings" aria-labelledby="find-h">
