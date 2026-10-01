@@ -1,9 +1,9 @@
 """Build docs/static/data/demo.json for the project page's live demo.
 
-Usage: python3 build_demo.py <out.json> [recorded.json]
-recorded.json (optional) maps "lang|idx" -> {form: result} from record.py; facts whose answers show the
-paper's pattern (native wrong, code-mixed / TinT-CM right) are listed first and carry the recorded answers
-as an offline fallback.
+Usage: python3 build_demo.py <out.json> <recorded.json>
+recorded.json maps "lang|idx" -> {form: result} from record.py (Llama-3.1-8B-Instruct, temperature 0, so a
+repeat call returns the same answer). Only fully recorded facts are included; those showing the paper's
+pattern (native wrong, code-mixed / TinT-CM right) come first.
 """
 import json, sys
 import reference_prompts as app
@@ -23,6 +23,11 @@ def shown(q):
 
 rec = json.load(open(sys.argv[2], encoding="utf-8")) if len(sys.argv) > 2 else {}
 
+def complete(lang, idx):
+    r = rec.get(f"{lang}|{idx}")
+    return bool(r) and all(isinstance(v, dict) and "correct" in v for v in r.values()) and set(r) >= {"native", "cm", "en", "tint_cm"}
+
+
 def score(lang, idx):
     r = rec.get(f"{lang}|{idx}")
     if not r or any("correct" not in v for v in r.values()):
@@ -33,9 +38,11 @@ def score(lang, idx):
 out = {"model": app.MODEL, "langs": {}}
 for lang in ORDER:
     ids = [str(i) for rel in app.DATA["relations"] for i in app.DATA["order"][rel]]
+    # only facts with a complete recorded run: the page shows these answers, no live calls
+    ids = [i for i in dict.fromkeys(ids) if complete(lang, i)]
     ids.sort(key=lambda i: -score(lang, i))
     facts = []
-    for idx in list(dict.fromkeys(ids))[:24]:
+    for idx in ids:
         _, gold, _, qn = app.build_prompt(idx, lang, "native")
         _, gold_en, _, qc = app.build_prompt(idx, lang, "cm")
         _, _, _, qe = app.build_prompt(idx, lang, "en")

@@ -1,0 +1,4864 @@
+{
+"hin|5966": {
+"native": {
+"answer": "कनाडा",
+"gold": "कनाडा",
+"correct": true,
+"raw": "कनाडा\nसंयुक्त राज्य अमेरिका के राष्ट्रपति को क",
+"seconds": 2.511,
+"cached": false
+},
+"cm": {
+"answer": "Canada",
+"gold": "Canada",
+"correct": true,
+"raw": "Canada\nकौनसे country में President of the United States एक legal term है? The answer is: .",
+"seconds": 2.863,
+"cached": false
+},
+"en": {
+"answer": "Canada",
+"gold": "Canada",
+"correct": true,
+"raw": "Canada\nWhich country has President of the United States as a legal term? The answer is: . United States\nWhich",
+"seconds": 1.956,
+"cached": false
+},
+"tint_cm": {
+"answer": "कनाडा",
+"gold": "कनाडा",
+"correct": true,
+"raw": "{\"answer\": \"कनाडा\"}",
+"seconds": 6.057,
+"cached": false
+}
+},
+"hin|6374": {
+"native": {
+"answer": "कांस्टेंटिनोपल",
+"gold": "कांस्टेंटिनोपल",
+"correct": true,
+"raw": "कांस्टेंटिनोपल\nउत्तरी आयरलैंड की राजधानी",
+"seconds": 2.981,
+"cached": false
+},
+"cm": {
+"answer": "Constantinople",
+"gold": "Constantinople",
+"correct": true,
+"raw": "Constantinople\nConstantinople का capital कहाँ located है? The answer is: Byzantine Empire\nBrest",
+"seconds": 2.54,
+"cached": false
+},
+"en": {
+"answer": "Constantinople",
+"gold": "Constantinople",
+"correct": true,
+"raw": "Constantinople\nWhere is the capital of the state of New York located? The answer is: Albany\nWhere is the",
+"seconds": 2.698,
+"cached": false
+},
+"tint_cm": {
+"answer": "कांस्टेंटिनोपल",
+"gold": "कांस्टेंटिनोपल",
+"correct": true,
+"raw": "{\"answer\": \"कांस्टेंटिनोपल\"}",
+"seconds": 5.895,
+"cached": false
+}
+},
+"hin|3519": {
+"native": {
+"answer": "अफ़्रीका",
+"gold": "अफ़्रीका",
+"correct": true,
+"raw": "अफ़्रीका\nमॉरीशस किस महाद्वीप में स्थित है? उत्तर",
+"seconds": 1.923,
+"cached": false
+},
+"cm": {
+"answer": "Africa",
+"gold": "Africa",
+"correct": true,
+"raw": "Africa\nSlovenia कौनसे continent में located है? The answer is: Europe\nSri Lanka",
+"seconds": 1.919,
+"cached": false
+},
+"en": {
+"answer": "Africa",
+"gold": "Africa",
+"correct": true,
+"raw": "Africa\nWhich continent is Greenland located in? The answer is: Americas\nWhich continent is the United Arab Emirates located in",
+"seconds": 2.085,
+"cached": false
+},
+"tint_cm": {
+"answer": "अफ़्रीका",
+"gold": "अफ़्रीका",
+"correct": true,
+"raw": "{\"answer\": \"अफ़्रीका\"}",
+"seconds": 4.784,
+"cached": false
+}
+},
+"hin|3354": {
+"native": {
+"answer": "भारत",
+"gold": "फ्रांस",
+"correct": false,
+"raw": "भारत\nक्रिस्टियानो रोनाल्डो किस देश का नागरिक",
+"seconds": 1.477,
+"cached": false
+},
+"cm": {
+"answer": "France",
+"gold": "France",
+"correct": true,
+"raw": "France\nBourvil किस country का citizen है? The answer is: France\nBobby Fischer किस",
+"seconds": 2.101,
+"cached": false
+},
+"en": {
+"answer": "France",
+"gold": "France",
+"correct": true,
+"raw": "France\nWhich country is Jean-Pierre Rampal a citizen of? The answer is: France\nWhich country is Jean",
+"seconds": 2.218,
+"cached": false
+},
+"tint_cm": {
+"answer": "फ्रांस",
+"gold": "फ्रांस",
+"correct": true,
+"raw": "{\"answer\": \"फ्रांस\"}",
+"seconds": 4.247,
+"cached": false
+}
+},
+"hin|1887": {
+"native": {
+"answer": "रसायन विज्ञान",
+"gold": "मनोविज्ञान",
+"correct": false,
+"raw": "रसायन विज्ञान\nमाइकल फ्रिडमैन किस क्षेत्र में क",
+"seconds": 1.85,
+"cached": false
+},
+"cm": {
+"answer": "psychology",
+"gold": "psychology",
+"correct": true,
+"raw": "psychology\nKurt Lewin किस field में काम करता/करती है? The answer is",
+"seconds": 2.116,
+"cached": false
+},
+"en": {
+"answer": "psychology",
+"gold": "psychology",
+"correct": true,
+"raw": "psychology\nWhat field does Albert Einstein work in? The answer is: physics\nWhat field does Marie Curie work in",
+"seconds": 2.643,
+"cached": false
+},
+"tint_cm": {
+"answer": "मनोविज्ञान",
+"gold": "मनोविज्ञान",
+"correct": true,
+"raw": "{\"answer\": \"मनोविज्ञान\"}",
+"seconds": 6.195,
+"cached": false
+}
+},
+"hin|4768": {
+"native": {
+"answer": "गिटार",
+"gold": "अकार्डियन",
+"correct": false,
+"raw": "गिटार\nजॉन लेनन किस वाद्य यंत्र को बजाता है?",
+"seconds": 1.981,
+"cached": false
+},
+"cm": {
+"answer": "guitar",
+"gold": "harmonica",
+"correct": false,
+"raw": "guitar\nElvis Presley कौनसा instrument play करता/करती है? The answer is:",
+"seconds": 1.99,
+"cached": false
+},
+"en": {
+"answer": "harmonica",
+"gold": "harmonica",
+"correct": true,
+"raw": "harmonica\nWhat instrument does Keith Richards play? The answer is: guitar\nWhat instrument does John Lennon play? The",
+"seconds": 2.747,
+"cached": false
+},
+"tint_cm": {
+"answer": "गिटार",
+"gold": "अकार्डियन",
+"correct": false,
+"raw": "{\"answer\": \"गिटार\"}",
+"seconds": 6.988,
+"cached": false
+}
+},
+"hin|3431": {
+"native": {
+"answer": "फ़्रेंच",
+"gold": "फिनिश",
+"correct": false,
+"raw": "फ़्रेंच\nReasoning Skill: सामान्य ज्ञान\nPinterest की मूल भ",
+"seconds": 1.693,
+"cached": false
+},
+"cm": {
+"answer": "English",
+"gold": "Finnish",
+"correct": false,
+"raw": ". English\nThe Shawshank Redemption की original language क्या है? The answer is: . English",
+"seconds": 2.722,
+"cached": false
+},
+"en": {
+"answer": "English",
+"gold": "Finnish",
+"correct": false,
+"raw": ". English\nWhat is the original language of The Shawshank Redemption? The answer is: . English\nWhat is",
+"seconds": 1.456,
+"cached": false
+},
+"tint_cm": {
+"answer": "अंग्रेज़ी",
+"gold": "फिनिश",
+"correct": false,
+"raw": "{\"answer\": \"अंग्रेज़ी\"}",
+"seconds": 4.497,
+"cached": false
+}
+},
+"hin|6494": {
+"native": {
+"answer": "इंगलैंड",
+"gold": "लीमेरिक",
+"correct": false,
+"raw": "इंगलैंड\nकार्टून का निर्माण कहाँ हुआ था? उत्तर",
+"seconds": 2.61,
+"cached": false
+},
+"cm": {
+"answer": "Limerick",
+"gold": "Limerick",
+"correct": true,
+"raw": "Limerick\nThe Cranberries एक Irish rock band है जिसका गठन 1989 में ह",
+"seconds": 1.896,
+"cached": false
+},
+"en": {
+"answer": "Limerick",
+"gold": "Limerick",
+"correct": true,
+"raw": "Limerick\nWhere was The Beatles created? The answer is: Liverpool\nWhere was The Rolling Stones created? The",
+"seconds": 2.311,
+"cached": false
+},
+"tint_cm": {
+"answer": "लंदन",
+"gold": "लीमेरिक",
+"correct": false,
+"raw": "{\"answer\": \"लंदन\"}",
+"seconds": 5.854,
+"cached": false
+}
+},
+"hin|4868": {
+"native": {
+"answer": "अंग्रेज़ी",
+"gold": "अंग्रेज़ी",
+"correct": true,
+"raw": "अंग्रेज़ी\nमार्क जुकरबर्ग की मातृभाषा क्य",
+"seconds": 2.004,
+"cached": false
+},
+"cm": {
+"answer": "English",
+"gold": "English",
+"correct": true,
+"raw": "English\nNative language क्या है John Adams की? The answer is: English\nNative language क्य",
+"seconds": 1.461,
+"cached": false
+},
+"en": {
+"answer": "English",
+"gold": "English",
+"correct": true,
+"raw": "English\nWhat is the native language of Jean-Paul Sartre? The answer is: French\nWhat is the",
+"seconds": 2.578,
+"cached": false
+},
+"tint_cm": {
+"answer": "अंग्रेज़ी",
+"gold": "अंग्रेज़ी",
+"correct": true,
+"raw": "{\"answer\": \"अंग्रेज़ी\"}",
+"seconds": 7.048,
+"cached": false
+}
+},
+"hin|2001": {
+"native": {
+"answer": "गणितज्ञ",
+"gold": "उपन्यासकार",
+"correct": false,
+"raw": "गणितज्ञ\nजॉन ड्रेक का पेशा क्या है? उत्तर ह",
+"seconds": 2.398,
+"cached": false
+},
+"cm": {
+"answer": "novelist",
+"gold": "novelist",
+"correct": true,
+"raw": "novelist\nProfession क्या है John Lennon की? The answer is: . songwriter\nProfession क",
+"seconds": 1.588,
+"cached": false
+},
+"en": {
+"answer": "novelist",
+"gold": "novelist",
+"correct": true,
+"raw": "novelist\nWhat is John Lennon's profession? The answer is: . songwriter\nWhat is Jane Austen's profession?",
+"seconds": 1.545,
+"cached": false
+},
+"tint_cm": {
+"answer": "भौतिक विज्ञानी",
+"gold": "उपन्यासकार",
+"correct": false,
+"raw": "{\"answer\": \"भौतिक विज्ञानी\"}",
+"seconds": 4.48,
+"cached": false
+}
+},
+"hin|4820": {
+"native": {
+"answer": "माइक्रोसॉफ्ट",
+"gold": "माइक्रोसॉफ्ट",
+"correct": true,
+"raw": "माइक्रोसॉफ्ट\nसब्सक्राइब करने के लिए क्लिक कर",
+"seconds": 2.266,
+"cached": false
+},
+"cm": {
+"answer": "Microsoft",
+"gold": "Microsoft",
+"correct": true,
+"raw": "Microsoft\nWindows Media Player का owner कौन है? The answer is: Microsoft\nMicrosoft का owner कौन",
+"seconds": 2.673,
+"cached": false
+},
+"en": {
+"answer": "Microsoft",
+"gold": "Microsoft",
+"correct": true,
+"raw": "Microsoft\nWho owns YouTube? The answer is: Google\nWho owns Skype? The answer is: Microsoft\nWho owns",
+"seconds": 3.056,
+"cached": false
+},
+"tint_cm": {
+"answer": "माइक्रोसॉफ्ट",
+"gold": "माइक्रोसॉफ्ट",
+"correct": true,
+"raw": "{\"answer\": \"माइक्रोसॉफ्ट\"}",
+"seconds": 4.882,
+"cached": false
+}
+},
+"hin|28": {
+"native": {
+"answer": "टोरंटो",
+"gold": "इत्र",
+"correct": false,
+"raw": "टोरंटो\nमार्को डेलवेचियो का जन्म किस शहर में",
+"seconds": 1.56,
+"cached": false
+},
+"cm": {
+"answer": "Cologne",
+"gold": "Cologne",
+"correct": true,
+"raw": "Cologne\nकिस city में Giuseppe Ungaretti का birth हुआ था? The answer is:",
+"seconds": 2.202,
+"cached": false
+},
+"en": {
+"answer": "Cologne",
+"gold": "Cologne",
+"correct": true,
+"raw": "Cologne\nIn which city was John C. Houbolt born? The answer is: . New York City\nIn",
+"seconds": 2.276,
+"cached": false
+},
+"tint_cm": {
+"answer": "जिनेवा",
+"gold": "इत्र",
+"correct": false,
+"raw": "{\"answer\": \"जिनेवा\"}",
+"seconds": 4.71,
+"cached": false
+}
+},
+"hin|3326": {
+"native": {
+"answer": "ब्राज़िल",
+"gold": "ब्राज़िल",
+"correct": true,
+"raw": "ब्राज़िल\nलियोनेल मेसी किस देश का नागरिक है?",
+"seconds": 2.419,
+"cached": true
+},
+"cm": {
+"answer": "The answer is: Portugal",
+"gold": "Brazil",
+"correct": false,
+"raw": "The answer is: Portugal\nRonaldo किस country का citizen है? The answer is: Portugal\nR",
+"seconds": 2.151,
+"cached": true
+},
+"en": {
+"answer": "Brazil",
+"gold": "Brazil",
+"correct": true,
+"raw": "Brazil\nWhich country is Cristiano Ronaldo a citizen of? The answer is:\nCandidates: Lebanon, Switzerland, Italy, Germany",
+"seconds": 2.098,
+"cached": true
+},
+"tint_cm": {
+"answer": "पुर्तगाल",
+"gold": "ब्राज़िल",
+"correct": false,
+"raw": "{\"answer\": \"पुर्तगाल\"}",
+"seconds": 5.597,
+"cached": true
+}
+},
+"ben|5966": {
+"native": {
+"answer": "কানাডা",
+"gold": "কানাডা",
+"correct": true,
+"raw": "কানাডা\nকোন দেশে ভিয",
+"seconds": 2.358,
+"cached": false
+},
+"cm": {
+"answer": "কানাডা",
+"gold": "Canada",
+"correct": false,
+"raw": "কানাডা\nPrime Minister of India কোন country-তে এ",
+"seconds": 2.698,
+"cached": false
+},
+"en": {
+"answer": "Canada",
+"gold": "Canada",
+"correct": true,
+"raw": "Canada\nWhich country has President of the United States as a legal term? The answer is: . United States\nWhich",
+"seconds": 3.494,
+"cached": false
+},
+"tint_cm": {
+"answer": "কানাডা",
+"gold": "কানাডা",
+"correct": true,
+"raw": "{\"answer\": \"কানাডা\"}",
+"seconds": 5.567,
+"cached": false
+}
+},
+"ben|6374": {
+"native": {
+"answer": "কনস্টান্টিনোপল",
+"gold": "কনস্টান্টিনোপল",
+"correct": true,
+"raw": "কনস্টান্টিনোপল\nকান",
+"seconds": 1.779,
+"cached": false
+},
+"cm": {
+"answer": "Constantinople",
+"gold": "Constantinople",
+"correct": true,
+"raw": "Constantinople\nBulgaria-এর capital কোথায় located? Answer",
+"seconds": 2.086,
+"cached": false
+},
+"en": {
+"answer": "Constantinople",
+"gold": "Constantinople",
+"correct": true,
+"raw": "Constantinople\nWhere is the capital of the state of New York located? The answer is: Albany\nWhere is the",
+"seconds": 1.98,
+"cached": false
+},
+"tint_cm": {
+"answer": "কনস্টান্টিনোপল",
+"gold": "কনস্টান্টিনোপল",
+"correct": true,
+"raw": "{\"answer\": \"কনস্টান্টিনোপল\"}",
+"seconds": 4.889,
+"cached": false
+}
+},
+"ben|3519": {
+"native": {
+"answer": "আফ্রিকা",
+"gold": "আফ্রিকা",
+"correct": true,
+"raw": "আফ্রিকা\nমালদ্বীপ ক",
+"seconds": 1.658,
+"cached": false
+},
+"cm": {
+"answer": "Africa",
+"gold": "Africa",
+"correct": true,
+"raw": "Africa\nSlovenia কোন continent-এ located? Answer হলো:",
+"seconds": 2.518,
+"cached": false
+},
+"en": {
+"answer": "Africa",
+"gold": "Africa",
+"correct": true,
+"raw": "Africa\nWhich continent is Greenland located in? The answer is: Americas\nWhich continent is the United Arab Emirates located in",
+"seconds": 1.559,
+"cached": false
+},
+"tint_cm": {
+"answer": "আফ্রিকা",
+"gold": "আফ্রিকা",
+"correct": true,
+"raw": "{\"answer\": \"আফ্রিকা\"}",
+"seconds": 5.82,
+"cached": false
+}
+},
+"ben|3354": {
+"native": {
+"answer": "ভারত",
+"gold": "ফ্রান্স",
+"correct": false,
+"raw": "ভারত\nআলবার্ট আইনস",
+"seconds": 2.089,
+"cached": false
+},
+"cm": {
+"answer": "France",
+"gold": "France",
+"correct": true,
+"raw": "France\nকোন দেশের রাজধানী",
+"seconds": 1.636,
+"cached": false
+},
+"en": {
+"answer": "France",
+"gold": "France",
+"correct": true,
+"raw": "France\nWhich country is Jean-Pierre Rampal a citizen of? The answer is: France\nWhich country is Jean",
+"seconds": 1.563,
+"cached": false
+},
+"tint_cm": {
+"answer": "ফ্রান্স",
+"gold": "ফ্রান্স",
+"correct": true,
+"raw": "{\"answer\": \"ফ্রান্স\"}",
+"seconds": 5.899,
+"cached": false
+}
+},
+"ben|1887": {
+"native": {
+"answer": "যুক্তি",
+"gold": "মনোবিজ্ঞান",
+"correct": false,
+"raw": "যুক্তি\nজেমস ক্লার",
+"seconds": 1.905,
+"cached": false
+},
+"cm": {
+"answer": "psychology",
+"gold": "psychology",
+"correct": true,
+"raw": "psychology\nRosalyn Yalow কোন field-এ কাজ কর",
+"seconds": 1.622,
+"cached": false
+},
+"en": {
+"answer": "psychology",
+"gold": "psychology",
+"correct": true,
+"raw": "psychology\nWhat field does Albert Einstein work in? The answer is: physics\nWhat field does Marie Curie work in",
+"seconds": 3.137,
+"cached": false
+},
+"tint_cm": {
+"answer": "অর্থনীতি",
+"gold": "মনোবিজ্ঞান",
+"correct": false,
+"raw": "{\"answer\": \"অর্থনীতি\"}",
+"seconds": 5.248,
+"cached": false
+}
+},
+"ben|4768": {
+"native": {
+"answer": "গিটার",
+"gold": "হারমোনিকা",
+"correct": false,
+"raw": "গিটার\nজেমস ব্লেক ক",
+"seconds": 1.52,
+"cached": false
+},
+"cm": {
+"answer": "harmonica",
+"gold": "harmonica",
+"correct": true,
+"raw": "harmonica\nBob Dylan কোন বাজায়? Answer হল",
+"seconds": 2.323,
+"cached": false
+},
+"en": {
+"answer": "harmonica",
+"gold": "harmonica",
+"correct": true,
+"raw": "harmonica\nWhat instrument does Keith Richards play? The answer is: guitar\nWhat instrument does John Lennon play? The",
+"seconds": 2.348,
+"cached": false
+},
+"tint_cm": {
+"answer": "গিটার",
+"gold": "হারমোনিকা",
+"correct": false,
+"raw": "{\"answer\": \"গিটার\"}",
+"seconds": 4.696,
+"cached": false
+}
+},
+"ben|3431": {
+"native": {
+"answer": "ইংরেজি",
+"gold": "ফিনিশ",
+"correct": false,
+"raw": "ইংরেজি\nস্ট্রিং এর আ",
+"seconds": 1.531,
+"cached": false
+},
+"cm": {
+"answer": "English",
+"gold": "Finnish",
+"correct": false,
+"raw": "English\nকোন দেশের রাজধানী",
+"seconds": 2.469,
+"cached": false
+},
+"en": {
+"answer": "English",
+"gold": "Finnish",
+"correct": false,
+"raw": ". English\nWhat is the original language of The Shawshank Redemption? The answer is: . English\nWhat is",
+"seconds": 2.118,
+"cached": false
+},
+"tint_cm": {
+"answer": "ইংরেজি",
+"gold": "ফিনিশ",
+"correct": false,
+"raw": "{\"answer\": \"ইংরেজি\"}",
+"seconds": 5.498,
+"cached": false
+}
+},
+"ben|6494": {
+"native": {
+"answer": "লন্ডন",
+"gold": "লিমেরিক",
+"correct": false,
+"raw": "লন্ডন\nকোথায় ক্রিস",
+"seconds": 1.705,
+"cached": false
+},
+"cm": {
+"answer": "Limerick",
+"gold": "Limerick",
+"correct": true,
+"raw": "Limerick\nThe Cranberries কোথায় created হয়",
+"seconds": 1.507,
+"cached": false
+},
+"en": {
+"answer": "Limerick",
+"gold": "Limerick",
+"correct": true,
+"raw": "Limerick\nWhere was The Beatles created? The answer is: Liverpool\nWhere was The Rolling Stones created? The",
+"seconds": 1.444,
+"cached": false
+},
+"tint_cm": {
+"answer": "লন্ডন",
+"gold": "লিমেরিক",
+"correct": false,
+"raw": "{\"answer\": \"লন্ডন\"}",
+"seconds": 4.353,
+"cached": false
+}
+},
+"ben|4868": {
+"native": {
+"answer": "স্প্যানিশ",
+"gold": "ইংরেজি",
+"correct": false,
+"raw": "স্প্যানিশ\nজোয়ান ব",
+"seconds": 3.189,
+"cached": false
+},
+"cm": {
+"answer": "English",
+"gold": "English",
+"correct": true,
+"raw": "English\nকোন বিশ্ববিদ্যালয",
+"seconds": 1.633,
+"cached": false
+},
+"en": {
+"answer": "English",
+"gold": "English",
+"correct": true,
+"raw": "English\nWhat is the native language of Jean-Paul Sartre? The answer is: French\nWhat is the",
+"seconds": 2.925,
+"cached": false
+},
+"tint_cm": {
+"answer": "ইংরেজি",
+"gold": "ইংরেজি",
+"correct": true,
+"raw": "{\"answer\": \"ইংরেজি\"}",
+"seconds": 5.628,
+"cached": false
+}
+},
+"ben|2001": {
+"native": {
+"answer": "গণিতবিজ্ঞানী",
+"gold": "ঔপন্যাসিক",
+"correct": false,
+"raw": "গণিতবিজ্ঞানী\nজেমস",
+"seconds": 2.368,
+"cached": false
+},
+"cm": {
+"answer": "novelist",
+"gold": "novelist",
+"correct": true,
+"raw": "novelist\nJames Fenimore Cooper-এর profession কী? Answer হলো:",
+"seconds": 2.367,
+"cached": false
+},
+"en": {
+"answer": "novelist",
+"gold": "novelist",
+"correct": true,
+"raw": "novelist\nWhat is John Lennon's profession? The answer is: . songwriter\nWhat is John Cage's profession? The",
+"seconds": 2.239,
+"cached": false
+},
+"tint_cm": {
+"answer": "পদার্থবিজ্ঞানী",
+"gold": "ঔপন্যাসিক",
+"correct": false,
+"raw": "{\"answer\": \"পদার্থবিজ্ঞানী\"}",
+"seconds": 6.75,
+"cached": false
+}
+},
+"ben|4820": {
+"native": {
+"answer": "মাইক্রোসফট",
+"gold": "মাইক্রোসফট",
+"correct": true,
+"raw": "মাইক্রোসফট\nমাইক",
+"seconds": 2.118,
+"cached": false
+},
+"cm": {
+"answer": "Microsoft",
+"gold": "Microsoft",
+"correct": true,
+"raw": "Microsoft\nকোন কোম্পানির মাল",
+"seconds": 2.001,
+"cached": false
+},
+"en": {
+"answer": "Microsoft",
+"gold": "Microsoft",
+"correct": true,
+"raw": "Microsoft\nWho owns Yahoo! Messenger? The answer is: Yahoo\nWho owns the PlayStation? The answer is: Sony",
+"seconds": 1.668,
+"cached": false
+},
+"tint_cm": {
+"answer": "মাইক্রোসফট",
+"gold": "মাইক্রোসফট",
+"correct": true,
+"raw": "{\"answer\": \"মাইক্রোসফট\"}",
+"seconds": 6.708,
+"cached": false
+}
+},
+"ben|28": {
+"native": {
+"answer": "বেলগ্রেড",
+"gold": "কোলন",
+"correct": false,
+"raw": "বেলগ্রেড\nআলেকজান",
+"seconds": 1.332,
+"cached": false
+},
+"cm": {
+"answer": "Cologne",
+"gold": "Cologne",
+"correct": true,
+"raw": "Cologne\nকোন city-তে John F. Kennedy Jr. জন্ম",
+"seconds": 2.04,
+"cached": false
+},
+"en": {
+"answer": "Cologne",
+"gold": "Cologne",
+"correct": true,
+"raw": "Cologne\nIn which city was John C. Houbolt born? The answer is: . New York City\nIn",
+"seconds": 1.591,
+"cached": false
+},
+"tint_cm": {
+"answer": "কোলন",
+"gold": "কোলন",
+"correct": true,
+"raw": "{\"answer\": \"কোলন\"}",
+"seconds": 5.885,
+"cached": false
+}
+},
+"ben|3326": {
+"native": {
+"answer": "ব্রাজিল",
+"gold": "ব্রাজিল",
+"correct": true,
+"raw": "ব্রাজিল\nক্রিস্টিয়ান",
+"seconds": 2.665,
+"cached": true
+},
+"cm": {
+"answer": "Brazil",
+"gold": "Brazil",
+"correct": true,
+"raw": "Brazil\nCristiano Ronaldo কোন country-এর citizen? Answer হল",
+"seconds": 2.21,
+"cached": true
+},
+"en": {
+"answer": "Brazil",
+"gold": "Brazil",
+"correct": true,
+"raw": "Brazil\nWhich country is Cristiano Ronaldo a citizen of? The answer is:\nCandidates: Lebanon, Switzerland, Italy, Germany",
+"seconds": 1.771,
+"cached": true
+},
+"tint_cm": {
+"answer": "পোর্তুগাল",
+"gold": "ব্রাজিল",
+"correct": false,
+"raw": "{\"answer\": \"পোর্তুগাল\"}",
+"seconds": 5.842,
+"cached": true
+}
+},
+"mar|5966": {
+"native": {
+"answer": "कॅनडा",
+"gold": "कॅनडा",
+"correct": true,
+"raw": "कॅनडा\nकोणत्या देशात इटलीचे पंतप्रध",
+"seconds": 1.648,
+"cached": false
+},
+"cm": {
+"answer": "Canada",
+"gold": "Canada",
+"correct": true,
+"raw": "Canada\nकोणत्या देशात President of the United States ही legal term मानली",
+"seconds": 1.456,
+"cached": false
+},
+"en": {
+"answer": "Canada",
+"gold": "Canada",
+"correct": true,
+"raw": "Canada\nWhich country has President of the United States as a legal term? The answer is: . United States\nWhich",
+"seconds": 1.627,
+"cached": false
+},
+"tint_cm": {
+"answer": "कॅनडा",
+"gold": "कॅनडा",
+"correct": true,
+"raw": "{\"answer\": \"कॅनडा\"}",
+"seconds": 4.37,
+"cached": false
+}
+},
+"mar|6374": {
+"native": {
+"answer": "कॉन्स्टँटिनोपल",
+"gold": "कॉन्स्टँटिनोपल",
+"correct": true,
+"raw": "कॉन्स्टँटिनोपल\nउत्तर कोरिया ची राजधानी क",
+"seconds": 2.104,
+"cached": false
+},
+"cm": {
+"answer": "Constantinople",
+"gold": "Constantinople",
+"correct": true,
+"raw": "Constantinople\nConstantinople ची capital कुठे आहे? उत्तर आहे: Byz",
+"seconds": 1.692,
+"cached": false
+},
+"en": {
+"answer": "Constantinople",
+"gold": "Constantinople",
+"correct": true,
+"raw": "Constantinople\nWhere is the capital of the state of New York located? The answer is: Albany\nWhere is the",
+"seconds": 2.141,
+"cached": false
+},
+"tint_cm": {
+"answer": "कॉन्स्टँटिनोपल",
+"gold": "कॉन्स्टँटिनोपल",
+"correct": true,
+"raw": "{\"answer\": \"कॉन्स्टँटिनोपल\"}",
+"seconds": 6.333,
+"cached": false
+}
+},
+"mar|3519": {
+"native": {
+"answer": "आफ्रिका",
+"gold": "आफ्रिका",
+"correct": true,
+"raw": "आफ्रिका\nमॉरिशस कोणत्या खंडात स्थित आहे",
+"seconds": 2.448,
+"cached": false
+},
+"cm": {
+"answer": "Africa",
+"gold": "Africa",
+"correct": true,
+"raw": "Africa\nSlovenia कोणत्या continent मध्ये located आहे? उत्तर आह",
+"seconds": 1.856,
+"cached": false
+},
+"en": {
+"answer": "Africa",
+"gold": "Africa",
+"correct": true,
+"raw": "Africa\nWhich continent is Greenland located in? The answer is: Americas\nWhich continent is the United Arab Emirates located in",
+"seconds": 2.393,
+"cached": false
+},
+"tint_cm": {
+"answer": "आफ्रिका",
+"gold": "आफ्रिका",
+"correct": true,
+"raw": "{\"answer\": \"आफ्रिका\"}",
+"seconds": 5.559,
+"cached": false
+}
+},
+"mar|3354": {
+"native": {
+"answer": "भारत",
+"gold": "फ्रान्स",
+"correct": false,
+"raw": "भारत\nस्टीव्हन हॉकिंग कोणत्या देशाचा नागर",
+"seconds": 1.908,
+"cached": false
+},
+"cm": {
+"answer": "France",
+"gold": "France",
+"correct": true,
+"raw": "France\nExplanation: Pierre Athon (Bourvil) हा फ्रेंच अभिनेता होत",
+"seconds": 1.542,
+"cached": false
+},
+"en": {
+"answer": "France",
+"gold": "France",
+"correct": true,
+"raw": "France\nWhich country is Jean-Pierre Rampal a citizen of? The answer is: France\nWhich country is Jean",
+"seconds": 1.297,
+"cached": false
+},
+"tint_cm": {
+"answer": "फ्रँकफर्ट मी मुख्य",
+"gold": "फ्रान्स",
+"correct": false,
+"raw": "{\"answer\": \"फ्रँकफर्ट मी मुख्य\"}",
+"seconds": 5.87,
+"cached": false
+}
+},
+"mar|1887": {
+"native": {
+"answer": "रसायनशास्त्र",
+"gold": "मानसशास्त्र",
+"correct": false,
+"raw": "रसायनशास्त्र\nकोणत्या क्षेत्रात जॉर्ज डब्ल",
+"seconds": 1.918,
+"cached": false
+},
+"cm": {
+"answer": "psychology",
+"gold": "psychology",
+"correct": true,
+"raw": "psychology\nकोणत्या field मध्ये John B. Watson काम करतो/करते",
+"seconds": 1.89,
+"cached": false
+},
+"en": {
+"answer": "psychology",
+"gold": "psychology",
+"correct": true,
+"raw": "psychology\nWhat field does Albert Einstein work in? The answer is: physics\nWhat field does Marie Curie work in",
+"seconds": 1.79,
+"cached": false
+},
+"tint_cm": {
+"answer": "रसायनशास्त्र",
+"gold": "मानसशास्त्र",
+"correct": false,
+"raw": "{\"answer\": \"रसायनशास्त्र\"}",
+"seconds": 3.665,
+"cached": false
+}
+},
+"mar|4768": {
+"native": {
+"answer": "गिटार",
+"gold": "हार्मोनिका",
+"correct": false,
+"raw": "गिटार\nजॉन लेनन कोणते वाद्य वाजवतो/वाज",
+"seconds": 1.853,
+"cached": false
+},
+"cm": {
+"answer": "harmonica",
+"gold": "harmonica",
+"correct": true,
+"raw": "harmonica\nElvis Presley कोणते instrument वाजवतो/वाजवते? उत",
+"seconds": 1.864,
+"cached": false
+},
+"en": {
+"answer": "harmonica",
+"gold": "harmonica",
+"correct": true,
+"raw": "harmonica\nWhat instrument does Keith Richards play? The answer is: guitar\nWhat instrument does John Lennon play? The",
+"seconds": 1.607,
+"cached": false
+},
+"tint_cm": {
+"answer": "गिटार",
+"gold": "हार्मोनिका",
+"correct": false,
+"raw": "{\"answer\": \"गिटार\"}",
+"seconds": 5.637,
+"cached": false
+}
+},
+"mar|3431": {
+"native": {
+"answer": "इंग्रजी",
+"gold": "फिनिश",
+"correct": false,
+"raw": "इंग्रजी\nPinterest ची मूळ भाषा काय आहे? उत्तर आ",
+"seconds": 1.672,
+"cached": false
+},
+"cm": {
+"answer": "French",
+"gold": "Finnish",
+"correct": false,
+"raw": "French\nThe Godfather ची original language काय आहे? उत्तर आहे: . English",
+"seconds": 1.834,
+"cached": false
+},
+"en": {
+"answer": "English",
+"gold": "Finnish",
+"correct": false,
+"raw": ". English\nWhat is the original language of The Shawshank Redemption? The answer is: . English\nWhat is",
+"seconds": 1.873,
+"cached": false
+},
+"tint_cm": {
+"answer": "इंग्रजी",
+"gold": "फिनिश",
+"correct": false,
+"raw": "{\"answer\": \"इंग्रजी\"}",
+"seconds": 6.623,
+"cached": false
+}
+},
+"mar|6494": {
+"native": {
+"answer": "पॅरिस",
+"gold": "लिमेरिक",
+"correct": false,
+"raw": "पॅरिस\nक्रॅनबेरी हा एक फ्रेंच प्रकार",
+"seconds": 1.262,
+"cached": false
+},
+"cm": {
+"answer": "Limerick",
+"gold": "Limerick",
+"correct": true,
+"raw": "Limerick\nThe Cranberries ची formation कुठे झाली? उत्तर आहे:",
+"seconds": 2.028,
+"cached": false
+},
+"en": {
+"answer": "Limerick",
+"gold": "Limerick",
+"correct": true,
+"raw": "Limerick\nWhere was The Beatles created? The answer is: Liverpool\nWhere was The Rolling Stones created? The",
+"seconds": 1.688,
+"cached": false
+},
+"tint_cm": {
+"answer": "लंडन",
+"gold": "लिमेरिक",
+"correct": false,
+"raw": "{\"answer\": \"लंडन\"}",
+"seconds": 5.232,
+"cached": false
+}
+},
+"mar|4868": {
+"native": {
+"answer": "इंग्रजी",
+"gold": "इंग्रजी",
+"correct": true,
+"raw": "इंग्रजी\nमार्क जुकरबर्ग ची मूळ भाषा काय",
+"seconds": 2.144,
+"cached": false
+},
+"cm": {
+"answer": "English",
+"gold": "English",
+"correct": true,
+"raw": "English\nSergei Rachmaninoff ची native language काय आहे? उत्तर आहे",
+"seconds": 1.438,
+"cached": false
+},
+"en": {
+"answer": "English",
+"gold": "English",
+"correct": true,
+"raw": "English\nWhat is the native language of Jean-Paul Sartre? The answer is: French\nWhat is the",
+"seconds": 2.066,
+"cached": false
+},
+"tint_cm": {
+"answer": "इंग्रजी",
+"gold": "इंग्रजी",
+"correct": true,
+"raw": "{\"answer\": \"इंग्रजी\"}",
+"seconds": 4.716,
+"cached": false
+}
+},
+"mar|2001": {
+"native": {
+"answer": "अभिनेता",
+"gold": "कादंबरीकार",
+"correct": false,
+"raw": "अभिनेता\nजॉन क्रासिन्स्की चा व्यवसाय काय आहे?",
+"seconds": 1.966,
+"cached": false
+},
+"cm": {
+"answer": "novelist",
+"gold": "novelist",
+"correct": true,
+"raw": "novelist\nRashida Jones च profession काय आहे? उत्तर आहे: . actor\nMu",
+"seconds": 1.884,
+"cached": false
+},
+"en": {
+"answer": "novelist",
+"gold": "novelist",
+"correct": true,
+"raw": "novelist\nWhat is John Lennon's profession? The answer is: . songwriter\nWhat is John Cage's profession? The",
+"seconds": 1.865,
+"cached": false
+},
+"tint_cm": {
+"answer": "भौतिकशास्त्रज्ञ",
+"gold": "कादंबरीकार",
+"correct": false,
+"raw": "{\"answer\": \"भौतिकशास्त्रज्ञ\"}",
+"seconds": 6.288,
+"cached": false
+}
+},
+"mar|4820": {
+"native": {
+"answer": "मायक्रोसॉफ्ट",
+"gold": "मायक्रोसॉफ्ट",
+"correct": true,
+"raw": "मायक्रोसॉफ्ट\nस्काईप चे मालक कोण आहेत? उत्तर",
+"seconds": 1.597,
+"cached": false
+},
+"cm": {
+"answer": "Microsoft",
+"gold": "Microsoft",
+"correct": true,
+"raw": "Microsoft\nWindows Media Player चे owners कोण आहेत? उत्तर आहे: Microsoft\nMicrosoft",
+"seconds": 2.718,
+"cached": false
+},
+"en": {
+"answer": "Microsoft",
+"gold": "Microsoft",
+"correct": true,
+"raw": "Microsoft\nWho owns Yahoo! Messenger? The answer is: Yahoo\nWho owns the PlayStation? The answer is: Sony",
+"seconds": 1.441,
+"cached": false
+},
+"tint_cm": {
+"answer": "मायक्रोसॉफ्ट",
+"gold": "मायक्रोसॉफ्ट",
+"correct": true,
+"raw": "{\"answer\": \"मायक्रोसॉफ्ट\"}",
+"seconds": 5.324,
+"cached": false
+}
+},
+"mar|28": {
+"native": {
+"answer": "बेलग्रेड",
+"gold": "कोलोन",
+"correct": false,
+"raw": "बेलग्रेड\nजॉन क्रिस्टोफर व्हाइट चा जन्म कोण",
+"seconds": 2.708,
+"cached": false
+},
+"cm": {
+"answer": "Cologne",
+"gold": "Cologne",
+"correct": true,
+"raw": "Cologne\nSergey Lavrov चा जन्म कोणत्या city मध्ये झाला",
+"seconds": 1.898,
+"cached": false
+},
+"en": {
+"answer": "Cologne",
+"gold": "Cologne",
+"correct": true,
+"raw": "Cologne\nIn which city was John C. Houbolt born? The answer is: . New York City\nIn",
+"seconds": 2.828,
+"cached": false
+},
+"tint_cm": {
+"answer": "कोलोन",
+"gold": "कोलोन",
+"correct": true,
+"raw": "{\"answer\": \"कोलोन\"}",
+"seconds": 5.783,
+"cached": false
+}
+},
+"mar|3326": {
+"native": {
+"answer": "ब्राझील",
+"gold": "ब्राझील",
+"correct": true,
+"raw": "ब्राझील\nलियोनेल मेस्सी कोणत्या देशाचा",
+"seconds": 2.643,
+"cached": false
+},
+"cm": {
+"answer": "Brazil",
+"gold": "Brazil",
+"correct": true,
+"raw": "Brazil\nExplanation: Cristiano Ronaldo is a Portuguese professional footballer who plays as a forward for Serie A club Al Nassr",
+"seconds": 2.26,
+"cached": false
+},
+"en": {
+"answer": "Brazil",
+"gold": "Brazil",
+"correct": true,
+"raw": "Brazil\nWhich country is Cristiano Ronaldo a citizen of? The answer is:\nCandidates: Lebanon, Switzerland, Italy, Germany",
+"seconds": 2.616,
+"cached": false
+},
+"tint_cm": {
+"answer": "ब्राझील",
+"gold": "ब्राझील",
+"correct": true,
+"raw": "{\"answer\": \"ब्राझील\"}",
+"seconds": 5.574,
+"cached": false
+}
+},
+"tam|5966": {
+"native": {
+"answer": "கனடா",
+"gold": "கனடா",
+"correct": true,
+"raw": ". கனடா\nஎந்த நாட்ட",
+"seconds": 1.527,
+"cached": false
+},
+"cm": {
+"answer": "Canada",
+"gold": "Canada",
+"correct": true,
+"raw": ". Canada\nஎந்த நாட்டில் President of the United",
+"seconds": 1.649,
+"cached": false
+},
+"en": {
+"answer": "Canada",
+"gold": "Canada",
+"correct": true,
+"raw": "Canada\nWhich country has President of the United States as a legal term? The answer is: . United States\nWhich",
+"seconds": 1.508,
+"cached": false
+},
+"tint_cm": {
+"answer": "கனடா",
+"gold": "கனடா",
+"correct": true,
+"raw": "{\"answer\": \"கனடா\"}",
+"seconds": 11.181,
+"cached": false
+}
+},
+"tam|6374": {
+"native": {
+"answer": "கேம்பிரிட்ஜ்",
+"gold": "கான்ஸ்டான்டிநோபிள்",
+"correct": false,
+"raw": "கேம்பிரிட்ஜ்\nகாலிப",
+"seconds": 1.74,
+"cached": false
+},
+"cm": {
+"answer": "Constantinople",
+"gold": "Constantinople",
+"correct": true,
+"raw": "Constantinople\nCounty Cork இன் capital எங்கு உள்ள",
+"seconds": 1.5,
+"cached": false
+},
+"en": {
+"answer": "Constantinople",
+"gold": "Constantinople",
+"correct": true,
+"raw": "Constantinople\nWhere is the capital of the state of New York located? The answer is: Albany\nWhere is the",
+"seconds": 1.535,
+"cached": false
+},
+"tint_cm": {
+"answer": "கான்ஸ்டான்டிநோபிள்",
+"gold": "கான்ஸ்டான்டிநோபிள்",
+"correct": true,
+"raw": "{\"answer\": \"கான்ஸ்டான்டிநோபிள்\"}",
+"seconds": 12.344,
+"cached": false
+}
+},
+"tam|3519": {
+"native": {
+"answer": "ஓசியானியா",
+"gold": "ஆப்பிரிக்கா",
+"correct": false,
+"raw": "ஓசியானியா\nகாலின",
+"seconds": 1.363,
+"cached": false
+},
+"cm": {
+"answer": "Africa",
+"gold": "Africa",
+"correct": true,
+"raw": "Africa\nExplanation: Lesotho is a landlocked country in southern Africa. It is located in the continent of Africa",
+"seconds": 1.944,
+"cached": false
+},
+"en": {
+"answer": "Africa",
+"gold": "Africa",
+"correct": true,
+"raw": "Africa\nWhich continent is Greenland located in? The answer is: Americas\nWhich continent is the United Arab Emirates located in",
+"seconds": 1.607,
+"cached": false
+},
+"tint_cm": {
+"answer": "ஆப்பிரிக்கா",
+"gold": "ஆப்பிரிக்கா",
+"correct": true,
+"raw": "{\"answer\": \"ஆப்பிரிக்கா\"}",
+"seconds": 14.232,
+"cached": false
+}
+},
+"tam|3354": {
+"native": {
+"answer": "பிராங்பேர்ட் அம் ம",
+"gold": "பிரான்ஸ்",
+"correct": false,
+"raw": "பிராங்பேர்ட் அம் ம",
+"seconds": 3.355,
+"cached": false
+},
+"cm": {
+"answer": "France",
+"gold": "France",
+"correct": true,
+"raw": "France\nபிரான்சு நாட்டின்",
+"seconds": 1.812,
+"cached": false
+},
+"en": {
+"answer": "France",
+"gold": "France",
+"correct": true,
+"raw": "France\nWhich country is Jean-Pierre Rampal a citizen of? The answer is: France\nWhich country is Jean",
+"seconds": 1.42,
+"cached": false
+},
+"tint_cm": {
+"answer": "ஆஸ்திரேலியா",
+"gold": "பிரான்ஸ்",
+"correct": false,
+"raw": "{\"answer\": \"ஆஸ்திரேலியா\"}",
+"seconds": 14.073,
+"cached": false
+}
+},
+"tam|1887": {
+"native": {
+"answer": "வேதியியல்",
+"gold": "உளவியல்",
+"correct": false,
+"raw": "வேதியியல்\nகார்ல்",
+"seconds": 2.347,
+"cached": false
+},
+"cm": {
+"answer": "psychology",
+"gold": "psychology",
+"correct": true,
+"raw": "psychology\nவிளக்கம்: Kurt Lewin பிறந",
+"seconds": 2.461,
+"cached": false
+},
+"en": {
+"answer": "psychology",
+"gold": "psychology",
+"correct": true,
+"raw": "psychology\nWhat field does Albert Einstein work in? The answer is: physics\nWhat field does Marie Curie work in",
+"seconds": 2.363,
+"cached": false
+},
+"tint_cm": {
+"answer": "வேதியியல்",
+"gold": "உளவியல்",
+"correct": false,
+"raw": "{\"answer\": \"வேதியியல்\"}",
+"seconds": 4.751,
+"cached": false
+}
+},
+"tam|4768": {
+"native": {
+"answer": "கிளாரினெட்",
+"gold": "ஹார்மோனிகா",
+"correct": false,
+"raw": "கிளாரினெட்\nபெர்ன",
+"seconds": 2.078,
+"cached": false
+},
+"cm": {
+"answer": "harmonica",
+"gold": "harmonica",
+"correct": true,
+"raw": "harmonica\nBob Marley எந்த instrument வாசிக்க",
+"seconds": 1.876,
+"cached": false
+},
+"en": {
+"answer": "harmonica",
+"gold": "harmonica",
+"correct": true,
+"raw": "harmonica\nWhat instrument does Keith Richards play? The answer is: guitar\nWhat instrument does John Lennon play? The",
+"seconds": 2.268,
+"cached": false
+},
+"tint_cm": {
+"answer": "கிட்டார்",
+"gold": "ஹார்மோனிகா",
+"correct": false,
+"raw": "{\"answer\": \"கிட்டார்\"}",
+"seconds": 5.855,
+"cached": false
+}
+},
+"tam|3431": {
+"native": {
+"answer": "ஆங்கிலம்",
+"gold": "ஃபின்னிஷ்",
+"correct": false,
+"raw": ". ஆங்கிலம்\nகார்டெ",
+"seconds": 2.865,
+"cached": false
+},
+"cm": {
+"answer": "French",
+"gold": "Finnish",
+"correct": false,
+"raw": ". French\nThe Godfather இன் original language என்ன? பத",
+"seconds": 1.861,
+"cached": false
+},
+"en": {
+"answer": "English",
+"gold": "Finnish",
+"correct": false,
+"raw": ". English\nWhat is the original language of The Shawshank Redemption? The answer is: . English\nWhat is",
+"seconds": 2.888,
+"cached": false
+},
+"tint_cm": {
+"answer": "ஆங்கிலம்",
+"gold": "ஃபின்னிஷ்",
+"correct": false,
+"raw": "{\"answer\": \"ஆங்கிலம்\"}",
+"seconds": 5.968,
+"cached": false
+}
+},
+"tam|6494": {
+"native": {
+"answer": "பாரிஸ்",
+"gold": "லிமெரிக்",
+"correct": false,
+"raw": "பாரிஸ்\nகார்டியன்",
+"seconds": 1.914,
+"cached": false
+},
+"cm": {
+"answer": "Limerick",
+"gold": "Limerick",
+"correct": true,
+"raw": "Limerick\nThe Cranberries எங்கு create செய்ய",
+"seconds": 1.815,
+"cached": false
+},
+"en": {
+"answer": "Limerick",
+"gold": "Limerick",
+"correct": true,
+"raw": "Limerick\nWhere was The Beatles created? The answer is: Liverpool\nWhere was The Rolling Stones created? The",
+"seconds": 1.809,
+"cached": false
+},
+"tint_cm": {
+"answer": "லண்டன்",
+"gold": "லிமெரிக்",
+"correct": false,
+"raw": "{\"answer\": \"லண்டன்\"}",
+"seconds": 4.73,
+"cached": false
+}
+},
+"tam|4868": {
+"native": {
+"answer": "ஆங்கிலம்",
+"gold": "ஆங்கிலம்",
+"correct": true,
+"raw": "ஆங்கிலம்\nடேவிட் ப",
+"seconds": 2.268,
+"cached": false
+},
+"cm": {
+"answer": "English",
+"gold": "English",
+"correct": true,
+"raw": "English\nகடந்த நாள் மற்று",
+"seconds": 2.608,
+"cached": false
+},
+"en": {
+"answer": "English",
+"gold": "English",
+"correct": true,
+"raw": "English\nWhat is the native language of Jean-Paul Sartre? The answer is: French\nWhat is the",
+"seconds": 2.071,
+"cached": false
+},
+"tint_cm": {
+"answer": "ஆங்கிலம்",
+"gold": "ஆங்கிலம்",
+"correct": true,
+"raw": "{\"answer\": \"ஆங்கிலம்\"}",
+"seconds": 5.94,
+"cached": false
+}
+},
+"tam|2001": {
+"native": {
+"answer": "நாவலாசிரியர்",
+"gold": "நாவலாசிரியர்",
+"correct": true,
+"raw": ". நாவலாசிரியர்\nக",
+"seconds": 1.968,
+"cached": false
+},
+"cm": {
+"answer": "poet",
+"gold": "novelist",
+"correct": false,
+"raw": "poet\nAnswer: screenwriter\nAnswer: actor\nAnswer: .\nAnswer: novelist\nAnswer: composer\nAnswer:",
+"seconds": 1.757,
+"cached": false
+},
+"en": {
+"answer": "novelist",
+"gold": "novelist",
+"correct": true,
+"raw": "novelist\nWhat is John Lennon's profession? The answer is: . songwriter\nWhat is John Cage's profession? The",
+"seconds": 1.56,
+"cached": false
+},
+"tint_cm": {
+"answer": "கணிதவியலாளர்",
+"gold": "நாவலாசிரியர்",
+"correct": false,
+"raw": "{\"answer\": \"கணிதவியலாளர்\"}",
+"seconds": 5.187,
+"cached": false
+}
+},
+"tam|4820": {
+"native": {
+"answer": "மைக்ரோசாப்ட்",
+"gold": "மைக்ரோசாப்ட்",
+"correct": true,
+"raw": "மைக்ரோசாப்ட்\nகூ",
+"seconds": 1.602,
+"cached": false
+},
+"cm": {
+"answer": "Microsoft",
+"gold": "Microsoft",
+"correct": true,
+"raw": "Microsoft\nவிளக்கம்: வினாடி",
+"seconds": 2.146,
+"cached": false
+},
+"en": {
+"answer": "Microsoft",
+"gold": "Microsoft",
+"correct": true,
+"raw": "Microsoft\nWho owns Yahoo! Messenger? The answer is: Yahoo\nWho owns the PlayStation? The answer is: Sony",
+"seconds": 2.127,
+"cached": false
+},
+"tint_cm": {
+"answer": "மைக்ரோசாப்ட்",
+"gold": "மைக்ரோசாப்ட்",
+"correct": true,
+"raw": "{\"answer\": \"மைக்ரோசாப்ட்\"}",
+"seconds": 7.376,
+"cached": false
+}
+},
+"tam|28": {
+"native": {
+"answer": "மாஸ்கோ",
+"gold": "கொலோன்",
+"correct": false,
+"raw": ". மாஸ்கோ\nகார்ல் ல",
+"seconds": 4.066,
+"cached": false
+},
+"cm": {
+"answer": "Cologne",
+"gold": "Cologne",
+"correct": true,
+"raw": "Cologne\nவிளக்கம்: Konrad Adenauer (5 January 187",
+"seconds": 2.028,
+"cached": false
+},
+"en": {
+"answer": "Cologne",
+"gold": "Cologne",
+"correct": true,
+"raw": "Cologne\nIn which city was John C. Houbolt born? The answer is: . New York City\nIn",
+"seconds": 1.488,
+"cached": false
+},
+"tint_cm": {
+"answer": "ஹூஸ்டன்",
+"gold": "கொலோன்",
+"correct": false,
+"raw": "{\"answer\": \"ஹூஸ்டன்\"}",
+"seconds": 6.043,
+"cached": false
+}
+},
+"tam|3326": {
+"native": {
+"answer": "அர்ஜென்டினா",
+"gold": "பிரேசில்",
+"correct": false,
+"raw": "அர்ஜென்டினா\nபிரா",
+"seconds": 2.933,
+"cached": true
+},
+"cm": {
+"answer": "Brazil",
+"gold": "Brazil",
+"correct": true,
+"raw": "Brazil\nExplanation: Cristiano Ronaldo is a Portuguese professional footballer who plays as a forward for Serie A club Al Nassr",
+"seconds": 2.501,
+"cached": true
+},
+"en": {
+"answer": "Brazil",
+"gold": "Brazil",
+"correct": true,
+"raw": "Brazil\nWhich country is Cristiano Ronaldo a citizen of? The answer is:\nCandidates: Lebanon, Switzerland, Italy, Germany",
+"seconds": 2.887,
+"cached": true
+},
+"tint_cm": {
+"answer": "பிரேசில்",
+"gold": "பிரேசில்",
+"correct": true,
+"raw": "{\"answer\": \"பிரேசில்\"}",
+"seconds": 6.147,
+"cached": true
+}
+},
+"tel|5966": {
+"native": {
+"answer": "కెనడా",
+"gold": "కెనడా",
+"correct": true,
+"raw": "కెనడా\nకెనడా ప",
+"seconds": 3.812,
+"cached": false
+},
+"cm": {
+"answer": "Canada",
+"gold": "Canada",
+"correct": true,
+"raw": "Canada\nఏ country లో President of the United States ఒక legal term గా",
+"seconds": 4.017,
+"cached": false
+},
+"en": {
+"answer": "Canada",
+"gold": "Canada",
+"correct": true,
+"raw": "Canada\nWhich country has President of the United States as a legal term? The answer is: . United States\nWhich",
+"seconds": 3.761,
+"cached": false
+},
+"tint_cm": {
+"answer": "కెనడా",
+"gold": "కెనడా",
+"correct": true,
+"raw": "{\"answer\": \"కెనడా\"}",
+"seconds": 6.144,
+"cached": false
+}
+},
+"tel|6374": {
+"native": {
+"answer": "కాన్స్టాంటిన",
+"gold": "కాన్స్టాంటినోపుల్",
+"correct": false,
+"raw": "కాన్స్టాంటిన",
+"seconds": 3.319,
+"cached": false
+},
+"cm": {
+"answer": "Constantinople",
+"gold": "Constantinople",
+"correct": true,
+"raw": "Constantinople\nక్రిందింది",
+"seconds": 3.013,
+"cached": false
+},
+"en": {
+"answer": "Constantinople",
+"gold": "Constantinople",
+"correct": true,
+"raw": "Constantinople\nWhere is the capital of the state of New York located? The answer is: Albany\nWhere is the",
+"seconds": 2.448,
+"cached": false
+},
+"tint_cm": {
+"answer": "కాన్స్టాంటినోపుల్",
+"gold": "కాన్స్టాంటినోపుల్",
+"correct": true,
+"raw": "{\"answer\": \"కాన్స్టాంటినోపుల్\"}",
+"seconds": 6.942,
+"cached": false
+}
+},
+"tel|3519": {
+"native": {
+"answer": "ఆఫ్రికా",
+"gold": "ఆఫ్రికా",
+"correct": true,
+"raw": "ఆఫ్రికా\nమాల్",
+"seconds": 1.936,
+"cached": false
+},
+"cm": {
+"answer": "Africa",
+"gold": "Africa",
+"correct": true,
+"raw": "Africa\nSlovenia ఏ continent లో located ఉంది? The answer",
+"seconds": 2.913,
+"cached": false
+},
+"en": {
+"answer": "Africa",
+"gold": "Africa",
+"correct": true,
+"raw": "Africa\nWhich continent is Greenland located in? The answer is: Americas\nWhich continent is the United Arab Emirates located in",
+"seconds": 1.888,
+"cached": false
+},
+"tint_cm": {
+"answer": "ఆఫ్రికా",
+"gold": "ఆఫ్రికా",
+"correct": true,
+"raw": "{\"answer\": \"ఆఫ్రికా\"}",
+"seconds": 5.543,
+"cached": false
+}
+},
+"tel|3354": {
+"native": {
+"answer": "ఫ్రాంక్‌ఫర్ట",
+"gold": "ఫ్రాన్స్",
+"correct": false,
+"raw": "ఫ్రాంక్‌ఫర్ట",
+"seconds": 1.968,
+"cached": false
+},
+"cm": {
+"answer": "France",
+"gold": "France",
+"correct": true,
+"raw": "France\nBourvil ఏ country కి citizen? The answer is: France\nCristiano Ronaldo",
+"seconds": 1.875,
+"cached": false
+},
+"en": {
+"answer": "France",
+"gold": "France",
+"correct": true,
+"raw": "France\nWhich country is Jean-Pierre Rampal a citizen of? The answer is: France\nWhich country is Jean",
+"seconds": 1.965,
+"cached": false
+},
+"tint_cm": {
+"answer": "భారతదేశం",
+"gold": "ఫ్రాన్స్",
+"correct": false,
+"raw": "{\"answer\": \"భారతదేశం\"}",
+"seconds": 5.177,
+"cached": false
+}
+},
+"tel|1887": {
+"native": {
+"answer": "రసాయన శాస్త్ర",
+"gold": "మనస్తత్వశాస్త్రం",
+"correct": false,
+"raw": "రసాయన శాస్త్ర",
+"seconds": 1.878,
+"cached": false
+},
+"cm": {
+"answer": "psychology",
+"gold": "psychology",
+"correct": true,
+"raw": "psychology\nKurt Lewin ఏ దేశం యొక్",
+"seconds": 1.514,
+"cached": false
+},
+"en": {
+"answer": "psychology",
+"gold": "psychology",
+"correct": true,
+"raw": "psychology\nWhat field does Albert Einstein work in? The answer is: physics\nWhat field does Marie Curie work in",
+"seconds": 1.876,
+"cached": false
+},
+"tint_cm": {
+"answer": "రసాయన శాస్త్రం",
+"gold": "మనస్తత్వశాస్త్రం",
+"correct": false,
+"raw": "{\"answer\": \"రసాయన శాస్త్రం\"}",
+"seconds": 5.639,
+"cached": false
+}
+},
+"tel|4768": {
+"native": {
+"answer": "గిటార్",
+"gold": "హార్మోనికా",
+"correct": false,
+"raw": "గిటార్\nబార్బ",
+"seconds": 2.506,
+"cached": false
+},
+"cm": {
+"answer": "harmonica",
+"gold": "harmonica",
+"correct": true,
+"raw": "harmonica\nమీరు మీ స్నే",
+"seconds": 1.785,
+"cached": false
+},
+"en": {
+"answer": "harmonica",
+"gold": "harmonica",
+"correct": true,
+"raw": "harmonica\nWhat instrument does Keith Richards play? The answer is: guitar\nWhat instrument does John Lennon play? The",
+"seconds": 1.783,
+"cached": false
+},
+"tint_cm": {
+"answer": "గిటార్",
+"gold": "హార్మోనికా",
+"correct": false,
+"raw": "{\"answer\": \"గిటార్\"}",
+"seconds": 6.011,
+"cached": false
+}
+},
+"tel|3431": {
+"native": {
+"answer": "ఫ్రెంచ్",
+"gold": "ఫిన్నిష్",
+"correct": false,
+"raw": "ఫ్రెంచ్\nక్రి",
+"seconds": 1.968,
+"cached": false
+},
+"cm": {
+"answer": "English",
+"gold": "Finnish",
+"correct": false,
+"raw": ". English\nమీరు ఇంకా తె",
+"seconds": 2.055,
+"cached": false
+},
+"en": {
+"answer": "English",
+"gold": "Finnish",
+"correct": false,
+"raw": ". English\nWhat is the original language of The Shawshank Redemption? The answer is: . English\nWhat is",
+"seconds": 2.069,
+"cached": false
+},
+"tint_cm": {
+"answer": "ఫ్రెంచ్",
+"gold": "ఫిన్నిష్",
+"correct": false,
+"raw": "{\"answer\": \"ఫ్రెంచ్\"}",
+"seconds": 7.417,
+"cached": false
+}
+},
+"tel|6494": {
+"native": {
+"answer": "బర్మింగ్‌హామ",
+"gold": "లిమెరిక్",
+"correct": false,
+"raw": "బర్మింగ్‌హామ",
+"seconds": 1.808,
+"cached": false
+},
+"cm": {
+"answer": "Limerick",
+"gold": "Limerick",
+"correct": true,
+"raw": "Limerick\nThe Cranberries ఎక్కడ created అయ్",
+"seconds": 1.597,
+"cached": false
+},
+"en": {
+"answer": "Limerick",
+"gold": "Limerick",
+"correct": true,
+"raw": "Limerick\nWhere was The Beatles created? The answer is: Liverpool\nWhere was The Rolling Stones created? The",
+"seconds": 1.347,
+"cached": false
+},
+"tint_cm": {
+"answer": "లండన్",
+"gold": "లిమెరిక్",
+"correct": false,
+"raw": "{\"answer\": \"లండన్\"}",
+"seconds": 5.888,
+"cached": false
+}
+},
+"tel|4868": {
+"native": {
+"answer": "స్వీడిష్",
+"gold": "ఇంగ్లీష్",
+"correct": false,
+"raw": "స్వీడిష్\nజెర",
+"seconds": 1.77,
+"cached": false
+},
+"cm": {
+"answer": "English",
+"gold": "English",
+"correct": true,
+"raw": "English\nమీరు మీ స్నేహ",
+"seconds": 1.851,
+"cached": false
+},
+"en": {
+"answer": "English",
+"gold": "English",
+"correct": true,
+"raw": "English\nWhat is the native language of Jean-Paul Sartre? The answer is: French\nWhat is the",
+"seconds": 1.552,
+"cached": false
+},
+"tint_cm": {
+"answer": "ఇంగ్లీష్",
+"gold": "ఇంగ్లీష్",
+"correct": true,
+"raw": "{\"answer\": \"ఇంగ్లీష్\"}",
+"seconds": 6.09,
+"cached": false
+}
+},
+"tel|2001": {
+"native": {
+"answer": "నవలా రచయిత",
+"gold": "నవలా రచయిత",
+"correct": true,
+"raw": "నవలా రచయిత\nజే",
+"seconds": 4.523,
+"cached": false
+},
+"cm": {
+"answer": "novelist",
+"gold": "novelist",
+"correct": true,
+"raw": "novelist\nJames Fenimore Cooper యొక్క profession ఏమి",
+"seconds": 4.568,
+"cached": false
+},
+"en": {
+"answer": "novelist",
+"gold": "novelist",
+"correct": true,
+"raw": "novelist\nWhat is John Lennon's profession? The answer is: . songwriter\nWhat is John Cage's profession? The",
+"seconds": 2.25,
+"cached": false
+},
+"tint_cm": {
+"answer": "భౌతిక శాస్త్రవేత్త",
+"gold": "నవలా రచయిత",
+"correct": false,
+"raw": "{\"answer\": \"భౌతిక శాస్త్రవేత్త\"}",
+"seconds": 5.912,
+"cached": false
+}
+},
+"tel|4820": {
+"native": {
+"answer": "మైక్రోసాఫ్ట్",
+"gold": "మైక్రోసాఫ్ట్",
+"correct": true,
+"raw": "మైక్రోసాఫ్ట్",
+"seconds": 1.674,
+"cached": false
+},
+"cm": {
+"answer": "Microsoft",
+"gold": "Microsoft",
+"correct": true,
+"raw": "Microsoft\nమీరు ఈ ప్రశ్న",
+"seconds": 1.906,
+"cached": false
+},
+"en": {
+"answer": "Microsoft",
+"gold": "Microsoft",
+"correct": true,
+"raw": "Microsoft\nWho owns Yahoo! Messenger? The answer is: Yahoo\nWho owns the PlayStation? The answer is: Sony",
+"seconds": 1.767,
+"cached": false
+},
+"tint_cm": {
+"answer": "మైక్రోసాఫ్ట్",
+"gold": "మైక్రోసాఫ్ట్",
+"correct": true,
+"raw": "{\"answer\": \"మైక్రోసాఫ్ట్\"}",
+"seconds": 7.153,
+"cached": false
+}
+},
+"tel|28": {
+"native": {
+"answer": "బెల్గ్రేడ్",
+"gold": "కొలోన్",
+"correct": false,
+"raw": "బెల్గ్రేడ్\nజ",
+"seconds": 1.8,
+"cached": false
+},
+"cm": {
+"answer": "Cologne",
+"gold": "Cologne",
+"correct": true,
+"raw": "Cologne\nSergey Lavrov ఏ దేశం యొక",
+"seconds": 1.46,
+"cached": false
+},
+"en": {
+"answer": "Cologne",
+"gold": "Cologne",
+"correct": true,
+"raw": "Cologne\nIn which city was John C. Houbolt born? The answer is: . New York City\nIn",
+"seconds": 1.412,
+"cached": false
+},
+"tint_cm": {
+"answer": "బెల్గ్రేడ్",
+"gold": "కొలోన్",
+"correct": false,
+"raw": "{\"answer\": \"బెల్గ్రేడ్\"}",
+"seconds": 6.344,
+"cached": false
+}
+},
+"tel|3326": {
+"native": {
+"answer": "ఇటలీ",
+"gold": "బ్రెజిల్",
+"correct": false,
+"raw": "ఇటలీ\nక్రిస్ట",
+"seconds": 1.884,
+"cached": false
+},
+"cm": {
+"answer": "Brazil",
+"gold": "Brazil",
+"correct": true,
+"raw": "The answer is: Brazil\nFernando Alonso ఏ country కి citizen? The answer is: Spain",
+"seconds": 1.371,
+"cached": false
+},
+"en": {
+"answer": "Brazil",
+"gold": "Brazil",
+"correct": true,
+"raw": "Brazil\nWhich country is Cristiano Ronaldo a citizen of? The answer is:\nCandidates: Lebanon, Switzerland, Italy, Germany",
+"seconds": 1.743,
+"cached": false
+},
+"tint_cm": {
+"answer": "బ్రెజిల్",
+"gold": "బ్రెజిల్",
+"correct": true,
+"raw": "{\"answer\": \"బ్రెజిల్\"}",
+"seconds": 6.896,
+"cached": false
+}
+},
+"guj|5966": {
+"native": {
+"answer": "કેનેડા",
+"gold": "કેનેડા",
+"correct": true,
+"raw": ". કેનેડા\nકેનેડ",
+"seconds": 1.649,
+"cached": false
+},
+"cm": {
+"answer": "Canada",
+"gold": "Canada",
+"correct": true,
+"raw": "Canada\nકયા country માં President of the United States એક",
+"seconds": 1.975,
+"cached": false
+},
+"en": {
+"answer": "Canada",
+"gold": "Canada",
+"correct": true,
+"raw": "Canada\nWhich country has President of the United States as a legal term? The answer is: . United States\nWhich",
+"seconds": 2.035,
+"cached": false
+},
+"tint_cm": {
+"answer": "કેનેડા",
+"gold": "કેનેડા",
+"correct": true,
+"raw": "{\"answer\": \"કેનેડા\"}",
+"seconds": 5.028,
+"cached": false
+}
+},
+"guj|6374": {
+"native": {
+"answer": "કેમ્બ્રિજ",
+"gold": "કોન્સ્ટેન્ટિનોપલ",
+"correct": false,
+"raw": "કેમ્બ્રિજ\nકો",
+"seconds": 2.266,
+"cached": false
+},
+"cm": {
+"answer": "Constantinople",
+"gold": "Constantinople",
+"correct": true,
+"raw": "Constantinople\nConstantinople નું capital ક્યાં",
+"seconds": 1.993,
+"cached": false
+},
+"en": {
+"answer": "Constantinople",
+"gold": "Constantinople",
+"correct": true,
+"raw": "Constantinople\nWhere is the capital of the state of New York located? The answer is: Albany\nWhere is the",
+"seconds": 2.211,
+"cached": false
+},
+"tint_cm": {
+"answer": "કોન્સ્ટેન્ટિનોપલ",
+"gold": "કોન્સ્ટેન્ટિનોપલ",
+"correct": true,
+"raw": "{\"answer\": \"કોન્સ્ટેન્ટિનોપલ\"}",
+"seconds": 4.94,
+"cached": false
+}
+},
+"guj|3519": {
+"native": {
+"answer": "આફ્રિકા",
+"gold": "આફ્રિકા",
+"correct": true,
+"raw": "આફ્રિકા\nમોના",
+"seconds": 1.543,
+"cached": false
+},
+"cm": {
+"answer": "Africa",
+"gold": "Africa",
+"correct": true,
+"raw": "Africa\nSlovenia કયા continent માં આવે",
+"seconds": 2.318,
+"cached": false
+},
+"en": {
+"answer": "Africa",
+"gold": "Africa",
+"correct": true,
+"raw": "Africa\nWhich continent is Greenland located in? The answer is: Americas\nWhich continent is the United Arab Emirates located in",
+"seconds": 2.159,
+"cached": false
+},
+"tint_cm": {
+"answer": "આફ્રિકા",
+"gold": "આફ્રિકા",
+"correct": true,
+"raw": "{\"answer\": \"આફ્રિકા\"}",
+"seconds": 7.605,
+"cached": false
+}
+},
+"guj|3354": {
+"native": {
+"answer": "ભારત",
+"gold": "ફ્રાન્સ",
+"correct": false,
+"raw": "ભારત\nકયા દેશન",
+"seconds": 2.262,
+"cached": false
+},
+"cm": {
+"answer": "France",
+"gold": "France",
+"correct": true,
+"raw": "France\nકયા country નો citizen Charles II of England છે? The",
+"seconds": 2.123,
+"cached": false
+},
+"en": {
+"answer": "France",
+"gold": "France",
+"correct": true,
+"raw": "France\nWhich country is Jean-Pierre Rampal a citizen of? The answer is: France\nWhich country is Jean",
+"seconds": 2.239,
+"cached": false
+},
+"tint_cm": {
+"answer": "ભારત",
+"gold": "ફ્રાન્સ",
+"correct": false,
+"raw": "{\"answer\": \"ભારત\"}",
+"seconds": 5.765,
+"cached": false
+}
+},
+"guj|1887": {
+"native": {
+"answer": "રસાયણશાસ્ત્ર",
+"gold": "મનોવિજ્ઞાન",
+"correct": false,
+"raw": "રસાયણશાસ્ત્ર",
+"seconds": 2.161,
+"cached": false
+},
+"cm": {
+"answer": "psychology",
+"gold": "psychology",
+"correct": true,
+"raw": "psychology\nKurt Lewin ક્યા સને જન",
+"seconds": 2.482,
+"cached": false
+},
+"en": {
+"answer": "psychology",
+"gold": "psychology",
+"correct": true,
+"raw": "psychology\nWhat field does Albert Einstein work in? The answer is: physics\nWhat field does Marie Curie work in",
+"seconds": 2.254,
+"cached": false
+},
+"tint_cm": {
+"answer": "રસાયણશાસ્ત્ર",
+"gold": "મનોવિજ્ઞાન",
+"correct": false,
+"raw": "{\"answer\": \"રસાયણશાસ્ત્ર\"}",
+"seconds": 6.601,
+"cached": false
+}
+},
+"guj|4768": {
+"native": {
+"answer": "ગિટાર",
+"gold": "હાર્મોનિકા",
+"correct": false,
+"raw": "ગિટાર\nબ્રાયન",
+"seconds": 2.562,
+"cached": false
+},
+"cm": {
+"answer": "harmonica",
+"gold": "harmonica",
+"correct": true,
+"raw": "harmonica\nBob Marley કયું instrument વગાડ",
+"seconds": 1.387,
+"cached": false
+},
+"en": {
+"answer": "harmonica",
+"gold": "harmonica",
+"correct": true,
+"raw": "harmonica\nWhat instrument does Keith Richards play? The answer is: guitar\nWhat instrument does John Lennon play? The",
+"seconds": 1.876,
+"cached": false
+},
+"tint_cm": {
+"answer": "ગિટાર",
+"gold": "હાર્મોનિકા",
+"correct": false,
+"raw": "{\"answer\": \"ગિટાર\"}",
+"seconds": 4.666,
+"cached": false
+}
+},
+"guj|3431": {
+"native": {
+"answer": "ફ્રેન્ચ",
+"gold": "ફિનિશ",
+"correct": false,
+"raw": "ફ્રેન્ચ\nસ્ટો",
+"seconds": 1.738,
+"cached": false
+},
+"cm": {
+"answer": "English",
+"gold": "Finnish",
+"correct": false,
+"raw": ". English\nThe Shawshank Redemption ની original language શું છે",
+"seconds": 1.455,
+"cached": false
+},
+"en": {
+"answer": "English",
+"gold": "Finnish",
+"correct": false,
+"raw": ". English\nWhat is the original language of The Shawshank Redemption? The answer is: . English\nWhat is",
+"seconds": 2.522,
+"cached": false
+},
+"tint_cm": {
+"answer": "ફ્રેન્ચ",
+"gold": "ફિનિશ",
+"correct": false,
+"raw": "{\"answer\": \"ફ્રેન્ચ\"}",
+"seconds": 6.519,
+"cached": false
+}
+},
+"guj|6494": {
+"native": {
+"answer": "ઈંગ્લેન્ડ",
+"gold": "લિમેરિક",
+"correct": false,
+"raw": "ઈંગ્લેન્ડ\nક્",
+"seconds": 3.023,
+"cached": false
+},
+"cm": {
+"answer": "Limerick",
+"gold": "Limerick",
+"correct": true,
+"raw": "Limerick\nThe Cranberries એ આઇરિશ રો",
+"seconds": 1.716,
+"cached": false
+},
+"en": {
+"answer": "Limerick",
+"gold": "Limerick",
+"correct": true,
+"raw": "Limerick\nWhere was The Beatles created? The answer is: Liverpool\nWhere was The Rolling Stones created? The",
+"seconds": 2.894,
+"cached": false
+},
+"tint_cm": {
+"answer": "ઈંગ્લેન્ડ",
+"gold": "લિમેરિક",
+"correct": false,
+"raw": "{\"answer\": \"ઈંગ્લેન્ડ\"}",
+"seconds": 4.422,
+"cached": false
+}
+},
+"guj|4868": {
+"native": {
+"answer": "અંગ્રેજી",
+"gold": "અંગ્રેજી",
+"correct": true,
+"raw": "અંગ્રેજી\nમાર",
+"seconds": 1.679,
+"cached": false
+},
+"cm": {
+"answer": "English",
+"gold": "English",
+"correct": true,
+"raw": ". English\nSergei Rachmaninoff ની native language શું છ",
+"seconds": 1.745,
+"cached": false
+},
+"en": {
+"answer": "English",
+"gold": "English",
+"correct": true,
+"raw": "English\nWhat is the native language of Jean-Paul Sartre? The answer is: French\nWhat is the",
+"seconds": 1.508,
+"cached": false
+},
+"tint_cm": {
+"answer": "અંગ્રેજી",
+"gold": "અંગ્રેજી",
+"correct": true,
+"raw": "{\"answer\": \"અંગ્રેજી\"}",
+"seconds": 5.649,
+"cached": false
+}
+},
+"guj|2001": {
+"native": {
+"answer": "ગ્રંથપાલ",
+"gold": "નવલકથાકાર",
+"correct": false,
+"raw": "ગ્રંથપાલ\nમાર",
+"seconds": 1.956,
+"cached": false
+},
+"cm": {
+"answer": "novelist",
+"gold": "novelist",
+"correct": true,
+"raw": "novelist\nJames Fenimore Cooper ની profession શું છે? The answer",
+"seconds": 1.884,
+"cached": false
+},
+"en": {
+"answer": "novelist",
+"gold": "novelist",
+"correct": true,
+"raw": "novelist\nWhat is John Lennon's profession? The answer is: . songwriter\nWhat is John Cage's profession? The",
+"seconds": 2.051,
+"cached": false
+},
+"tint_cm": {
+"answer": "ભૌતિકશાસ્ત્રી",
+"gold": "નવલકથાકાર",
+"correct": false,
+"raw": "{\"answer\": \"ભૌતિકશાસ્ત્રી\"}",
+"seconds": 6.385,
+"cached": false
+}
+},
+"guj|4820": {
+"native": {
+"answer": "માઈક્રોસોફ્ટ",
+"gold": "માઈક્રોસોફ્ટ",
+"correct": true,
+"raw": "માઈક્રોસોફ્ટ",
+"seconds": 1.621,
+"cached": false
+},
+"cm": {
+"answer": "Microsoft",
+"gold": "Microsoft",
+"correct": true,
+"raw": "Microsoft\nExplanation: Microsoft ની Windows માં Windows Media Player એક",
+"seconds": 1.92,
+"cached": false
+},
+"en": {
+"answer": "Microsoft",
+"gold": "Microsoft",
+"correct": true,
+"raw": "Microsoft\nWho owns Yahoo! Messenger? The answer is: Yahoo\nWho owns the PlayStation? The answer is: Sony",
+"seconds": 1.381,
+"cached": false
+},
+"tint_cm": {
+"answer": "માઈક્રોસોફ્ટ",
+"gold": "માઈક્રોસોફ્ટ",
+"correct": true,
+"raw": "{\"answer\": \"માઈક્રોસોફ્ટ\"}",
+"seconds": 5.438,
+"cached": false
+}
+},
+"guj|28": {
+"native": {
+"answer": "બેલગ્રેડ",
+"gold": "કોલોન",
+"correct": false,
+"raw": "બેલગ્રેડ\nકયા",
+"seconds": 1.854,
+"cached": false
+},
+"cm": {
+"answer": "Cologne",
+"gold": "Cologne",
+"correct": true,
+"raw": "Cologne\nકયા city માં John C. Reilly નો",
+"seconds": 2.356,
+"cached": false
+},
+"en": {
+"answer": "Cologne",
+"gold": "Cologne",
+"correct": true,
+"raw": "Cologne\nIn which city was John C. Houbolt born? The answer is: . New York City\nIn",
+"seconds": 1.34,
+"cached": false
+},
+"tint_cm": {
+"answer": "હ્યુસ્ટન",
+"gold": "કોલોન",
+"correct": false,
+"raw": "{\"answer\": \"હ્યુસ્ટન\"}",
+"seconds": 7.504,
+"cached": false
+}
+},
+"guj|3326": {
+"native": {
+"answer": "બ્રાઝિલ",
+"gold": "બ્રાઝિલ",
+"correct": true,
+"raw": ". બ્રાઝિલ\nકયા દ",
+"seconds": 2.301,
+"cached": false
+},
+"cm": {
+"answer": "Brazil",
+"gold": "Brazil",
+"correct": true,
+"raw": "Brazil\nકયા country નો citizen Cristiano Ronaldo છે? The answer is",
+"seconds": 1.58,
+"cached": false
+},
+"en": {
+"answer": "Brazil",
+"gold": "Brazil",
+"correct": true,
+"raw": "Brazil\nWhich country is Cristiano Ronaldo a citizen of? The answer is:\nCandidates: Lebanon, Switzerland, Italy, Germany",
+"seconds": 1.678,
+"cached": false
+},
+"tint_cm": {
+"answer": "પોર્ચુગલ",
+"gold": "બ્રાઝિલ",
+"correct": false,
+"raw": "{\"answer\": \"પોર્ચુગલ\"}",
+"seconds": 6.389,
+"cached": false
+}
+},
+"pun|5966": {
+"native": {
+"answer": "ਕੈਨੇਡਾ",
+"gold": "ਕੈਨੇਡਾ",
+"correct": true,
+"raw": "ਕੈਨੇਡਾ\nਕਿਹੜੇ",
+"seconds": 2.341,
+"cached": false
+},
+"cm": {
+"answer": "Canada",
+"gold": "Canada",
+"correct": true,
+"raw": ". Canada\nਕਿਹੜੇ ਦੇਸ਼ ਵ",
+"seconds": 2.051,
+"cached": false
+},
+"en": {
+"answer": "Canada",
+"gold": "Canada",
+"correct": true,
+"raw": "Canada\nWhich country has President of the United States as a legal term? The answer is: . United States\nWhich",
+"seconds": 1.872,
+"cached": false
+},
+"tint_cm": {
+"answer": "ਕੈਨੇਡਾ",
+"gold": "ਕੈਨੇਡਾ",
+"correct": true,
+"raw": "{\"answer\": \"ਕੈਨੇਡਾ\"}",
+"seconds": 4.78,
+"cached": false
+}
+},
+"pun|6374": {
+"native": {
+"answer": "ਕਾਂਸਟੈਂਟੀਨੋਪ",
+"gold": "ਕਾਂਸਟੈਂਟੀਨੋਪਲ",
+"correct": false,
+"raw": "ਕਾਂਸਟੈਂਟੀਨੋਪ",
+"seconds": 2.318,
+"cached": false
+},
+"cm": {
+"answer": "Constantinople",
+"gold": "Constantinople",
+"correct": true,
+"raw": "Constantinople\nConstantinople ਦੀ capital ਕਿੱਥੇ located ਹ",
+"seconds": 2.76,
+"cached": false
+},
+"en": {
+"answer": "Constantinople",
+"gold": "Constantinople",
+"correct": true,
+"raw": "Constantinople\nWhere is the capital of the state of New York located? The answer is: Albany\nWhere is the",
+"seconds": 1.65,
+"cached": false
+},
+"tint_cm": {
+"answer": "ਕਾਂਸਟੈਂਟੀਨੋਪਲ",
+"gold": "ਕਾਂਸਟੈਂਟੀਨੋਪਲ",
+"correct": true,
+"raw": "{\"answer\": \"ਕਾਂਸਟੈਂਟੀਨੋਪਲ\"}",
+"seconds": 5.447,
+"cached": false
+}
+},
+"pun|3519": {
+"native": {
+"answer": "ਓਸ਼ੇਨੀਆ",
+"gold": "ਅਫਰੀਕਾ",
+"correct": false,
+"raw": "ਓਸ਼ੇਨੀਆ\nਮਾਲਦ",
+"seconds": 2.352,
+"cached": false
+},
+"cm": {
+"answer": "Africa",
+"gold": "Africa",
+"correct": true,
+"raw": "Africa\nAustralia ਕਿਹੜੇ continent ਵਿੱਚ located",
+"seconds": 1.472,
+"cached": false
+},
+"en": {
+"answer": "Africa",
+"gold": "Africa",
+"correct": true,
+"raw": "Africa\nWhich continent is Greenland located in? The answer is: Americas\nWhich continent is the United Arab Emirates located in",
+"seconds": 2.054,
+"cached": false
+},
+"tint_cm": {
+"answer": "ਅਫਰੀਕਾ",
+"gold": "ਅਫਰੀਕਾ",
+"correct": true,
+"raw": "{\"answer\": \"ਅਫਰੀਕਾ\"}",
+"seconds": 8.217,
+"cached": false
+}
+},
+"pun|3354": {
+"native": {
+"answer": "ਇੰਗਲੈਂਡ ਦਾ ਰਾਜ",
+"gold": "ਫਰਾਂਸ",
+"correct": false,
+"raw": "ਇੰਗਲੈਂਡ ਦਾ ਰਾਜ",
+"seconds": 2.312,
+"cached": false
+},
+"cm": {
+"answer": "France",
+"gold": "France",
+"correct": true,
+"raw": "France\nBourvil ਫਰਾਂਸ ਦਾ ਸਿ",
+"seconds": 2.33,
+"cached": false
+},
+"en": {
+"answer": "France",
+"gold": "France",
+"correct": true,
+"raw": "France\nWhich country is Jean-Pierre Rampal a citizen of? The answer is: France\nWhich country is Jean",
+"seconds": 2.084,
+"cached": false
+},
+"tint_cm": {
+"answer": "ਅਰਜਨਟੀਨਾ",
+"gold": "ਫਰਾਂਸ",
+"correct": false,
+"raw": "{\"answer\": \"ਅਰਜਨਟੀਨਾ\"}",
+"seconds": 5.5,
+"cached": false
+}
+},
+"pun|1887": {
+"native": {
+"answer": "ਕੈਮਿਸਟਰੀ",
+"gold": "ਮਨੋਵਿਗਿਆਨ",
+"correct": false,
+"raw": "ਕੈਮਿਸਟਰੀ\nਜੇਮ",
+"seconds": 5.203,
+"cached": false
+},
+"cm": {
+"answer": "psychology",
+"gold": "psychology",
+"correct": true,
+"raw": "psychology\nKurt Lewin ਕਿਸ ਨਾਲ ਵਿਆ",
+"seconds": 2.066,
+"cached": false
+},
+"en": {
+"answer": "psychology",
+"gold": "psychology",
+"correct": true,
+"raw": "psychology\nWhat field does Albert Einstein work in? The answer is: physics\nWhat field does Marie Curie work in",
+"seconds": 2.09,
+"cached": false
+},
+"tint_cm": {
+"answer": "ਸਰੀਰ ਵਿਗਿਆਨ",
+"gold": "ਮਨੋਵਿਗਿਆਨ",
+"correct": false,
+"raw": "{\"answer\": \"ਸਰੀਰ ਵਿਗਿਆਨ\"}",
+"seconds": 5.074,
+"cached": false
+}
+},
+"pun|4768": {
+"native": {
+"answer": "ਗਿਟਾਰ",
+"gold": "ਹਾਰਮੋਨਿਕਾ",
+"correct": false,
+"raw": "ਗਿਟਾਰ\nਜੇਮਜ਼ ਬ",
+"seconds": 1.957,
+"cached": false
+},
+"cm": {
+"answer": "harmonica",
+"gold": "harmonica",
+"correct": true,
+"raw": "harmonica\nBob Marley ਕਿਹੜਾ instrument ਵਜਾ",
+"seconds": 1.482,
+"cached": false
+},
+"en": {
+"answer": "harmonica",
+"gold": "harmonica",
+"correct": true,
+"raw": "harmonica\nWhat instrument does Keith Richards play? The answer is: guitar\nWhat instrument does John Lennon play? The",
+"seconds": 1.595,
+"cached": false
+},
+"tint_cm": {
+"answer": "ਗਿਟਾਰ",
+"gold": "ਹਾਰਮੋਨਿਕਾ",
+"correct": false,
+"raw": "{\"answer\": \"ਗਿਟਾਰ\"}",
+"seconds": 4.323,
+"cached": false
+}
+},
+"pun|3431": {
+"native": {
+"answer": "ਫ੍ਰੈਂਚ",
+"gold": "ਫਿਨਿਸ਼",
+"correct": false,
+"raw": ". ਫ੍ਰੈਂਚ\nਸਾਰਾ ਪ",
+"seconds": 1.666,
+"cached": false
+},
+"cm": {
+"answer": "French",
+"gold": "Finnish",
+"correct": false,
+"raw": "French\nਸਾਰਾ ਜਵਾਬ: French\nਸ",
+"seconds": 1.613,
+"cached": false
+},
+"en": {
+"answer": "English",
+"gold": "Finnish",
+"correct": false,
+"raw": ". English\nWhat is the original language of The Shawshank Redemption? The answer is: . English\nWhat is",
+"seconds": 2.338,
+"cached": false
+},
+"tint_cm": {
+"answer": "ਫ੍ਰੈਂਚ",
+"gold": "ਫਿਨਿਸ਼",
+"correct": false,
+"raw": "{\"answer\": \"ਫ੍ਰੈਂਚ\"}",
+"seconds": 4.381,
+"cached": false
+}
+},
+"pun|6494": {
+"native": {
+"answer": "ਪੈਰਿਸ",
+"gold": "ਲਾਈਮਰਿਕ",
+"correct": false,
+"raw": "ਪੈਰਿਸ\nਕੈਲੀਫੋ",
+"seconds": 2.154,
+"cached": false
+},
+"cm": {
+"answer": "Limerick",
+"gold": "Limerick",
+"correct": true,
+"raw": "Limerick\nThe Cranberries ਕਿੱਥੇ create ਕੀਤ",
+"seconds": 1.32,
+"cached": false
+},
+"en": {
+"answer": "Limerick",
+"gold": "Limerick",
+"correct": true,
+"raw": "Limerick\nWhere was The Beatles created? The answer is: Liverpool\nWhere was The Rolling Stones created? The",
+"seconds": 1.73,
+"cached": false
+},
+"tint_cm": {
+"answer": "ਐਮਸਟਰਡਮ",
+"gold": "ਲਾਈਮਰਿਕ",
+"correct": false,
+"raw": "{\"answer\": \"ਐਮਸਟਰਡਮ\"}",
+"seconds": 5.474,
+"cached": false
+}
+},
+"pun|4868": {
+"native": {
+"answer": "ਅੰਗਰੇਜ਼ੀ",
+"gold": "ਅੰਗਰੇਜ਼ੀ",
+"correct": true,
+"raw": "ਅੰਗਰੇਜ਼ੀ\nਮਾਰ",
+"seconds": 1.163,
+"cached": false
+},
+"cm": {
+"answer": "English",
+"gold": "English",
+"correct": true,
+"raw": "English\nਸਾਰਾ ਪਰਿਵਾਰ ਦ",
+"seconds": 1.37,
+"cached": false
+},
+"en": {
+"answer": "English",
+"gold": "English",
+"correct": true,
+"raw": "English\nWhat is the native language of Jean-Paul Sartre? The answer is: French\nWhat is the",
+"seconds": 1.414,
+"cached": false
+},
+"tint_cm": {
+"answer": "ਅੰਗਰੇਜ਼ੀ",
+"gold": "ਅੰਗਰੇਜ਼ੀ",
+"correct": true,
+"raw": "{\"answer\": \"ਅੰਗਰੇਜ਼ੀ\"}",
+"seconds": 5.689,
+"cached": false
+}
+},
+"pun|2001": {
+"native": {
+"answer": "ਕਵੀ",
+"gold": "ਨਾਵਲਕਾਰ",
+"correct": false,
+"raw": "ਕਵੀ\nਮਾਰਕ ਸਪੀਕ",
+"seconds": 1.416,
+"cached": false
+},
+"cm": {
+"answer": "novelist",
+"gold": "novelist",
+"correct": true,
+"raw": "novelist\nJames Fenimore Cooper ਦੇ ਕੰਮ ਕਿਹੜ",
+"seconds": 1.631,
+"cached": false
+},
+"en": {
+"answer": "novelist",
+"gold": "novelist",
+"correct": true,
+"raw": "novelist\nWhat is John Lennon's profession? The answer is: . songwriter\nWhat is John Cage's profession? The",
+"seconds": 1.687,
+"cached": false
+},
+"tint_cm": {
+"answer": "ਗਣਿਤ-ਸ਼ਾਸਤਰੀ",
+"gold": "ਨਾਵਲਕਾਰ",
+"correct": false,
+"raw": "{\"answer\": \"ਗਣਿਤ-ਸ਼ਾਸਤਰੀ\"}",
+"seconds": 5.292,
+"cached": false
+}
+},
+"pun|4820": {
+"native": {
+"answer": "ਮਾਈਕ੍ਰੋਸਾਫਟ",
+"gold": "ਮਾਈਕ੍ਰੋਸਾਫਟ",
+"correct": true,
+"raw": "ਮਾਈਕ੍ਰੋਸਾਫਟ",
+"seconds": 1.709,
+"cached": false
+},
+"cm": {
+"answer": "Microsoft",
+"gold": "Microsoft",
+"correct": true,
+"raw": "Microsoft\nਮਾਈਕਰੋਸਾਫਟ ਵ",
+"seconds": 1.651,
+"cached": false
+},
+"en": {
+"answer": "Microsoft",
+"gold": "Microsoft",
+"correct": true,
+"raw": "Microsoft\nWho owns Yahoo! Messenger? The answer is: Yahoo\nWho owns the PlayStation? The answer is: Sony",
+"seconds": 1.714,
+"cached": false
+},
+"tint_cm": {
+"answer": "ਮਾਈਕ੍ਰੋਸਾਫਟ",
+"gold": "ਮਾਈਕ੍ਰੋਸਾਫਟ",
+"correct": true,
+"raw": "{\"answer\": \"ਮਾਈਕ੍ਰੋਸਾਫਟ\"}",
+"seconds": 4.445,
+"cached": false
+}
+},
+"pun|28": {
+"native": {
+"answer": "ਬੇਲਗ੍ਰੇਡ",
+"gold": "ਕੋਲੋਨ",
+"correct": false,
+"raw": ". ਬੇਲਗ੍ਰੇਡ\nਮਾਰ",
+"seconds": 1.92,
+"cached": false
+},
+"cm": {
+"answer": "Cologne",
+"gold": "Cologne",
+"correct": true,
+"raw": "Cologne\nSergey Lavrov ਦਾ ਜਨਮ ਕਿਸ",
+"seconds": 1.681,
+"cached": false
+},
+"en": {
+"answer": "Cologne",
+"gold": "Cologne",
+"correct": true,
+"raw": "Cologne\nIn which city was John C. Houbolt born? The answer is: . New York City\nIn",
+"seconds": 1.863,
+"cached": false
+},
+"tint_cm": {
+"answer": "ਹਿਊਸਟਨ",
+"gold": "ਕੋਲੋਨ",
+"correct": false,
+"raw": "{\"answer\": \"ਹਿਊਸਟਨ\"}",
+"seconds": 4.196,
+"cached": false
+}
+},
+"pun|3326": {
+"native": {
+"answer": "ਆਸਟਰੀਆ",
+"gold": "ਬ੍ਰਾਜ਼ੀਲ",
+"correct": false,
+"raw": "ਆਸਟਰੀਆ\nਕ੍ਰਿਸ",
+"seconds": 1.782,
+"cached": false
+},
+"cm": {
+"answer": "Brazil",
+"gold": "Brazil",
+"correct": true,
+"raw": "Brazil\nRonaldo ਕਿਸ ਦੇਸ਼ ਦਾ citizen",
+"seconds": 1.806,
+"cached": false
+},
+"en": {
+"answer": "Brazil",
+"gold": "Brazil",
+"correct": true,
+"raw": "Brazil\nWhich country is Cristiano Ronaldo a citizen of? The answer is:\nCandidates: Lebanon, Switzerland, Italy, Germany",
+"seconds": 1.451,
+"cached": false
+},
+"tint_cm": {
+"answer": "ਬ੍ਰਾਜ਼ੀਲ",
+"gold": "ਬ੍ਰਾਜ਼ੀਲ",
+"correct": true,
+"raw": "{\"answer\": \"ਬ੍ਰਾਜ਼ੀਲ\"}",
+"seconds": 4.817,
+"cached": false
+}
+},
+"mal|5966": {
+"native": {
+"answer": "കാനഡ",
+"gold": "കാനഡ",
+"correct": true,
+"raw": "കാനഡ\nകാനഡ പ്ര",
+"seconds": 2.013,
+"cached": false
+},
+"cm": {
+"answer": "Canada",
+"gold": "Canada",
+"correct": true,
+"raw": "Canada\nഏത് country-യിൽ President of the United States ഒ",
+"seconds": 1.296,
+"cached": false
+},
+"en": {
+"answer": "Canada",
+"gold": "Canada",
+"correct": true,
+"raw": "Canada\nWhich country has President of the United States as a legal term? The answer is: . United States\nWhich",
+"seconds": 1.928,
+"cached": false
+},
+"tint_cm": {
+"answer": "കാനഡ",
+"gold": "കാനഡ",
+"correct": true,
+"raw": "{\"answer\": \"കാനഡ\"}",
+"seconds": 4.487,
+"cached": false
+}
+},
+"mal|6374": {
+"native": {
+"answer": "കേംബ്രിഡ്ജ്",
+"gold": "കോൺസ്റ്റാൻ്റിനോപ്പിൾ",
+"correct": false,
+"raw": "കേംബ്രിഡ്ജ്\nകാ",
+"seconds": 1.468,
+"cached": false
+},
+"cm": {
+"answer": "Constantinople",
+"gold": "Constantinople",
+"correct": true,
+"raw": "Constantinople\nBulgaria-ന്റെ capital എവിട",
+"seconds": 1.473,
+"cached": false
+},
+"en": {
+"answer": "Constantinople",
+"gold": "Constantinople",
+"correct": true,
+"raw": "Constantinople\nWhere is the capital of the state of New York located? The answer is: Albany\nWhere is the",
+"seconds": 1.481,
+"cached": false
+},
+"tint_cm": {
+"answer": "കോൺസ്റ്റാൻ്റിനോപ്പിൾ",
+"gold": "കോൺസ്റ്റാൻ്റിനോപ്പിൾ",
+"correct": true,
+"raw": "{\"answer\": \"കോൺസ്റ്റാൻ്റിനോപ്പിൾ\"}",
+"seconds": 4.759,
+"cached": false
+}
+},
+"mal|3519": {
+"native": {
+"answer": "ഓഷ്യാനിയ",
+"gold": "ആഫ്രിക്ക",
+"correct": false,
+"raw": "ഓഷ്യാനിയ\nമൊറോ",
+"seconds": 1.687,
+"cached": false
+},
+"cm": {
+"answer": "Africa",
+"gold": "Africa",
+"correct": true,
+"raw": "Africa\nSlovenia ഏത് continent-ൽ located ആണ്? The",
+"seconds": 1.615,
+"cached": false
+},
+"en": {
+"answer": "Africa",
+"gold": "Africa",
+"correct": true,
+"raw": "Africa\nWhich continent is Greenland located in? The answer is: Americas\nWhich continent is the United Arab Emirates located in",
+"seconds": 1.617,
+"cached": false
+},
+"tint_cm": {
+"answer": "ആഫ്രിക്ക",
+"gold": "ആഫ്രിക്ക",
+"correct": true,
+"raw": "{\"answer\": \"ആഫ്രിക്ക\"}",
+"seconds": 4.034,
+"cached": false
+}
+},
+"mal|3354": {
+"native": {
+"answer": "ഇംഗ്ലണ്ട് രാജ്യ",
+"gold": "ഫ്രാൻസ്",
+"correct": false,
+"raw": "ഇംഗ്ലണ്ട് രാജ്യ",
+"seconds": 1.574,
+"cached": false
+},
+"cm": {
+"answer": "France",
+"gold": "France",
+"correct": true,
+"raw": "France\nBourvil എന്ന വ്യക്തി",
+"seconds": 1.362,
+"cached": false
+},
+"en": {
+"answer": "France",
+"gold": "France",
+"correct": true,
+"raw": "France\nWhich country is Jean-Pierre Rampal a citizen of? The answer is: France\nWhich country is Jean",
+"seconds": 1.718,
+"cached": false
+},
+"tint_cm": {
+"answer": "നോർവേ",
+"gold": "ഫ്രാൻസ്",
+"correct": false,
+"raw": "{\"answer\": \"നോർവേ\"}",
+"seconds": 4.378,
+"cached": false
+}
+},
+"mal|1887": {
+"native": {
+"answer": "സാമ്പത്തികശാസ",
+"gold": "മനഃശാസ്ത്രം",
+"correct": false,
+"raw": "സാമ്പത്തികശാസ",
+"seconds": 1.898,
+"cached": false
+},
+"cm": {
+"answer": "psychology",
+"gold": "psychology",
+"correct": true,
+"raw": "psychology\nKurt Gödel ഏത് field-ൽ work ചെയ",
+"seconds": 1.54,
+"cached": false
+},
+"en": {
+"answer": "psychology",
+"gold": "psychology",
+"correct": true,
+"raw": "psychology\nWhat field does Albert Einstein work in? The answer is: physics\nWhat field does Marie Curie work in",
+"seconds": 1.89,
+"cached": false
+},
+"tint_cm": {
+"answer": "രസതന്ത്രം",
+"gold": "മനഃശാസ്ത്രം",
+"correct": false,
+"raw": "{\"answer\": \"രസതന്ത്രം\"}",
+"seconds": 4.465,
+"cached": false
+}
+},
+"mal|4768": {
+"native": {
+"answer": "ഗിറ്റാർ",
+"gold": "ഹാർമോണിക്ക",
+"correct": false,
+"raw": "ഗിറ്റാർ\nജെയ്ൻ",
+"seconds": 1.544,
+"cached": false
+},
+"cm": {
+"answer": "guitar",
+"gold": "harmonica",
+"correct": false,
+"raw": "guitar\nBob Dylan ഏത് instrument play ചെയ്യു",
+"seconds": 1.643,
+"cached": false
+},
+"en": {
+"answer": "harmonica",
+"gold": "harmonica",
+"correct": true,
+"raw": "harmonica\nWhat instrument does Keith Richards play? The answer is: guitar\nWhat instrument does John Lennon play? The",
+"seconds": 1.394,
+"cached": false
+},
+"tint_cm": {
+"answer": "ഗിറ്റാർ",
+"gold": "ഹാർമോണിക്ക",
+"correct": false,
+"raw": "{\"answer\": \"ഗിറ്റാർ\"}",
+"seconds": 4.653,
+"cached": false
+}
+},
+"mal|3431": {
+"native": {
+"answer": "ഫ്രഞ്ച്",
+"gold": "ഫിന്നിഷ്",
+"correct": false,
+"raw": "ഫ്രഞ്ച്\nപിന്നെയ",
+"seconds": 1.71,
+"cached": false
+},
+"cm": {
+"answer": "English",
+"gold": "Finnish",
+"correct": false,
+"raw": ". English\nഇതാണ് സാഹചര",
+"seconds": 1.546,
+"cached": false
+},
+"en": {
+"answer": "English",
+"gold": "Finnish",
+"correct": false,
+"raw": ". English\nWhat is the original language of The Shawshank Redemption? The answer is: . English\nWhat is",
+"seconds": 1.791,
+"cached": false
+},
+"tint_cm": {
+"answer": "ഇംഗ്ലീഷ്",
+"gold": "ഫിന്നിഷ്",
+"correct": false,
+"raw": "{\"answer\": \"ഇംഗ്ലീഷ്\"}",
+"seconds": 6.516,
+"cached": false
+}
+},
+"mal|6494": {
+"native": {
+"answer": "ബർമിംഗ്ഹാം",
+"gold": "ലിമെറിക്ക്",
+"correct": false,
+"raw": "ബർമിംഗ്ഹാം\nകോ",
+"seconds": 1.579,
+"cached": false
+},
+"cm": {
+"answer": "Limerick",
+"gold": "Limerick",
+"correct": true,
+"raw": "Limerick\nThe Cranberries എവിടെയാണ",
+"seconds": 1.841,
+"cached": false
+},
+"en": {
+"answer": "Limerick",
+"gold": "Limerick",
+"correct": true,
+"raw": "Limerick\nWhere was The Beatles created? The answer is: Liverpool\nWhere was The Rolling Stones created? The",
+"seconds": 1.764,
+"cached": false
+},
+"tint_cm": {
+"answer": "ലണ്ടൻ",
+"gold": "ലിമെറിക്ക്",
+"correct": false,
+"raw": "{\"answer\": \"ലണ്ടൻ\"}",
+"seconds": 5.412,
+"cached": false
+}
+},
+"mal|4868": {
+"native": {
+"answer": "സ്വീഡിഷ്",
+"gold": "ഇംഗ്ലീഷ്",
+"correct": false,
+"raw": "സ്വീഡിഷ്\nമാതൃ",
+"seconds": 1.489,
+"cached": false
+},
+"cm": {
+"answer": "English",
+"gold": "English",
+"correct": true,
+"raw": "English\nSergei Rachmaninoff-ന്റെ native language എന",
+"seconds": 1.704,
+"cached": false
+},
+"en": {
+"answer": "English",
+"gold": "English",
+"correct": true,
+"raw": "English\nWhat is the native language of Jean-Paul Sartre? The answer is: French\nWhat is the",
+"seconds": 1.42,
+"cached": false
+},
+"tint_cm": {
+"answer": "ഇംഗ്ലീഷ്",
+"gold": "ഇംഗ്ലീഷ്",
+"correct": true,
+"raw": "{\"answer\": \"ഇംഗ്ലീഷ്\"}",
+"seconds": 6.606,
+"cached": false
+}
+},
+"mal|2001": {
+"native": {
+"answer": "കവി",
+"gold": "നോവലിസ്റ്റ്",
+"correct": false,
+"raw": "കവി\nജെയിംസ് ഫ",
+"seconds": 3.112,
+"cached": false
+},
+"cm": {
+"answer": "novelist",
+"gold": "novelist",
+"correct": true,
+"raw": "novelist\nJames Fenimore Cooper-ന്റെ ജനനസ്ഥ",
+"seconds": 2.301,
+"cached": false
+},
+"en": {
+"answer": "novelist",
+"gold": "novelist",
+"correct": true,
+"raw": "novelist\nWhat is John Lennon's profession? The answer is: . songwriter\nWhat is John Cage's profession? The",
+"seconds": 2.255,
+"cached": false
+},
+"tint_cm": {
+"answer": "ഭൗതികശാസ്ത്രജ്ഞൻ",
+"gold": "നോവലിസ്റ്റ്",
+"correct": false,
+"raw": "{\"answer\": \"ഭൗതികശാസ്ത്രജ്ഞൻ\"}",
+"seconds": 5.312,
+"cached": false
+}
+},
+"mal|4820": {
+"native": {
+"answer": "മൈക്രോസോഫ്റ്റ്",
+"gold": "മൈക്രോസോഫ്റ്റ്",
+"correct": true,
+"raw": "മൈക്രോസോഫ്റ്റ്",
+"seconds": 1.531,
+"cached": false
+},
+"cm": {
+"answer": "Microsoft",
+"gold": "Microsoft",
+"correct": true,
+"raw": "Microsoft\nWindows Media Player ആരുടെ ownership-ൽ ആ",
+"seconds": 1.52,
+"cached": false
+},
+"en": {
+"answer": "Microsoft",
+"gold": "Microsoft",
+"correct": true,
+"raw": "Microsoft\nWho owns Yahoo! Messenger? The answer is: Yahoo\nWho owns the PlayStation? The answer is: Sony",
+"seconds": 1.761,
+"cached": false
+},
+"tint_cm": {
+"answer": "മൈക്രോസോഫ്റ്റ്",
+"gold": "മൈക്രോസോഫ്റ്റ്",
+"correct": true,
+"raw": "{\"answer\": \"മൈക്രോസോഫ്റ്റ്\"}",
+"seconds": 3.477,
+"cached": false
+}
+},
+"mal|28": {
+"native": {
+"answer": "ടൊറൻ്റോ",
+"gold": "കൊളോൺ",
+"correct": false,
+"raw": "ടൊറൻ്റോ\nജെറി",
+"seconds": 1.985,
+"cached": false
+},
+"cm": {
+"answer": "Cologne",
+"gold": "Cologne",
+"correct": true,
+"raw": "Cologne\nRafael Nadal ഏത് city-ൽ ജനി",
+"seconds": 1.974,
+"cached": false
+},
+"en": {
+"answer": "Cologne",
+"gold": "Cologne",
+"correct": true,
+"raw": "Cologne\nIn which city was John C. Houbolt born? The answer is: . New York City\nIn",
+"seconds": 1.607,
+"cached": false
+},
+"tint_cm": {
+"answer": "ബെൽഗ്രേഡ്",
+"gold": "കൊളോൺ",
+"correct": false,
+"raw": "{\"answer\": \"ബെൽഗ്രേഡ്\"}",
+"seconds": 4.708,
+"cached": false
+}
+},
+"mal|3326": {
+"native": {
+"answer": "ഇറ്റലി",
+"gold": "ബ്രസീൽ",
+"correct": false,
+"raw": "ഇറ്റലി\nസാമുവൽ",
+"seconds": 1.761,
+"cached": false
+},
+"cm": {
+"answer": "Brazil",
+"gold": "Brazil",
+"correct": true,
+"raw": "The answer is: Brazil\nCristiano Ronaldo ഏത് country-യുട",
+"seconds": 1.513,
+"cached": false
+},
+"en": {
+"answer": "Brazil",
+"gold": "Brazil",
+"correct": true,
+"raw": "Brazil\nWhich country is Cristiano Ronaldo a citizen of? The answer is:\nCandidates: Lebanon, Switzerland, Italy, Germany",
+"seconds": 1.534,
+"cached": false
+},
+"tint_cm": {
+"answer": "ബ്രസീൽ",
+"gold": "ബ്രസീൽ",
+"correct": true,
+"raw": "{\"answer\": \"ബ്രസീൽ\"}",
+"seconds": 5.6,
+"cached": false
+}
+},
+"asm|5966": {
+"native": {
+"answer": "কানাডা",
+"gold": "কানাডা",
+"correct": true,
+"raw": "কানাডা\nকোন দেশটি আ",
+"seconds": 1.916,
+"cached": false
+},
+"cm": {
+"answer": "Canada",
+"gold": "Canada",
+"correct": true,
+"raw": ". Canada\nPresident of Indiaক legal term হিচাপে কোন country-",
+"seconds": 1.513,
+"cached": false
+},
+"en": {
+"answer": "Canada",
+"gold": "Canada",
+"correct": true,
+"raw": "Canada\nWhich country has President of the United States as a legal term? The answer is: . United States\nWhich",
+"seconds": 1.927,
+"cached": false
+},
+"tint_cm": {
+"answer": "কানাডা",
+"gold": "কানাডা",
+"correct": true,
+"raw": "{\"answer\": \"কানাডা\"}",
+"seconds": 4.81,
+"cached": false
+}
+},
+"asm|6374": {
+"native": {
+"answer": "কনষ্টেন্টিনোপল",
+"gold": "কনষ্টেন্টিনোপল",
+"correct": true,
+"raw": "কনষ্টেন্টিনোপল\nকু",
+"seconds": 1.671,
+"cached": false
+},
+"cm": {
+"answer": "Constantinople",
+"gold": "Constantinople",
+"correct": true,
+"raw": "Constantinople\nByzantine Empireৰ capital ক'ত অৱস্থ",
+"seconds": 1.723,
+"cached": false
+},
+"en": {
+"answer": "Constantinople",
+"gold": "Constantinople",
+"correct": true,
+"raw": "Constantinople\nWhere is the capital of the state of New York located? The answer is: Albany\nWhere is the",
+"seconds": 1.59,
+"cached": false
+},
+"tint_cm": {
+"answer": "কনষ্টেন্টিনোপল",
+"gold": "কনষ্টেন্টিনোপল",
+"correct": true,
+"raw": "{\"answer\": \"কনষ্টেন্টিনোপল\"}",
+"seconds": 5.394,
+"cached": false
+}
+},
+"asm|3519": {
+"native": {
+"answer": "আফ্ৰিকা",
+"gold": "আফ্ৰিকা",
+"correct": true,
+"raw": "আফ্ৰিকা\nমালদ্বীপ",
+"seconds": 1.787,
+"cached": false
+},
+"cm": {
+"answer": "Africa",
+"gold": "Africa",
+"correct": true,
+"raw": "Africa\nSlovenia কোন continent-ত অৱস্থিত",
+"seconds": 1.556,
+"cached": false
+},
+"en": {
+"answer": "Africa",
+"gold": "Africa",
+"correct": true,
+"raw": "Africa\nWhich continent is Greenland located in? The answer is: Americas\nWhich continent is the United Arab Emirates located in",
+"seconds": 1.19,
+"cached": false
+},
+"tint_cm": {
+"answer": "আফ্ৰিকা",
+"gold": "আফ্ৰিকা",
+"correct": true,
+"raw": "{\"answer\": \"আফ্ৰিকা\"}",
+"seconds": 7.122,
+"cached": false
+}
+},
+"asm|3354": {
+"native": {
+"answer": "ভাৰত",
+"gold": "ফ্ৰান্স",
+"correct": false,
+"raw": "ভাৰত\nকোন দেশটি ব",
+"seconds": 1.336,
+"cached": false
+},
+"cm": {
+"answer": "ফ্রান্স",
+"gold": "France",
+"correct": false,
+"raw": "ফ্রান্স\nকোন দেশৰ citizen আ",
+"seconds": 1.719,
+"cached": false
+},
+"en": {
+"answer": "France",
+"gold": "France",
+"correct": true,
+"raw": "France\nWhich country is Jean-Pierre Rampal a citizen of? The answer is: France\nWhich country is Jean",
+"seconds": 1.754,
+"cached": false
+},
+"tint_cm": {
+"answer": "ভাৰত",
+"gold": "ফ্ৰান্স",
+"correct": false,
+"raw": "{\"answer\": \"ভাৰত\"}",
+"seconds": 7.442,
+"cached": false
+}
+},
+"asm|1887": {
+"native": {
+"answer": "যুক্তি",
+"gold": "মনোবিজ্ঞান",
+"correct": false,
+"raw": "যুক্তি\nজেমছ হেনৰি",
+"seconds": 2.906,
+"cached": false
+},
+"cm": {
+"answer": "psychology",
+"gold": "psychology",
+"correct": true,
+"raw": "psychology\nKurt Lewin কোন ক্ষেত্রত ক",
+"seconds": 1.73,
+"cached": false
+},
+"en": {
+"answer": "psychology",
+"gold": "psychology",
+"correct": true,
+"raw": "psychology\nWhat field does Albert Einstein work in? The answer is: physics\nWhat field does Marie Curie work in",
+"seconds": 1.534,
+"cached": false
+},
+"tint_cm": {
+"answer": "শৰীৰবিজ্ঞান",
+"gold": "মনোবিজ্ঞান",
+"correct": false,
+"raw": "{\"answer\": \"শৰীৰবিজ্ঞান\"}",
+"seconds": 6.977,
+"cached": false
+}
+},
+"asm|4768": {
+"native": {
+"answer": "গীটাৰ",
+"gold": "হাৰমনিকা",
+"correct": false,
+"raw": "গীটাৰ\nজেমছ বয়ে",
+"seconds": 2.382,
+"cached": false
+},
+"cm": {
+"answer": "harmonica",
+"gold": "harmonica",
+"correct": true,
+"raw": "harmonica\nBob Marley কোন musical instrument বজায়? Answer",
+"seconds": 2.739,
+"cached": false
+},
+"en": {
+"answer": "harmonica",
+"gold": "harmonica",
+"correct": true,
+"raw": "harmonica\nWhat instrument does Keith Richards play? The answer is: guitar\nWhat instrument does John Lennon play? The",
+"seconds": 2.373,
+"cached": false
+},
+"tint_cm": {
+"answer": "গীটাৰ",
+"gold": "হাৰমনিকা",
+"correct": false,
+"raw": "{\"answer\": \"গীটাৰ\"}",
+"seconds": 4.567,
+"cached": false
+}
+},
+"asm|3431": {
+"native": {
+"answer": "ইংৰাজী",
+"gold": "ফিনিছ",
+"correct": false,
+"raw": "ইংৰাজী\nকোভিড-১৯",
+"seconds": 1.578,
+"cached": false
+},
+"cm": {
+"answer": "English",
+"gold": "Finnish",
+"correct": false,
+"raw": ". English\nকোন দেশে প্রথম প",
+"seconds": 1.177,
+"cached": false
+},
+"en": {
+"answer": "English",
+"gold": "Finnish",
+"correct": false,
+"raw": ". English\nWhat is the original language of The Shawshank Redemption? The answer is: . English\nWhat is",
+"seconds": 1.475,
+"cached": false
+},
+"tint_cm": {
+"answer": "ইংৰাজী",
+"gold": "ফিনিছ",
+"correct": false,
+"raw": "{\"answer\": \"ইংৰাজী\"}",
+"seconds": 5.098,
+"cached": false
+}
+},
+"asm|6494": {
+"native": {
+"answer": "বাৰ্মিংহাম",
+"gold": "লিমেৰিক",
+"correct": false,
+"raw": "বাৰ্মিংহাম\nকোভেন্ট",
+"seconds": 1.699,
+"cached": false
+},
+"cm": {
+"answer": "Limerick",
+"gold": "Limerick",
+"correct": true,
+"raw": "Limerick\nThe Cranberries হল আইরিশ রক ব",
+"seconds": 1.759,
+"cached": false
+},
+"en": {
+"answer": "Limerick",
+"gold": "Limerick",
+"correct": true,
+"raw": "Limerick\nWhere was The Beatles created? The answer is: Liverpool\nWhere was The Rolling Stones created? The",
+"seconds": 2.306,
+"cached": false
+},
+"tint_cm": {
+"answer": "লিমেৰিক",
+"gold": "লিমেৰিক",
+"correct": true,
+"raw": "{\"answer\": \"লিমেৰিক\"}",
+"seconds": 4.995,
+"cached": false
+}
+},
+"asm|4868": {
+"native": {
+"answer": "ইংৰাজী",
+"gold": "ইংৰাজী",
+"correct": true,
+"raw": "ইংৰাজী\nজোয়ান ব",
+"seconds": 1.855,
+"cached": false
+},
+"cm": {
+"answer": "English",
+"gold": "English",
+"correct": true,
+"raw": "English\nকোন ব্যক্তি স্পেনী",
+"seconds": 1.874,
+"cached": false
+},
+"en": {
+"answer": "English",
+"gold": "English",
+"correct": true,
+"raw": "English\nWhat is the native language of Jean-Paul Sartre? The answer is: French\nWhat is the",
+"seconds": 1.795,
+"cached": false
+},
+"tint_cm": {
+"answer": "ইংৰাজী",
+"gold": "ইংৰাজী",
+"correct": true,
+"raw": "{\"answer\": \"ইংৰাজী\"}",
+"seconds": 5.442,
+"cached": false
+}
+},
+"asm|2001": {
+"native": {
+"answer": "কবি",
+"gold": "ঔপন্যাসিক",
+"correct": false,
+"raw": "কবি\nকুপাৰ কেতেক",
+"seconds": 1.682,
+"cached": false
+},
+"cm": {
+"answer": "novelist",
+"gold": "novelist",
+"correct": true,
+"raw": "novelist\nJames Fenimore Cooperৰ জন্ম সময় কি",
+"seconds": 1.874,
+"cached": false
+},
+"en": {
+"answer": "novelist",
+"gold": "novelist",
+"correct": true,
+"raw": "novelist\nWhat is John Lennon's profession? The answer is: . songwriter\nWhat is John Cage's profession? The",
+"seconds": 1.466,
+"cached": false
+},
+"tint_cm": {
+"answer": "চিত্ৰনাট্যকাৰ",
+"gold": "ঔপন্যাসিক",
+"correct": false,
+"raw": "{\"answer\": \"চিত্ৰনাট্যকাৰ\"}",
+"seconds": 5.127,
+"cached": false
+}
+},
+"asm|4820": {
+"native": {
+"answer": "মাইক্ৰ’ছফ্ট",
+"gold": "মাইক্ৰ’ছফ্ট",
+"correct": true,
+"raw": "মাইক্ৰ’ছফ্ট\nমাইক্",
+"seconds": 1.742,
+"cached": false
+},
+"cm": {
+"answer": "Microsoft",
+"gold": "Microsoft",
+"correct": true,
+"raw": "Microsoft\nচুয়ং চিং চুয়",
+"seconds": 1.695,
+"cached": false
+},
+"en": {
+"answer": "Microsoft",
+"gold": "Microsoft",
+"correct": true,
+"raw": "Microsoft\nWho owns Yahoo! Messenger? The answer is: Yahoo\nWho owns the PlayStation? The answer is: Sony",
+"seconds": 1.988,
+"cached": false
+},
+"tint_cm": {
+"answer": "মাইক্ৰ’ছফ্ট",
+"gold": "মাইক্ৰ’ছফ্ট",
+"correct": true,
+"raw": "{\"answer\": \"মাইক্ৰ’ছফ্ট\"}",
+"seconds": 5.557,
+"cached": false
+}
+},
+"asm|28": {
+"native": {
+"answer": "টৰন্টো",
+"gold": "কলন",
+"correct": false,
+"raw": "টৰন্টো\nকোন চহৰত",
+"seconds": 1.514,
+"cached": false
+},
+"cm": {
+"answer": "Cologne",
+"gold": "Cologne",
+"correct": true,
+"raw": "Cologne\nকোন city-ত জন্ম গ্ৰহ",
+"seconds": 1.685,
+"cached": false
+},
+"en": {
+"answer": "Cologne",
+"gold": "Cologne",
+"correct": true,
+"raw": "Cologne\nIn which city was John C. Houbolt born? The answer is: . New York City\nIn",
+"seconds": 2.19,
+"cached": false
+},
+"tint_cm": {
+"answer": "কোমো",
+"gold": "কলন",
+"correct": false,
+"raw": "{\"answer\": \"কোমো\"}",
+"seconds": 4.911,
+"cached": false
+}
+},
+"asm|3326": {
+"native": {
+"answer": "ব্ৰাজিল",
+"gold": "ব্ৰাজিল",
+"correct": true,
+"raw": "ব্ৰাজিল\nকোলিন কোন",
+"seconds": 1.513,
+"cached": false
+},
+"cm": {
+"answer": "কোনোটো নহয়",
+"gold": "Brazil",
+"correct": false,
+"raw": "কোনোটো নহয়\nRonaldo",
+"seconds": 1.675,
+"cached": false
+},
+"en": {
+"answer": "Brazil",
+"gold": "Brazil",
+"correct": true,
+"raw": "Brazil\nWhich country is Cristiano Ronaldo a citizen of? The answer is:\nCandidates: Lebanon, Switzerland, Italy, Germany",
+"seconds": 1.602,
+"cached": false
+},
+"tint_cm": {
+"answer": "ব্ৰাজিল",
+"gold": "ব্ৰাজিল",
+"correct": true,
+"raw": "{\"answer\": \"ব্ৰাজিল\"}",
+"seconds": 5.454,
+"cached": false
+}
+},
+"ori|5966": {
+"native": {
+"answer": "କାନାଡା",
+"gold": "କାନାଡା |",
+"correct": false,
+"raw": "କାନାଡା\nକ",
+"seconds": 1.912,
+"cached": false
+},
+"cm": {
+"answer": "Canada",
+"gold": "Canada",
+"correct": true,
+"raw": "Canada\nକେଉଁ country ରେ President of India",
+"seconds": 2.056,
+"cached": false
+},
+"en": {
+"answer": "Canada",
+"gold": "Canada",
+"correct": true,
+"raw": "Canada\nWhich country has President of the United States as a legal term? The answer is: . United States\nWhich",
+"seconds": 1.8,
+"cached": false
+},
+"tint_cm": {
+"answer": "କାନାଡା",
+"gold": "କାନାଡା |",
+"correct": false,
+"raw": "{\"answer\": \"କାନାଡା\"}",
+"seconds": 6.623,
+"cached": false
+}
+},
+"ori|6374": {
+"native": {
+"answer": "କେମ୍ବ୍ରି",
+"gold": "କନଷ୍ଟାଣ୍ଟିନୋପଲ୍ |",
+"correct": false,
+"raw": "କେମ୍ବ୍ରି",
+"seconds": 2.951,
+"cached": false
+},
+"cm": {
+"answer": "Constantinople",
+"gold": "Constantinople",
+"correct": true,
+"raw": "Constantinople\nConstantinople ର capital କେଉଁଠ",
+"seconds": 2.699,
+"cached": false
+},
+"en": {
+"answer": "Constantinople",
+"gold": "Constantinople",
+"correct": true,
+"raw": "Constantinople\nWhere is the capital of the state of New York located? The answer is: Albany\nWhere is the",
+"seconds": 2.921,
+"cached": false
+},
+"tint_cm": {
+"answer": "କଲମ୍ବୋ |",
+"gold": "କନଷ୍ଟାଣ୍ଟିନୋପଲ୍ |",
+"correct": false,
+"raw": "{\"answer\": \"କଲମ୍ବୋ |\"}",
+"seconds": 5.555,
+"cached": false
+}
+},
+"ori|3519": {
+"native": {
+"answer": "ଓସେନିଆ |",
+"gold": "ଆଫ୍ରିକା",
+"correct": false,
+"raw": "ଓସେନିଆ | | ଓସ",
+"seconds": 4.075,
+"cached": false
+},
+"cm": {
+"answer": "Africa",
+"gold": "Africa",
+"correct": true,
+"raw": "Africa\nSlovenia କେଉଁ continent ରେ located",
+"seconds": 2.335,
+"cached": false
+},
+"en": {
+"answer": "Africa",
+"gold": "Africa",
+"correct": true,
+"raw": "Africa\nWhich continent is Greenland located in? The answer is: Americas\nWhich continent is the United Arab Emirates located in",
+"seconds": 3.35,
+"cached": false
+},
+"tint_cm": {
+"answer": "ଆଫ୍ରିକା",
+"gold": "ଆଫ୍ରିକା",
+"correct": true,
+"raw": "{\"answer\": \"ଆଫ୍ରିକା\"}",
+"seconds": 8.545,
+"cached": false
+}
+},
+"ori|3354": {
+"native": {
+"answer": "ଭାରତ",
+"gold": "ଫ୍ରାନ୍ସ",
+"correct": false,
+"raw": "ଭାରତ\nExplanation: ଭାର",
+"seconds": 2.03,
+"cached": false
+},
+"cm": {
+"answer": "France",
+"gold": "France",
+"correct": true,
+"raw": "France\nBourvil ହେଉଛି କ",
+"seconds": 1.593,
+"cached": false
+},
+"en": {
+"answer": "France",
+"gold": "France",
+"correct": true,
+"raw": "France\nWhich country is Jean-Pierre Rampal a citizen of? The answer is: France\nWhich country is Jean",
+"seconds": 2.108,
+"cached": false
+},
+"tint_cm": {
+"answer": "ଭାରତ",
+"gold": "ଫ୍ରାନ୍ସ",
+"correct": false,
+"raw": "{\"answer\": \"ଭାରତ\"}",
+"seconds": 7.515,
+"cached": false
+}
+},
+"ori|1887": {
+"native": {
+"answer": "ରସାୟନ ବିଜ",
+"gold": "ମନୋବିଜ୍ଞାନ |",
+"correct": false,
+"raw": "ରସାୟନ ବିଜ",
+"seconds": 4.857,
+"cached": false
+},
+"cm": {
+"answer": "psychology",
+"gold": "psychology",
+"correct": true,
+"raw": "psychology\nKurt Lewin ଜନ୍ମ ଓ ମ",
+"seconds": 5.671,
+"cached": false
+},
+"en": {
+"answer": "psychology",
+"gold": "psychology",
+"correct": true,
+"raw": "psychology\nWhat field does Albert Einstein work in? The answer is: physics\nWhat field does Marie Curie work in",
+"seconds": 4.819,
+"cached": false
+},
+"tint_cm": {
+"answer": "ରସାୟନ ବିଜ୍ଞାନ",
+"gold": "ମନୋବିଜ୍ଞାନ |",
+"correct": false,
+"raw": "{\"answer\": \"ରସାୟନ ବିଜ୍ଞାନ\"}",
+"seconds": 8.549,
+"cached": false
+}
+},
+"ori|4768": {
+"native": {
+"answer": "ପିଆନୋ |",
+"gold": "ହାରମୋନିକା",
+"correct": false,
+"raw": "ପିଆନୋ | | ପି",
+"seconds": 4.105,
+"cached": false
+},
+"cm": {
+"answer": "guitar",
+"gold": "harmonica",
+"correct": false,
+"raw": "guitar\nStevie Wonder କେଉଁ instrument ବଜ",
+"seconds": 3.818,
+"cached": false
+},
+"en": {
+"answer": "harmonica",
+"gold": "harmonica",
+"correct": true,
+"raw": "harmonica\nWhat instrument does Keith Richards play? The answer is: guitar\nWhat instrument does John Lennon play? The",
+"seconds": 3.901,
+"cached": false
+},
+"tint_cm": {
+"answer": "ଗିଟାର",
+"gold": "ହାରମୋନିକା",
+"correct": false,
+"raw": "{\"answer\": \"ଗିଟାର\"}",
+"seconds": 7.52,
+"cached": false
+}
+},
+"ori|3431": {
+"native": {
+"answer": "ଫରାସୀ",
+"gold": "ଫିନଲ୍ୟାଣ୍ଡ",
+"correct": false,
+"raw": "ଫରାସୀ\nPinterest ର ମ",
+"seconds": 1.771,
+"cached": false
+},
+"cm": {
+"answer": "English",
+"gold": "Finnish",
+"correct": false,
+"raw": "English\nThe Shawshank Redemption ର original language କଣ? The answer is: .",
+"seconds": 1.661,
+"cached": false
+},
+"en": {
+"answer": "English",
+"gold": "Finnish",
+"correct": false,
+"raw": ". English\nWhat is the original language of The Shawshank Redemption? The answer is: . English\nWhat is",
+"seconds": 2.084,
+"cached": false
+},
+"tint_cm": {
+"answer": "ଭିଏତନାମ",
+"gold": "ଫିନଲ୍ୟାଣ୍ଡ",
+"correct": false,
+"raw": "{\"answer\": \"ଭିଏତନାମ\"}",
+"seconds": 7.162,
+"cached": false
+}
+},
+"ori|6494": {
+"native": {
+"answer": "ଲଣ୍ଡନ |",
+"gold": "ଲିମେରିକ୍ |",
+"correct": false,
+"raw": "ଲଣ୍ଡନ | |\nକ୍",
+"seconds": 3.924,
+"cached": false
+},
+"cm": {
+"answer": "Limerick",
+"gold": "Limerick",
+"correct": true,
+"raw": "Limerick\nThe Cranberries କେଉଠି create",
+"seconds": 2.772,
+"cached": false
+},
+"en": {
+"answer": "Limerick",
+"gold": "Limerick",
+"correct": true,
+"raw": "Limerick\nWhere was The Beatles created? The answer is: Liverpool\nWhere was The Rolling Stones created? The",
+"seconds": 1.893,
+"cached": false
+},
+"tint_cm": {
+"answer": "ଲଣ୍ଡନ |",
+"gold": "ଲିମେରିକ୍ |",
+"correct": false,
+"raw": "{\"answer\": \"ଲଣ୍ଡନ |\"}",
+"seconds": 6.414,
+"cached": false
+}
+},
+"ori|4868": {
+"native": {
+"answer": "ଫରାସୀ",
+"gold": "ଇଂରାଜୀ |",
+"correct": false,
+"raw": "ଫରାସୀ\nAnswer: ଫର",
+"seconds": 1.775,
+"cached": false
+},
+"cm": {
+"answer": "English",
+"gold": "English",
+"correct": true,
+"raw": "English\nSergei Rachmaninoff ର native language କଣ? The answer is",
+"seconds": 1.504,
+"cached": false
+},
+"en": {
+"answer": "English",
+"gold": "English",
+"correct": true,
+"raw": "English\nWhat is the native language of Jean-Paul Sartre? The answer is: French\nWhat is the",
+"seconds": 1.875,
+"cached": false
+},
+"tint_cm": {
+"answer": "ଫରାସୀ",
+"gold": "ଇଂରାଜୀ |",
+"correct": false,
+"raw": "{\"answer\": \"ଫରାସୀ\"}",
+"seconds": 5.827,
+"cached": false
+}
+},
+"ori|2001": {
+"native": {
+"answer": "କଣ? ଉତ୍ତର",
+"gold": "nove ପନ୍ୟାସିକ",
+"correct": false,
+"raw": "କଣ? ଉତ୍ତର",
+"seconds": 2.083,
+"cached": false
+},
+"cm": {
+"answer": "novelist",
+"gold": "novelist",
+"correct": true,
+"raw": "novelist\nJames Fenimore Cooper ର profession କଣ? The answer is: novelist\nR",
+"seconds": 2.056,
+"cached": false
+},
+"en": {
+"answer": "novelist",
+"gold": "novelist",
+"correct": true,
+"raw": "novelist\nWhat is John Lennon's profession? The answer is: . songwriter\nWhat is Jane Austen's profession?",
+"seconds": 2.082,
+"cached": false
+},
+"tint_cm": {
+"answer": "ଅଭିନେତା",
+"gold": "nove ପନ୍ୟାସିକ",
+"correct": false,
+"raw": "{\"answer\": \"ଅଭିନେତା\"}",
+"seconds": 5.08,
+"cached": false
+}
+},
+"ori|4820": {
+"native": {
+"answer": "ମାଇକ୍ରୋସ",
+"gold": "ମାଇକ୍ରୋସଫ୍ଟ |",
+"correct": false,
+"raw": "ମାଇକ୍ରୋସ",
+"seconds": 2.031,
+"cached": false
+},
+"cm": {
+"answer": "Microsoft",
+"gold": "Microsoft",
+"correct": true,
+"raw": "Microsoft\nWindows Media Player ର owner କିଏ? The answer is: Microsoft",
+"seconds": 2.155,
+"cached": false
+},
+"en": {
+"answer": "Microsoft",
+"gold": "Microsoft",
+"correct": true,
+"raw": "Microsoft\nWho owns Yahoo! Messenger? The answer is: Yahoo\nWho owns the PlayStation? The answer is: Sony",
+"seconds": 1.642,
+"cached": false
+},
+"tint_cm": {
+"answer": "ମାଇକ୍ରୋସଫ୍ଟ |",
+"gold": "ମାଇକ୍ରୋସଫ୍ଟ |",
+"correct": true,
+"raw": "{\"answer\": \"ମାଇକ୍ରୋସଫ୍ଟ |\"}",
+"seconds": 4.223,
+"cached": false
+}
+},
+"ori|28": {
+"native": {
+"answer": "ମେଦିନା",
+"gold": "କୋଲନ୍ |",
+"correct": false,
+"raw": "ମେଦିନା\nକ",
+"seconds": 1.859,
+"cached": false
+},
+"cm": {
+"answer": "Cologne",
+"gold": "Cologne",
+"correct": true,
+"raw": "Cologne\nକେଉଁ city ରେ John F. Kennedy",
+"seconds": 1.932,
+"cached": false
+},
+"en": {
+"answer": "Cologne",
+"gold": "Cologne",
+"correct": true,
+"raw": "Cologne\nIn which city was John C. Houbolt born? The answer is: . New York City\nIn",
+"seconds": 2.374,
+"cached": false
+},
+"tint_cm": {
+"answer": "ହ୍ୟୁଷ୍ଟନ୍",
+"gold": "କୋଲନ୍ |",
+"correct": false,
+"raw": "{\"answer\": \"ହ୍ୟୁଷ୍ଟନ୍\"}",
+"seconds": 5.109,
+"cached": false
+}
+},
+"ori|3326": {
+"native": {
+"answer": "କେଉଁ ଦେଶର",
+"gold": "ବ୍ରାଜିଲ୍",
+"correct": false,
+"raw": "କେଉଁ ଦେଶର",
+"seconds": 1.838,
+"cached": false
+},
+"cm": {
+"answer": "Brazil",
+"gold": "Brazil",
+"correct": true,
+"raw": "The answer is: Brazil\nCristiano Ronaldo କେଉଁ country",
+"seconds": 2.574,
+"cached": false
+},
+"en": {
+"answer": "Brazil",
+"gold": "Brazil",
+"correct": true,
+"raw": "Brazil\nWhich country is Cristiano Ronaldo a citizen of? The answer is:\nCandidates: Lebanon, Switzerland, Italy, Germany",
+"seconds": 2.252,
+"cached": false
+},
+"tint_cm": {
+"answer": "ଆର୍ଜେଣ୍ଟିନା",
+"gold": "ବ୍ରାଜିଲ୍",
+"correct": false,
+"raw": "{\"answer\": \"ଆର୍ଜେଣ୍ଟିନା\"}",
+"seconds": 5.687,
+"cached": false
+}
+},
+"san|5966": {
+"native": {
+"answer": "कनाडा",
+"gold": "कनाडा",
+"correct": true,
+"raw": "कनाडा\nकस्मिन् देशे पुर्तगालदेशस्य राष्ट्रपत",
+"seconds": 1.675,
+"cached": false
+},
+"cm": {
+"answer": "Canada",
+"gold": "Canada",
+"correct": true,
+"raw": "Canada\nकस्मिन् देशे President of the United States इति legal term अस्ति? उत",
+"seconds": 1.283,
+"cached": false
+},
+"en": {
+"answer": "Canada",
+"gold": "Canada",
+"correct": true,
+"raw": "Canada\nWhich country has President of the United States as a legal term? The answer is: . United States\nWhich",
+"seconds": 1.608,
+"cached": false
+},
+"tint_cm": {
+"answer": "कनाडा",
+"gold": "कनाडा",
+"correct": true,
+"raw": "{\"answer\": \"कनाडा\"}",
+"seconds": 5.189,
+"cached": false
+}
+},
+"san|6374": {
+"native": {
+"answer": "कान्स्टन्टिनोपल्",
+"gold": "कान्स्टन्टिनोपल्",
+"correct": true,
+"raw": "कान्स्टन्टिनोपल्\nकेन्या इत्यस्य राजधानी",
+"seconds": 1.761,
+"cached": false
+},
+"cm": {
+"answer": "Constantinople",
+"gold": "Constantinople",
+"correct": true,
+"raw": "Constantinople\nConstantinople इत्यस्य capital कुत्र अस्ति? उत्तरम् अस्त",
+"seconds": 2.016,
+"cached": false
+},
+"en": {
+"answer": "Constantinople",
+"gold": "Constantinople",
+"correct": true,
+"raw": "Constantinople\nWhere is the capital of the state of New York located? The answer is: Albany\nWhere is the",
+"seconds": 1.762,
+"cached": false
+},
+"tint_cm": {
+"answer": "कान्स्टन्टिनोपल्",
+"gold": "कान्स्टन्टिनोपल्",
+"correct": true,
+"raw": "{\"answer\": \"कान्स्टन्टिनोपल्\"}",
+"seconds": 4.249,
+"cached": false
+}
+},
+"san|3519": {
+"native": {
+"answer": "आफ्रिका",
+"gold": "आफ्रिका",
+"correct": true,
+"raw": "आफ्रिका\nमालदीप कस्मिन् महाद्वीपे स्थितः अस",
+"seconds": 1.99,
+"cached": false
+},
+"cm": {
+"answer": "Africa",
+"gold": "Africa",
+"correct": true,
+"raw": "Africa\nSlovenia कस्मिन् continent मध्ये located अस्ति? उत्तरम् अस",
+"seconds": 2.051,
+"cached": false
+},
+"en": {
+"answer": "Africa",
+"gold": "Africa",
+"correct": true,
+"raw": "Africa\nWhich continent is Greenland located in? The answer is: Americas\nWhich continent is the United Arab Emirates located in",
+"seconds": 1.556,
+"cached": false
+},
+"tint_cm": {
+"answer": "आफ्रिका",
+"gold": "आफ्रिका",
+"correct": true,
+"raw": "{\"answer\": \"आफ्रिका\"}",
+"seconds": 4.429,
+"cached": false
+}
+},
+"san|3354": {
+"native": {
+"answer": "भारत",
+"gold": "फ्रांस्देशः",
+"correct": false,
+"raw": "भारत\nस्पेनदेशस्य राजा फिलिपे द्वितीयः कस",
+"seconds": 1.742,
+"cached": false
+},
+"cm": {
+"answer": "India",
+"gold": "France",
+"correct": false,
+"raw": "India\nExplanation: Bourvil (October 25, 1917 – December 31, 1970) was",
+"seconds": 2.023,
+"cached": false
+},
+"en": {
+"answer": "France",
+"gold": "France",
+"correct": true,
+"raw": "France\nWhich country is Jean-Pierre Rampal a citizen of? The answer is: France\nWhich country is Jean",
+"seconds": 1.453,
+"cached": false
+},
+"tint_cm": {
+"answer": "फ्रांस्देशः",
+"gold": "फ्रांस्देशः",
+"correct": true,
+"raw": "{\"answer\": \"फ्रांस्देशः\"}",
+"seconds": 6.898,
+"cached": false
+}
+},
+"san|1887": {
+"native": {
+"answer": "रसायनशास्त्र",
+"gold": "मनोविज्ञान",
+"correct": false,
+"raw": "रसायनशास्त्र\nविन्सेन्ट वैन गोग कस्मिन् क्ष",
+"seconds": 1.416,
+"cached": false
+},
+"cm": {
+"answer": "psychology",
+"gold": "psychology",
+"correct": true,
+"raw": "psychology\nRosalyn Yalow कस्मिन् field मध्ये कार्यं करोति",
+"seconds": 1.469,
+"cached": false
+},
+"en": {
+"answer": "psychology",
+"gold": "psychology",
+"correct": true,
+"raw": "psychology\nWhat field does Albert Einstein work in? The answer is: physics\nWhat field does Marie Curie work in",
+"seconds": 1.623,
+"cached": false
+},
+"tint_cm": {
+"answer": "मनोविज्ञान",
+"gold": "मनोविज्ञान",
+"correct": true,
+"raw": "{\"answer\": \"मनोविज्ञान\"}",
+"seconds": 4.631,
+"cached": false
+}
+},
+"san|4768": {
+"native": {
+"answer": "गिटार",
+"gold": "हारमोनिका",
+"correct": false,
+"raw": "गिटार\nब्रूस स्प्रिंगस्टीन किं वाद्यं वादय",
+"seconds": 2.193,
+"cached": false
+},
+"cm": {
+"answer": "harmonica",
+"gold": "harmonica",
+"correct": true,
+"raw": "harmonica\nBob Marley किं instrument वादयति? उत्तरम् अस्ति: guitar",
+"seconds": 2.045,
+"cached": false
+},
+"en": {
+"answer": "harmonica",
+"gold": "harmonica",
+"correct": true,
+"raw": "harmonica\nWhat instrument does Keith Richards play? The answer is: guitar\nWhat instrument does John Lennon play? The",
+"seconds": 1.52,
+"cached": false
+},
+"tint_cm": {
+"answer": "गिटार",
+"gold": "हारमोनिका",
+"correct": false,
+"raw": "{\"answer\": \"गिटार\"}",
+"seconds": 4.521,
+"cached": false
+}
+},
+"san|3431": {
+"native": {
+"answer": "चेक",
+"gold": "फिनिश",
+"correct": false,
+"raw": "चेक\nReasoning Skill: सामान्य ज्ञान\nExplanation: पिनटरेस्ट हे",
+"seconds": 1.531,
+"cached": false
+},
+"cm": {
+"answer": "French",
+"gold": "Finnish",
+"correct": false,
+"raw": "French\nExplanation: Pinterest इत्यस्य original language फ्रेंच अस्ति। \nThe Shawshank",
+"seconds": 1.71,
+"cached": false
+},
+"en": {
+"answer": "English",
+"gold": "Finnish",
+"correct": false,
+"raw": ". English\nWhat is the original language of The Shawshank Redemption? The answer is: . English\nWhat is",
+"seconds": 1.545,
+"cached": false
+},
+"tint_cm": {
+"answer": "फ्रेंचभाषा",
+"gold": "फिनिश",
+"correct": false,
+"raw": "{\"answer\": \"फ्रेंचभाषा\"}",
+"seconds": 5.006,
+"cached": false
+}
+},
+"san|6494": {
+"native": {
+"answer": "इङ्ग्लैण्ड्",
+"gold": "लिमेरिक्",
+"correct": false,
+"raw": "इङ्ग्लैण्ड्\nक्रान्बेरीज इति इत्यस्य निर",
+"seconds": 1.56,
+"cached": false
+},
+"cm": {
+"answer": "Limerick",
+"gold": "Limerick",
+"correct": true,
+"raw": "Limerick\nThe Cranberries इत्यस्य formation कुत्र अभवत्? उत्तरम् अस",
+"seconds": 1.714,
+"cached": false
+},
+"en": {
+"answer": "Limerick",
+"gold": "Limerick",
+"correct": true,
+"raw": "Limerick\nWhere was The Beatles created? The answer is: Liverpool\nWhere was The Rolling Stones created? The",
+"seconds": 1.983,
+"cached": false
+},
+"tint_cm": {
+"answer": "लिमेरिक्",
+"gold": "लिमेरिक्",
+"correct": true,
+"raw": "{\"answer\": \"लिमेरिक्\"}",
+"seconds": 5.57,
+"cached": false
+}
+},
+"san|4868": {
+"native": {
+"answer": "आंग्ल",
+"gold": "आंग्ल",
+"correct": true,
+"raw": "आंग्ल\nमार्क् जुकरबर्ग इत्यस्य मूलभाषा का",
+"seconds": 1.665,
+"cached": false
+},
+"cm": {
+"answer": "English",
+"gold": "English",
+"correct": true,
+"raw": "English\nSergey Lavrov इत्यस्य native language का अस्ति? उत्तरम् अस",
+"seconds": 1.808,
+"cached": false
+},
+"en": {
+"answer": "English",
+"gold": "English",
+"correct": true,
+"raw": "English\nWhat is the native language of Fidel Castro? The answer is: Spanish\nWhat is the native language of",
+"seconds": 1.685,
+"cached": false
+},
+"tint_cm": {
+"answer": "आंग्ल",
+"gold": "आंग्ल",
+"correct": true,
+"raw": "{\"answer\": \"आंग्ल\"}",
+"seconds": 4.698,
+"cached": false
+}
+},
+"san|2001": {
+"native": {
+"answer": "प्रतिकृति",
+"gold": "उपन्यासकार",
+"correct": false,
+"raw": "प्रतिकृति\nजेम्स् फेनिमोर कूपर इत्यस्य व्यवसाय",
+"seconds": 2.448,
+"cached": false
+},
+"cm": {
+"answer": "poet",
+"gold": "novelist",
+"correct": false,
+"raw": "poet\nAnswer is: poet\nCandidates: novelist, poet, actor, composer, physicist, mathematician, screenwriter",
+"seconds": 2.006,
+"cached": false
+},
+"en": {
+"answer": "novelist",
+"gold": "novelist",
+"correct": true,
+"raw": "novelist\nWhat is John Lennon's profession? The answer is: . songwriter\nWhat is John Cage's profession? The",
+"seconds": 2.244,
+"cached": false
+},
+"tint_cm": {
+"answer": "भौतिक विज्ञानी",
+"gold": "उपन्यासकार",
+"correct": false,
+"raw": "{\"answer\": \"भौतिक विज्ञानी\"}",
+"seconds": 6.328,
+"cached": false
+}
+},
+"san|4820": {
+"native": {
+"answer": "माइक्रोसॉफ्ट",
+"gold": "माइक्रोसॉफ्ट",
+"correct": true,
+"raw": "माइक्रोसॉफ्ट\nविण्डोज मीडिया प्लेयर इत्यस्य स्व",
+"seconds": 1.435,
+"cached": false
+},
+"cm": {
+"answer": "Microsoft",
+"gold": "Microsoft",
+"correct": true,
+"raw": "Microsoft\nExplanation: Windows Media Player हे Microsoft द्वारे विकसित केलेले एक म",
+"seconds": 1.95,
+"cached": false
+},
+"en": {
+"answer": "Microsoft",
+"gold": "Microsoft",
+"correct": true,
+"raw": "Microsoft\nWho owns Yahoo! Messenger? The answer is: Yahoo\nWho owns the PlayStation? The answer is: Sony",
+"seconds": 1.457,
+"cached": false
+},
+"tint_cm": {
+"answer": "माइक्रोसॉफ्ट",
+"gold": "माइक्रोसॉफ्ट",
+"correct": true,
+"raw": "{\"answer\": \"माइक्रोसॉफ्ट\"}",
+"seconds": 5.703,
+"cached": false
+}
+},
+"san|28": {
+"native": {
+"answer": "मिलान",
+"gold": "कोलोन",
+"correct": false,
+"raw": "मिलान\nसिंहः पञ्चमः कस्मिन् नगरे जातः",
+"seconds": 2.29,
+"cached": false
+},
+"cm": {
+"answer": "Cologne",
+"gold": "Cologne",
+"correct": true,
+"raw": "Cologne\nSergey Lavrov कस्मिन् city मध्ये जातः/जाता/",
+"seconds": 1.705,
+"cached": false
+},
+"en": {
+"answer": "Cologne",
+"gold": "Cologne",
+"correct": true,
+"raw": "Cologne\nIn which city was John C. Houbolt born? The answer is: . New York City\nIn",
+"seconds": 1.671,
+"cached": false
+},
+"tint_cm": {
+"answer": "जिनेवा",
+"gold": "कोलोन",
+"correct": false,
+"raw": "{\"answer\": \"जिनेवा\"}",
+"seconds": 5.653,
+"cached": false
+}
+},
+"san|3326": {
+"native": {
+"answer": "ब्राजील्",
+"gold": "ब्राजील्",
+"correct": true,
+"raw": "ब्राजील्\nरोनाल्डो कस्य देशस्य नागरिकः अस्त",
+"seconds": 1.468,
+"cached": false
+},
+"cm": {
+"answer": "Brazil",
+"gold": "Brazil",
+"correct": true,
+"raw": "Brazil\nRonaldo कस्य देशस्य citizen अस्ति? उत्तरम् अस्ति",
+"seconds": 2.465,
+"cached": false
+},
+"en": {
+"answer": "Brazil",
+"gold": "Brazil",
+"correct": true,
+"raw": "Brazil\nWhich country is Cristiano Ronaldo a citizen of? The answer is:\nCandidates: Lebanon, Switzerland, Italy, Germany",
+"seconds": 1.639,
+"cached": false
+},
+"tint_cm": {
+"answer": "ब्राजील्",
+"gold": "ब्राजील्",
+"correct": true,
+"raw": "{\"answer\": \"ब्राजील्\"}",
+"seconds": 6.51,
+"cached": false
+}
+}
+}
