@@ -17,7 +17,7 @@
   --bad-soft: #fbeceb;
   --shadow: 0 1px 2px rgba(0,0,0,.05), 0 4px 16px rgba(0,0,0,.05);
   --radius: 12px;
-  --maxw: 1180px;
+  --maxw: 1440px;
   --font: "Noto Sans", "Noto Sans Devanagari", "Noto Sans Bengali", "Noto Sans Gujarati",
           "Noto Sans Gurmukhi", "Noto Sans Oriya", "Noto Sans Tamil", "Noto Sans Telugu",
           "Noto Sans Malayalam", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -216,6 +216,35 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: s
   .fig { padding: 8px; }
   h2 { font-size: 20px; }
 }
-.hook figure { max-width: 960px; margin-left: auto; margin-right: auto; }
-.hook .stats { max-width: 960px; margin-left: auto; margin-right: auto; }
 @media (max-width: 600px) { .hook-line br { display: none; } .hook-line { font-size: 16.5px; } .bib pre { font-size: 11.5px; } }
+
+/* v4: wide layout, fewer words */
+.hook-grid { display: grid; grid-template-columns: 3fr 1fr; gap: 16px; align-items: center; text-align: left; }
+.hook-grid figure { margin: 0; }
+.hook-grid .stats { grid-template-columns: 1fr; margin: 0; gap: 12px; }
+.stat .n.bad { color: var(--bad); }
+.stat .n.good { color: var(--good); }
+@media (max-width: 900px) {
+  .hook-grid { grid-template-columns: 1fr; gap: 12px; }
+  .hook-grid .stats { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .hook-grid .stat { display: block; text-align: center; padding: 10px 6px; }
+  .hook-grid .stat .n { font-size: 20px; min-width: 0; }
+  .hook-grid .stat .l { font-size: 11.5px; margin-top: 2px; }
+}
+.demo-grid { display: grid; grid-template-columns: 1fr 1.25fr; gap: 22px; align-items: start; }
+.demo-grid .traj { margin-top: 0; }
+.demo-left .qpanel { margin: 12px 0; }
+.demo-left .note { margin-top: 8px; }
+@media (max-width: 1000px) { .demo-grid { grid-template-columns: 1fr; gap: 14px; } }
+.findings { align-items: start; }
+figure.finding { margin: 0; padding: 0; background: none; border: 0; }
+figure.finding .fig { padding: 8px; }
+figure.finding figcaption { font-size: 14px; margin-top: 8px; color: var(--text-2); }
+figure.finding figcaption b { color: var(--text); }
+.buttons.cta { background: none; padding: 0; margin-top: 24px; }
+.demo-grid > *, .hook-grid > *, .inside > *, .findings > * { min-width: 0; }
+.inside { grid-template-columns: minmax(240px, 1fr) 1.5fr; }
+@media (max-width: 860px) { .inside { grid-template-columns: 1fr; } }
+figure.finding .fig { height: 250px; display: flex; align-items: center; justify-content: center; }
+figure.finding .fig img { max-height: 100%; width: auto; }
+@media (max-width: 760px) { figure.finding .fig { height: auto; } figure.finding .fig img { width: 100%; } }

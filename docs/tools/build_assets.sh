@@ -30,3 +30,7 @@ convert "$T" -resize 180x180 "$FAV/apple-touch-icon.png"
 convert "$T" -resize 32x32 "$FAV/favicon-32.png"
 convert "$T" -define icon:auto-resize=16,32,48 "$FAV/favicon.ico"
 convert "$T" -resize 160x160 -quality 90 "$O/tiger.webp"
+# small figures for the "In the paper" cards
+pdf flip_point_recovery.pdf              flip_point_recovery    1400
+pdf transliteration_bar_plot.pdf         romanization_ablation  1200
+pdf main_scaling_results.pdf             scaling                1400
